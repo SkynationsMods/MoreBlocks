@@ -2,16 +2,18 @@
 MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a greater variety of decorative Blocks and generally Blocks and Items the Players want to see in the game.
 
 ## Blocks and Items
----------------
+---
 
 ### Implemented so far:
-Sadly none, we are right at the start. Feel free to pick any block and help!
+- Decking: Steel
+
+We are right at the start. Feel free to pick any block and help!
 
 ### Wishlist:
 ### Set 1
 no texture needed:
 - Doors: Steel, Wood, Titanium, Iron
-- Decking: Titanium, Steel, Iron, Copper, possibly a white one to be colored (as carpet)
+- Decking: Titanium, ~~Steel~~, Iron, Copper, possibly a white one to be colored (as carpet)
 - Strouts: Titanium, Steel, Iron
 - Platform: Titanium, Steel, Iron, Copper
 - Railings: Titanium, Iron
