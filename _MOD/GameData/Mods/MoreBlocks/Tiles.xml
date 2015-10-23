@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTileProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
-  <!-- Example Block -->
+  
+<!-- Steel Decking -->
   <TileProperty>
-    <ID>5000</ID>
-    <Passable>false</Passable>
-    <ItemID>5000</ItemID>
-    <Health>10</Health>
-    <Material>Soft</Material>
-    <TopTexture>Tiles/test</TopTexture>
-    <BottomTexture>Tiles/Grass</BottomTexture>
-    <LeftTexture>Tiles/Grass</LeftTexture>
-    <RightTexture>Tiles/Grass</RightTexture>
-    <FrontTexture>Tiles/Grass</FrontTexture>
-    <BackTexture>Tiles/Grass</BackTexture>
-    <Footstep>Footsteps/leaves02</Footstep>
-	<SpecialBlockClass>ScriptsExample.TestBlock</SpecialBlockClass>
+    <ID>7000</ID>
+    <ItemID>7000</ItemID>
+    <Material>Metal</Material>
+    <Health>70</Health>
+    <TopTexture>Tiles/Steel</TopTexture>
+    <BottomTexture>Tiles/Steel</BottomTexture>
+    <LeftTexture>Tiles/Steel</LeftTexture>
+    <RightTexture>Tiles/Steel</RightTexture>
+    <FrontTexture>Tiles/Steel</FrontTexture>
+    <BackTexture>Tiles/Steel</BackTexture>
+    <TopOffset>-0.4</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
   </TileProperty>
-  </ArrayOfTileProperty>
+  
+</ArrayOfTileProperty>

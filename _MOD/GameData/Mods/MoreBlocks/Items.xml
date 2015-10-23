@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfBaseItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
+<!-- Steel Decking -->
   <BaseItemData>
-    <ID>5000</ID>
-    <Name>Mod Test Item</Name>
-    <Description>Hello this is a mod test.</Description>
+    <ID>7000</ID>
+    <Name>Steel Decking</Name>
+    <Description>A thin sheet of Steel. </Description>
     <Use>Block</Use>
-    <BlockID>5000</BlockID>
+    <BlockID>7000</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>1</Price>    
   </BaseItemData>
-
-  <BaseItemData>
-    <ID>5001</ID>
-    <Name>Mod Test Script</Name>
-    <Description>Using this item will trigger the script in Class tags!</Description>
-    <Use>None</Use>
-    <Class>ScriptsExample.TestItem</Class>
-    <Price>1</Price>    
-	<TextureFile>UI/Icons/Tools/Pick</TextureFile>
-  </BaseItemData>
+  
 </ArrayOfBaseItemData>
