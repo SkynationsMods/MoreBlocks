@@ -64,6 +64,10 @@ Items:
 - Handheld laser, Laser Gun
 - Grenades
 
+## How to Install the Mod?
+
+Until there is a release you can download the repository, and paste the contents of the `_MOD\` folder into your Skynations-Server root directory. After enabling the Mod in your `Server Settings.xml` (example provided) you can start your server up and use the new Blocks.
+
 ## Organizational
 
 At the moment the goal is to provide more decorative Blocks, preferably ones that can be crafted from existing materials within the game. Blocks which require scripting to properly work because they have a mechanic, or Blocks and Items which would likely be found in a new Biome are, for now, out of the scope of this Mod, but will be listed here regardles, for future reference. 
