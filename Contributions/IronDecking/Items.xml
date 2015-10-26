@@ -1,0 +1,8 @@
+  <BaseItemData>
+    <ID>7004</ID>
+    <Name>Iron Decking</Name>
+    <Description>A thin sheet of Iron. </Description>
+    <Use>Block</Use>
+    <BlockID>7004</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
