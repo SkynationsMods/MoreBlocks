@@ -1,0 +1,8 @@
+  <BaseItemData>
+    <ID>7002</ID>
+    <Name>Carpet</Name>
+    <Description>A decorative carpet for your ship.</Description>
+    <Use>Block</Use>
+    <BlockID>7002</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>

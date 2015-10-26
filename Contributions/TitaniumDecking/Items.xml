@@ -1,0 +1,8 @@
+  <BaseItemData>
+    <ID>7003</ID>
+    <Name>Titanium Decking</Name>
+    <Description>A thin sheet of Titanium.</Description>
+    <Use>Block</Use>
+    <BlockID>7003</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
