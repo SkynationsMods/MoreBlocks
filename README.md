@@ -87,4 +87,9 @@ Set 1 takes priority for now as its easy to implement and almost anyone can help
 
 ## How do I contribute?
 Pick any block you want to see in the game and provide files for it in a pull request. You don't have to provide everything needed to implement a new block, its fine if you only submit a texture, the .xml files or a script, this is an open project and maybe someone else helps providing the other parts needed.
-**Do not submit a pull request that changes anything within the `_MOD\` folder**, it will not be accepted. Create a new folder for your changes within `Contributions\` and put your files in there. The folder structure therein should ideally mirror the one over in `_MOD\`. Your contribution will be reviewed, open for discussion and, if needed, subject to change (e.g. weight and cost of blocks have to be balanced in the grand scheme of the game etc.). Later it will be copied over into the `_MOD\` folder by a maintainer and released.
+**Do not submit a pull request that changes anything within the `_MOD\` folder**, it will not be accepted. Create a new folder for your changes within `Contributions\` and put your files in there. The folder structure therein should ideally mirror the one over in `_MOD\`. Your contribution will be reviewed, open for discussion and, if needed, subject to change (e.g. weight and cost of blocks have to be balanced in the grand scheme of the game etc.). Later it will be copied over into the `_MOD\` folder by a maintainer and released. 
+
+## About Modding
+For further information about modding in Sky Nations, go to [Sky Nations Wiki](http://wiki.skynations.net/doku.php?id=modding "Sky Nations Wiki - Modding").  
+Do not forget to check out the Tiles.xml in the GameData folder, there you can find the full list of Blocks already in the game and their properties, so you get an idea about the attributes you can use for your custom Blocks.
+Additionally you can download the Sky Nations Default Block Textures here: [Sky Nations Forum](http://skynations.net/community/viewtopic.php?f=11&t=879 "Sky Nations Forum - Sky Nations Default Textures - For making new texture packs")
