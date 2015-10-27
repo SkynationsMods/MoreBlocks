@@ -13,8 +13,7 @@ We are right at the start. Feel free to pick any block and help!
 ### Set 1
 no texture needed:
 - Doors: Steel, Wood, Titanium, Iron
-- Decking: Titanium, ~~Steel~~, Iron, Copper, possibly a white one to be colored (as carpet)
-- Strouts: Titanium, Steel, Iron
+- Decking: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~possibly a white one to be colored (as carpet)~~
 - Platform: Titanium, Steel, Iron, Copper
 - Railings: Titanium, Iron
 - Step: Titanium, Steel, Iron, Copper
@@ -22,6 +21,7 @@ no texture needed:
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood (possibly using the sign shape)
 
 texture needed:
+- Strouts: Titanium, Steel, Iron
 - Console Block with some kind of speed-o-meter (animation)
 - Console Block with different blinking lights (several frames for animation)
 - Generic Motor / Machine
