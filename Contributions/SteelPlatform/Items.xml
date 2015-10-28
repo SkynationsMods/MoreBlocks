@@ -1,0 +1,8 @@
+  <BaseItemData>
+    <ID>7006</ID>
+    <Name>Steel Platform</Name>
+    <Description>A more frugal way of building bridges. </Description>
+    <Use>Block</Use>
+    <BlockID>7006</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
