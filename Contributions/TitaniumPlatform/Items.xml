@@ -1,0 +1,8 @@
+  <BaseItemData>
+    <ID>7005</ID>
+    <Name>Titanium Platform</Name>
+    <Description>A more frugal way of building bridges. </Description>
+    <Use>Block</Use>
+    <BlockID>7005</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
