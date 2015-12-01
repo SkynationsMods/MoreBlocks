@@ -33,6 +33,22 @@
     <Time>0</Time>
   </ItemRecipe>
 
+<!-- White Carpet (its melting!) -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>2</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7002</ID>
+      <Amount>4</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
 <!-- Titanium Decking -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
