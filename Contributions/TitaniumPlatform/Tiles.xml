@@ -14,5 +14,5 @@
     <Passable>true</Passable>
     <Type>Normal</Type>
     <UseFullCast>false</UseFullCast>
-		<Mass>1</Mass>
+	<Mass>1</Mass>
   </TileProperty>

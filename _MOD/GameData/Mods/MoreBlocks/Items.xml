@@ -11,4 +11,85 @@
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
   </BaseItemData>
   
+<!-- Copper Decking -->
+  <BaseItemData>
+    <ID>7001</ID>
+    <Name>Copper Decking</Name>
+    <Description>A thin sheet of Copper. </Description>
+    <Use>Block</Use>
+    <BlockID>7001</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
+
+<!-- White Carpet -->  
+  <BaseItemData>
+    <ID>7002</ID>
+    <Name>White Carpet</Name>
+    <Description>A decorative carpet for your ship.</Description>
+    <Use>Block</Use>
+    <BlockID>7002</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>  
+  
+<!-- Titanium Decking -->
+  <BaseItemData>
+    <ID>7003</ID>
+    <Name>Titanium Decking</Name>
+    <Description>A thin sheet of Titanium.</Description>
+    <Use>Block</Use>
+    <BlockID>7003</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
+
+<!-- Iron Decking -->
+  <BaseItemData>
+    <ID>7004</ID>
+    <Name>Iron Decking</Name>
+    <Description>A thin sheet of Iron. </Description>
+    <Use>Block</Use>
+    <BlockID>7004</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>  
+
+<!-- Titanium Platform -->
+  <BaseItemData>
+    <ID>7005</ID>
+    <Name>Titanium Platform</Name>
+    <Description>A more frugal way of building bridges. </Description>
+    <Use>Block</Use>
+    <BlockID>7005</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
+
+<!-- Steel Platform -->
+  <BaseItemData>
+    <ID>7006</ID>
+    <Name>Steel Platform</Name>
+    <Description>A more frugal way of building bridges. </Description>
+    <Use>Block</Use>
+    <BlockID>7006</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
+  
+<!-- Iron Platform -->
+  <BaseItemData>
+    <ID>7007</ID>
+    <Name>Iron Platform</Name>
+    <Description>A more frugal way of building bridges. </Description>
+    <Use>Block</Use>
+    <BlockID>7007</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
+
+<!-- Copper Platform -->
+  <BaseItemData>
+    <ID>7008</ID>
+    <Name>Copper Platform</Name>
+    <Description>A more frugal way of building bridges. </Description>
+    <Use>Block</Use>
+    <BlockID>7008</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+  </BaseItemData>
+  
+  
 </ArrayOfBaseItemData>
