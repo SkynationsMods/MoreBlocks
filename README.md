@@ -8,6 +8,7 @@ MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a gre
 - Decking: Steel, Copper, Titanium, Iron, White Carpet
 - Platform: Titanium, Steel, Iron, Copper
 - Railings: Titanium, Iron
+- Step: Titanium, Steel, Iron, Copper
 
 We are still at the start. Feel free to pick any block and help!
 
@@ -16,7 +17,7 @@ We are still at the start. Feel free to pick any block and help!
 no texture needed:
 - Decking: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~possibly a white one to be colored (as carpet)~~
 - Platform: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
-- Step: Titanium, Steel, Iron, Copper
+- Step: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
 - Wedges: Cargo Plate, Shutter
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood (possibly using the sign mesh)
 
