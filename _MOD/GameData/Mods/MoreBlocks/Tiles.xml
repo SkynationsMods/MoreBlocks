@@ -180,6 +180,79 @@
     <UseFullCast>false</UseFullCast>
 	<Mass>1</Mass>
   </TileProperty>
-  
+
+  <!-- Iron Railings -->
+  <TileProperty>
+    <ID>7017</ID>
+    <ItemID>7017</ItemID>
+    <Material>Metal</Material>
+    <Health>40</Health>
+    <LightTransparent>true</LightTransparent>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/IronRailing</BottomTexture>
+    <LeftTexture>Tiles/IronRailing</LeftTexture>
+    <RightTexture>Tiles/IronRailing</RightTexture>
+    <FrontTexture>Tiles/IronRailing</FrontTexture>
+    <BackTexture>Tiles/IronRailing</BackTexture>
+    <LeftOffset>0.1</LeftOffset>
+    <RightOffset>0.1</RightOffset>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Solid>true</Solid>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7018</ID>
+    <ItemID>7017</ItemID>
+    <Material>Metal</Material>    
+    <Health>40</Health>
+    <LightTransparent>true</LightTransparent>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/IronRailing</BottomTexture>
+    <LeftTexture>Tiles/IronRailing</LeftTexture>
+    <RightTexture>Tiles/IronRailing</RightTexture>
+    <FrontTexture>Tiles/IronRailing</FrontTexture>
+    <BackTexture>Tiles/IronRailing</BackTexture>
+    <FrontOffset>0.1</FrontOffset>
+    <BackOffset>0.1</BackOffset>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Solid>true</Solid>
+  </TileProperty>
+
+  <!-- Titanium Railings -->
+  <TileProperty>
+    <ID>7019</ID>
+    <ItemID>7019</ItemID>
+    <Material>Metal</Material>
+    <Health>40</Health>
+    <LightTransparent>true</LightTransparent>
+    <TopTexture>Tiles/Titanium</TopTexture>
+    <BottomTexture>Tiles/TitaniumRailing</BottomTexture>
+    <LeftTexture>Tiles/TitaniumRailing</LeftTexture>
+    <RightTexture>Tiles/TitaniumRailing</RightTexture>
+    <FrontTexture>Tiles/TitaniumRailing</FrontTexture>
+    <BackTexture>Tiles/TitaniumRailing</BackTexture>
+    <LeftOffset>0.1</LeftOffset>
+    <RightOffset>0.1</RightOffset>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Solid>true</Solid>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7020</ID>
+    <ItemID>7019</ItemID>
+    <Material>Metal</Material>    
+    <Health>40</Health>
+    <LightTransparent>true</LightTransparent>
+    <TopTexture>Tiles/Titanium</TopTexture>
+    <BottomTexture>Tiles/TitaniumRailing</BottomTexture>
+    <LeftTexture>Tiles/TitaniumRailing</LeftTexture>
+    <RightTexture>Tiles/TitaniumRailing</RightTexture>
+    <FrontTexture>Tiles/TitaniumRailing</FrontTexture>
+    <BackTexture>Tiles/TitaniumRailing</BackTexture>
+    <FrontOffset>0.1</FrontOffset>
+    <BackOffset>0.1</BackOffset>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Solid>true</Solid>
+  </TileProperty>
   
 </ArrayOfTileProperty>

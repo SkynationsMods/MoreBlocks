@@ -1,0 +1,1 @@
+This Server is running the Mod MoreBlocks which adds a few custom Blocks you players asked for. For a full list of features or information on how you can contribute, visit https://github.com/SkynationsMods/MoreBlocks

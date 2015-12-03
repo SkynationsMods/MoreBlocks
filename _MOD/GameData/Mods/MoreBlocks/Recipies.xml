@@ -129,7 +129,7 @@
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Copper Decking -->
+<!-- Copper Platform -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
@@ -145,4 +145,36 @@
     <Time>0</Time>
   </ItemRecipe>
 
+<!-- Iron Railing -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7017</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
+<!-- Titanium Railing -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>45</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7019</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
 </ArrayOfItemRecipe>

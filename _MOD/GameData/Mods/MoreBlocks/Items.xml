@@ -91,5 +91,26 @@
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
   </BaseItemData>
   
+<!-- Iron Railing -->
+  <BaseItemData>
+    <ID>7017</ID>
+    <Name>Iron Railing</Name>
+    <Description>A railing made from Iron.</Description>
+    <Use>Block</Use>
+    <BlockID>7017</BlockID>
+    <Price>20</Price>   
+    <Class>GameServer.World.Items.Scripts.Place2DirectionalBlock</Class>
+  </BaseItemData>
+  
+<!-- Titanium Railing -->
+  <BaseItemData>
+    <ID>7019</ID>
+    <Name>Titanium Railing</Name>
+    <Description>A railing made from Titanium.</Description>
+    <Use>Block</Use>
+    <BlockID>7019</BlockID>
+    <Price>20</Price>   
+    <Class>GameServer.World.Items.Scripts.Place2DirectionalBlock</Class>
+  </BaseItemData>
   
 </ArrayOfBaseItemData>
