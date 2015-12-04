@@ -1,5 +1,5 @@
 # MoreBlocks
-MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a greater variety of decorative Blocks and generally Blocks and Items the Players want to see in the game.
+MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a greater variety of decorative Blocks and generally Blocks and Items the Players have asked for. Comments and ideas go over here: [Sky Nations Forum thread for this Mod](http://skynations.net/community/viewtopic.php?f=11&t=1009 "Sky Nations Forum Thread for this Mod").
 
 ## Blocks and Items
 ---
@@ -8,7 +8,10 @@ MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a gre
 - Decking: Steel, Copper, Titanium, Iron, White Carpet
 - Platform: Titanium, Steel, Iron, Copper
 - Railings: Titanium, Iron
-- Step: Titanium, Steel, Iron, Copper
+- Steps: Titanium, Steel, Iron, Copper
+- Struts: Titanium, Steel, Iron
+
+Despite them being implemented (craftable and placable in the game), their attributes still need tweaking (Weight, Value, Durability).  
 
 We are still at the start. Feel free to pick any block and help!
 
@@ -17,14 +20,14 @@ We are still at the start. Feel free to pick any block and help!
 no texture needed:
 - Decking: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~possibly a white one to be colored (as carpet)~~
 - Platform: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
-- Step: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
+- Steps: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
 - Wedges: Cargo Plate, Shutter
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood (possibly using the sign mesh)
 
 texture needed:
 - Railings: ~~Titanium~~, ~~Iron~~
-- Doors: Steel, Wood, Titanium, Iron
-- Strouts: Titanium, Steel, Iron
+- Doors: Steel, Wood, Titanium, Iron (is being worked on)
+- Struts: ~~Titanium~~, ~~Steel~~, ~~Iron~~
 - Console Block with some kind of speed-o-meter (animation)
 - Console Block with different blinking lights (several frames for animation)
 - Generic Motor / Machine
@@ -39,6 +42,7 @@ texture needed:
 Blocks:
 - Different Woods
 - Different Stones
+- more ores
 - Metal Table
 - Red Sand
 - Chairs
@@ -52,10 +56,9 @@ Blocks:
 - Corner Wedges
 - Sideways(?) Wedges
 - Railing corners
-- Turbo thrusters (generate more than two thrust)
+- Turbo thrusters (generating more than two thrust)
 - Dynamite Blocks
 - Shield block for Ships (Deflector Shield / Shield generator)
-- more ores
 - a teleporter
 - Soundproof Blocks
 - mechanic to transport Items between chests (aka unloading the mining ship chests onto land)
