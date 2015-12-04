@@ -157,4 +157,37 @@
     <Price>5</Price>
   </BaseItemData>
 
+<!-- Titanium Strut -->
+  <BaseItemData>
+    <ID>7025</ID>
+    <Name>Titanium Strut</Name>
+    <Description>Cheap struts made from Titanium. </Description>
+    <Use>Block</Use>
+    <BlockID>7025</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>20</Price>
+  </BaseItemData>
+
+<!-- Steel Strut -->
+  <BaseItemData>
+    <ID>7026</ID>
+    <Name>Steel Strut</Name>
+    <Description>Cheap struts made from Steel. </Description>
+    <Use>Block</Use>
+    <BlockID>7026</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>20</Price>
+  </BaseItemData>
+
+<!-- Iron Strut -->
+  <BaseItemData>
+    <ID>7027</ID>
+    <Name>Iron Strut</Name>
+    <Description>Cheap struts made from Iron. </Description>
+    <Use>Block</Use>
+    <BlockID>7027</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>20</Price>
+  </BaseItemData>
+
 </ArrayOfBaseItemData>

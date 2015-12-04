@@ -241,4 +241,52 @@
     <Time>0</Time>
   </ItemRecipe>
 
+<!-- Titanium Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>45</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7025</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Steel Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>44</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7026</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Iron Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7027</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
 </ArrayOfItemRecipe>

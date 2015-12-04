@@ -326,5 +326,54 @@
     <Type>Step</Type>
     <Mass>2</Mass>
   </TileProperty>
+  
+  <!-- Titanium Strut -->
+  <TileProperty>
+    <ID>7025</ID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/TitaniumStrut</TopTexture>
+    <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
+    <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
+    <BackTexture>Tiles/TitaniumStrut</BackTexture>
+    <Health>60</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>
+    <ItemID>7025</ItemID>
+  </TileProperty>
+
+<!-- Steel Strut -->
+  <TileProperty>
+    <ID>7026</ID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/SteelStrut</TopTexture>
+    <BottomTexture>Tiles/SteelStrut</BottomTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
+    <FrontTexture>Tiles/SteelStrut</FrontTexture>
+    <BackTexture>Tiles/SteelStrut</BackTexture>
+    <Health>60</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>
+    <ItemID>7026</ItemID>
+  </TileProperty>
+
+<!-- Iron Strut -->
+  <TileProperty>
+    <ID>7027</ID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/IronStrut</TopTexture>
+    <BottomTexture>Tiles/IronStrut</BottomTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
+    <FrontTexture>Tiles/IronStrut</FrontTexture>
+    <BackTexture>Tiles/IronStrut</BackTexture>
+    <Health>60</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>
+    <ItemID>7027</ItemID>
+  </TileProperty>
+
 
 </ArrayOfTileProperty>
