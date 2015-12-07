@@ -190,4 +190,17 @@
     <Price>20</Price>
   </BaseItemData>
 
+<!-- Iron Door -->
+  <BaseItemData>
+    <ID>7030</ID>
+    <Name>Iron Door</Name>
+    <Description>Keeps the draft out.</Description>
+    <Use>Block</Use>
+    <BlockID>7030</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDoor</Class>
+    <TextureFile>UI/Icons/CopperDoor</TextureFile>
+    <Price>160</Price>
+  </BaseItemData>
+
+  
 </ArrayOfBaseItemData>

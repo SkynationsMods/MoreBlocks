@@ -375,5 +375,166 @@
     <ItemID>7027</ItemID>
   </TileProperty>
 
+<!-- Iron Door Bottom -->
+  <!-- Facing forward - closed -->
+  <TileProperty>
+    <ID>7030</ID>
+    <ItemID>7030</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/IronDoorBottom</TopTexture>
+    <BottomTexture>Tiles/IronDoorBottom</BottomTexture>
+    <LeftTexture>Tiles/IronDoorBottom</LeftTexture>
+    <RightTexture>Tiles/IronDoorBottom</RightTexture>
+    <FrontTexture>Tiles/IronDoorBottom</FrontTexture>
+    <BackTexture>Tiles/IronDoorBottom</BackTexture>
+    <BackOffset>0.05</BackOffset>
+    <FrontOffset>0.05</FrontOffset>
+    <SpecialBlockClass>MoreBlocksDoorScript.DoorToggle</SpecialBlockClass>
+    <TopBlockType>7034</TopBlockType>
+    <UseFullCast>true</UseFullCast>
+  </TileProperty>
+
+  <!-- Facing forward - open -->
+  <TileProperty>
+    <ID>7031</ID>
+    <ItemID>7030</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/IronDoorBottom</TopTexture>
+    <BottomTexture>Tiles/IronDoorBottom</BottomTexture>
+    <LeftTexture>Tiles/IronDoorBottom</LeftTexture>
+    <RightTexture>Tiles/IronDoorBottom</RightTexture>
+    <FrontTexture>Tiles/IronDoorBottom</FrontTexture>
+    <BackTexture>Tiles/IronDoorBottom</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <BackOffset>0.05</BackOffset>
+    <FrontOffset>0.05</FrontOffset>
+    <RightOffset>-0.4</RightOffset>
+    <SpecialBlockClass>MoreBlocksDoorScript.DoorToggle</SpecialBlockClass>
+    <TopBlockType>7035</TopBlockType>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+  <!-- Facing left - closed -->
+  <TileProperty>
+    <ID>7032</ID>
+    <ItemID>7030</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/IronDoorBottom</TopTexture>
+    <BottomTexture>Tiles/IronDoorBottom</BottomTexture>
+    <LeftTexture>Tiles/IronDoorBottom</LeftTexture>
+    <RightTexture>Tiles/IronDoorBottom</RightTexture>
+    <FrontTexture>Tiles/IronDoorBottom</FrontTexture>
+    <BackTexture>Tiles/IronDoorBottom</BackTexture>
+    <LeftOffset>0.05</LeftOffset>
+    <RightOffset>0.05</RightOffset>
+    <SpecialBlockClass>MoreBlocksDoorScript.DoorToggle</SpecialBlockClass>
+    <TopBlockType>7036</TopBlockType>
+    <UseFullCast>true</UseFullCast>
+  </TileProperty>
+  
+  <!-- Facing right - open -->
+  <TileProperty>
+    <ID>7033</ID>
+    <ItemID>7030</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/IronDoorBottom</TopTexture>
+    <BottomTexture>Tiles/IronDoorBottom</BottomTexture>
+    <LeftTexture>Tiles/IronDoorBottom</LeftTexture>
+    <RightTexture>Tiles/IronDoorBottom</RightTexture>
+    <FrontTexture>Tiles/IronDoorBottom</FrontTexture>
+    <BackTexture>Tiles/IronDoorBottom</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <LeftOffset>0.05</LeftOffset>
+    <RightOffset>0.05</RightOffset>
+    <FrontOffset>-0.4</FrontOffset>
+    <SpecialBlockClass>MoreBlocksDoorScript.DoorToggle</SpecialBlockClass>
+    <TopBlockType>7037</TopBlockType>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+<!-- Iron Door Top -->
+  <!-- Facing forward - closed -->
+  <TileProperty>
+    <ID>7034</ID>
+    <ItemID>7030</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/IronDoorTop</TopTexture>
+    <BottomTexture>Tiles/IronDoorTop</BottomTexture>
+    <LeftTexture>Tiles/IronDoorTop</LeftTexture>
+    <RightTexture>Tiles/IronDoorTop</RightTexture>
+    <FrontTexture>Tiles/IronDoorTop</FrontTexture>
+    <BackTexture>Tiles/IronDoorTop</BackTexture>
+    <BackOffset>0.05</BackOffset>
+    <FrontOffset>0.05</FrontOffset>
+    <SpecialBlockClass>MoreBlocksDoorScript.DoorToggle</SpecialBlockClass>
+    <UseFullCast>true</UseFullCast>
+    <BottomBlockType>7030</BottomBlockType>
+  </TileProperty>
+
+  <!-- Facing forward - open -->
+  <TileProperty>
+    <ID>7035</ID>
+    <ItemID>7030</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/IronDoorTop</TopTexture>
+    <BottomTexture>Tiles/IronDoorTop</BottomTexture>
+    <LeftTexture>Tiles/IronDoorTop</LeftTexture>
+    <RightTexture>Tiles/IronDoorTop</RightTexture>
+    <FrontTexture>Tiles/IronDoorTop</FrontTexture>
+    <BackTexture>Tiles/IronDoorTop</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <BackOffset>0.05</BackOffset>
+    <FrontOffset>0.05</FrontOffset>
+    <RightOffset>-0.4</RightOffset>
+    <SpecialBlockClass>MoreBlocksDoorScript.DoorToggle</SpecialBlockClass>
+    <UseFullCast>false</UseFullCast>
+    <BottomBlockType>7031</BottomBlockType>
+  </TileProperty>
+
+  <!-- Facing left - closed -->
+  <TileProperty>
+    <ID>7036</ID>
+    <ItemID>7030</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/IronDoorTop</TopTexture>
+    <BottomTexture>Tiles/IronDoorTop</BottomTexture>
+    <LeftTexture>Tiles/IronDoorTop</LeftTexture>
+    <RightTexture>Tiles/IronDoorTop</RightTexture>
+    <FrontTexture>Tiles/IronDoorTop</FrontTexture>
+    <BackTexture>Tiles/IronDoorTop</BackTexture>
+    <LeftOffset>0.05</LeftOffset>
+    <RightOffset>0.05</RightOffset>
+    <SpecialBlockClass>MoreBlocksDoorScript.DoorToggle</SpecialBlockClass>
+    <UseFullCast>true</UseFullCast>
+    <BottomBlockType>7032</BottomBlockType>
+  </TileProperty>
+  
+  <!-- Facing right - open -->
+  <TileProperty>
+    <ID>7037</ID>
+    <ItemID>7030</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/IronDoorTop</TopTexture>
+    <BottomTexture>Tiles/IronDoorTop</BottomTexture>
+    <LeftTexture>Tiles/IronDoorTop</LeftTexture>
+    <RightTexture>Tiles/IronDoorTop</RightTexture>
+    <FrontTexture>Tiles/IronDoorTop</FrontTexture>
+    <BackTexture>Tiles/IronDoorTop</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <LeftOffset>0.05</LeftOffset>
+    <RightOffset>0.05</RightOffset>
+    <FrontOffset>-0.4</FrontOffset>
+    <SpecialBlockClass>MoreBlocksDoorScript.DoorToggle</SpecialBlockClass>
+    <BottomBlockType>7033</BottomBlockType>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
 
 </ArrayOfTileProperty>
