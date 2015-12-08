@@ -1,5 +1,5 @@
 # MoreBlocks
-MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a greater variety of decorative Blocks and generally Blocks and Items the Players have asked for. Comments and ideas go over here: [Sky Nations Forum thread for this Mod](http://skynations.net/community/viewtopic.php?f=11&t=1009 "Sky Nations Forum Thread for this Mod").
+MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a greater variety of decorative Blocks and generally Blocks and Items the Players have asked for. Comments and ideas go over here: [Sky Nations Forum Thread for this Mod](http://skynations.net/community/viewtopic.php?f=11&t=1009 "Sky Nations Forum Thread for this Mod").
 
 ## Blocks and Items
 ---
@@ -10,8 +10,10 @@ MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a gre
 - Railings: Titanium, Iron
 - Steps: Titanium, Steel, Iron, Copper
 - Struts: Titanium, Steel, Iron
+- Doors: Steel, Wood, Titanium, Iron (textures not working yet due to a bug)
+- Wall tiles: Titanium, Steel, Iron, Copper, Wood
 
-Despite them being implemented (craftable and placable in the game), their attributes still need tweaking (Weight, Value, Durability).  
+Despite them being implemented (craftable and placable in the game), their attributes still need tweaking (Mass, Price, Health).  
 
 We are still at the start. Feel free to pick any block and help!
 
@@ -22,14 +24,14 @@ no texture needed:
 - Platform: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
 - Steps: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
 - Wedges: Cargo Plate, Shutter
-- Wall tiles: Titanium, Steel, Iron, Copper, Wood (possibly using the sign mesh)
+- Wall tiles: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Wood~~
 
 texture needed:
 - Railings: ~~Titanium~~, ~~Iron~~
-- Doors: Steel, Wood, Titanium, Iron (is being worked on)
+- Doors: ~~Steel~~, ~~Wood~~, ~~Titanium~~, ~~Iron~~
 - Struts: ~~Titanium~~, ~~Steel~~, ~~Iron~~
 - Console Block with some kind of speed-o-meter (animation)
-- Console Block with different blinking lights (several frames for animation)
+- Console Block with different blinking lights (several frames for animation) (see old CTRL Block texture for idea of light placement)
 - Generic Motor / Machine
 - Decorative Lights (possibly just the older versions of the lanterns)
 - Shutters: Titanium, Iron, Copper
@@ -40,6 +42,9 @@ texture needed:
 
 ### Set 2
 Blocks:
+- Hatch door (maybe remote controlled)
+- Teleporter Blocks (land based to get from A to B, eg. in Capital)
+- Hangar Doors
 - Different Woods
 - Different Stones
 - more ores
@@ -52,14 +57,12 @@ Blocks:
 - Flower Pot
 - Bed
 - Colored Ice
-- Hatch door (remote controlled)
 - Corner Wedges
 - Sideways(?) Wedges
 - Railing corners
 - Turbo thrusters (generating more than two thrust)
 - Dynamite Blocks
 - Shield block for Ships (Deflector Shield / Shield generator)
-- a teleporter
 - Soundproof Blocks
 - mechanic to transport Items between chests (aka unloading the mining ship chests onto land)
 - med station block

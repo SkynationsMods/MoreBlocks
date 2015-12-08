@@ -201,6 +201,96 @@
     <TextureFile>UI/Icons/CopperDoor</TextureFile>
     <Price>160</Price>
   </BaseItemData>
+  
+<!-- Steel Door -->
+  <BaseItemData>
+    <ID>7040</ID>
+    <Name>Steel Door</Name>
+    <Description>Keeps the draft out.</Description>
+    <Use>Block</Use>
+    <BlockID>7040</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDoor</Class>
+    <TextureFile>UI/Icons/CopperDoor</TextureFile>
+    <Price>160</Price>
+  </BaseItemData>
 
+<!-- Titanium Door -->
+  <BaseItemData>
+    <ID>7050</ID>
+    <Name>Titanium Door</Name>
+    <Description>Keeps the draft out.</Description>
+    <Use>Block</Use>
+    <BlockID>7050</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDoor</Class>
+    <TextureFile>UI/Icons/CopperDoor</TextureFile>
+    <Price>160</Price>
+  </BaseItemData>
+  
+<!-- Wooden Door -->
+  <BaseItemData>
+    <ID>7060</ID>
+    <Name>Wooden Door</Name>
+    <Description>Keeps the draft out.</Description>
+    <Use>Block</Use>
+    <BlockID>7060</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDoor</Class>
+    <TextureFile>UI/Icons/CopperDoor</TextureFile>
+    <Price>160</Price>
+  </BaseItemData>
+  
+<!-- Steel Wall Tile -->
+  <BaseItemData>
+    <ID>7070</ID>
+    <Name>Steel Wall Tile</Name>
+    <Description>A Wall Tile made of Steel. </Description>
+    <Use>Block</Use>
+    <BlockID>7070</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
+    <Price>220</Price>
+  </BaseItemData>
+  
+<!-- Titanium Wall Tile -->
+  <BaseItemData>
+    <ID>7074</ID>
+    <Name>Titanium Wall Tile</Name>
+    <Description>A Wall Tile made of Titanium. </Description>
+    <Use>Block</Use>
+    <BlockID>7074</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
+    <Price>220</Price>
+  </BaseItemData>
+
+<!-- Iron Wall Tile -->
+  <BaseItemData>
+    <ID>7078</ID>
+    <Name>Iron Wall Tile</Name>
+    <Description>A Wall Tile made of Iron. </Description>
+    <Use>Block</Use>
+    <BlockID>7074</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
+    <Price>220</Price>
+  </BaseItemData>
+  
+<!-- Copper Wall Tile -->
+  <BaseItemData>
+    <ID>7082</ID>
+    <Name>Copper Wall Tile</Name>
+    <Description>A Wall Tile made of Copper. </Description>
+    <Use>Block</Use>
+    <BlockID>7074</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
+    <Price>220</Price>
+  </BaseItemData>
+
+<!-- Plank Wall Tile -->
+  <BaseItemData>
+    <ID>7086</ID>
+    <Name>Plank Wall Tile</Name>
+    <Description>A Wall Tile made of Wood. </Description>
+    <Use>Block</Use>
+    <BlockID>7074</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
+    <Price>220</Price>
+  </BaseItemData>
   
 </ArrayOfBaseItemData>

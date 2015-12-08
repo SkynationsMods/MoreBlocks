@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoreBlocksDoorScript
-{
+namespace MoreBlocksScripts
+{   //IMPORTANT: THE TILES OF ANY DOOR THAT WANTS TO MAKE USE OF THIS SCRIPT HAVE TO START WITH AN ID BEING A MULTIPLE OF 10
+    //ALSO THE ORDER OF THE 8 DIFFERENT DOOR STATES, HAS TO BE EXACTLY THE SAME AS IN THE DEFAULT TILES.XML
+    //WITH THESE CONDITIONS MET, THIS SCRIPT CAN BE UNIVERSALLY USED FOR ALL DOORS
     class DoorToggle : ISpecialBlock
     {
         private IChunk  Chunk;
@@ -38,7 +40,7 @@ namespace MoreBlocksDoorScript
             //get the specific Block data by its index
             ushort currentBlock = chunk.Blocks[index];
 
-            //get baseDoorID (thats why Doors wanting to use this script have to start with a multiples of 10)
+            //get baseDoorID (reason why the doorID has to be a multiple of 10, for this script to properly work)
             int baseDoorID = ((int)currentBlock / 10) * 10;
             int offset = (int)currentBlock - baseDoorID;
 
@@ -48,7 +50,7 @@ namespace MoreBlocksDoorScript
 
         private void ToggleDoor(IChunk chunk, int baseDoorID, int offset, int x, int y, int z)
         {
-            switch (offset) //switches - we love 'em, don't we? Too lazy for a proper alg
+            switch (offset)
             {
                 case 0:
                     chunk.ChangeBlock((ushort)(baseDoorID + 1), x, y, z);
