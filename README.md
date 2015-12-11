@@ -12,6 +12,7 @@ MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a gre
 - Struts: Titanium, Steel, Iron
 - Doors: Steel, Wood, Titanium, Iron (textures not working yet due to a bug)
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood
+- Hatch: Wood
 
 Despite them being implemented (craftable and placable in the game), their attributes still need tweaking (Mass, Price, Health).  
 
@@ -39,10 +40,10 @@ texture needed:
 - Chimney / Stove (possibly with fire animation)
 - Brick Block (more like classical Bricks with white grout in between the red Bricks)
 - More Brick Colors
+- Hatch: ~~Wood~~, Steel, Titanium, Iron, Copper
 
 ### Set 2
 Blocks:
-- Hatch door (maybe remote controlled)
 - Teleporter Blocks (land based to get from A to B, eg. in Capital)
 - Hangar Doors
 - Different Woods
@@ -75,7 +76,7 @@ Items:
 
 ## How to Install the Mod?
 
-Until there is a release you can download the repository, and paste the contents of the `_MOD\` folder into your Skynations-Server root directory. After enabling the Mod in your `Server Settings.xml` (example provided) you can start your server up and use the new Blocks.
+Until there is a release you can download the repository, and paste the contents of the `_MOD\` folder into your Skynations-Server root directory. After enabling the Mod in your `Server Settings.xml` (example provided) you can start your server up and use the new Blocks. Until further notice, this Mod is NOT production ready!
 
 ## Organizational
 

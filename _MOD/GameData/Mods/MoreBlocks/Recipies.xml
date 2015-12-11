@@ -433,4 +433,24 @@
     <Time>0</Time>
   </ItemRecipe>
   
+<!-- Wooden Hatch -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>10</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7090</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
 </ArrayOfItemRecipe>

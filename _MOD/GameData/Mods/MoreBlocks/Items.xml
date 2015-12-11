@@ -266,7 +266,7 @@
     <Name>Iron Wall Tile</Name>
     <Description>A Wall Tile made of Iron. </Description>
     <Use>Block</Use>
-    <BlockID>7074</BlockID>
+    <BlockID>7078</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>220</Price>
   </BaseItemData>
@@ -277,7 +277,7 @@
     <Name>Copper Wall Tile</Name>
     <Description>A Wall Tile made of Copper. </Description>
     <Use>Block</Use>
-    <BlockID>7074</BlockID>
+    <BlockID>7082</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>220</Price>
   </BaseItemData>
@@ -285,12 +285,22 @@
 <!-- Plank Wall Tile -->
   <BaseItemData>
     <ID>7086</ID>
-    <Name>Plank Wall Tile</Name>
+    <Name>Wooden Wall Tile</Name>
     <Description>A Wall Tile made of Wood. </Description>
     <Use>Block</Use>
-    <BlockID>7074</BlockID>
+    <BlockID>7086</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>220</Price>
+  </BaseItemData>
+  
+<!-- Wooden Hatch -->
+  <BaseItemData>
+    <ID>7090</ID>
+    <Name>Wooden Hatch</Name>
+    <Description>A hatch to get into your ship from top or bottom. </Description>
+    <Use>Block</Use>
+    <BlockID>7090</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
   </BaseItemData>
   
 </ArrayOfBaseItemData>

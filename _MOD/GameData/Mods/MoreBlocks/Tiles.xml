@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTileProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  
+
 <!-- Steel Decking -->
   <TileProperty>
     <ID>7000</ID>
@@ -1313,12 +1313,12 @@
     <ItemID>7086</ItemID>
     <Material>Hard</Material>
     <Health>60</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture><!--Front -->
+    <TopTexture>Tiles/Planks</TopTexture>
+    <BottomTexture>Tiles/Planks</BottomTexture>
+    <LeftTexture>Tiles/Planks</LeftTexture>
+    <RightTexture>Tiles/Planks</RightTexture>
+    <FrontTexture>Tiles/Planks</FrontTexture>
+    <BackTexture>Tiles/Planks</BackTexture><!--Front -->
     <BackOffset>-0.4</BackOffset>
     <Type>Normal</Type>
     <LightTransparent>true</LightTransparent>
@@ -1331,12 +1331,12 @@
     <ItemID>7086</ItemID>
     <Material>Hard</Material>
     <Health>60</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture><!--Front -->
-    <BackTexture>Tiles/Copper</BackTexture>
+    <TopTexture>Tiles/Planks</TopTexture>
+    <BottomTexture>Tiles/Planks</BottomTexture>
+    <LeftTexture>Tiles/Planks</LeftTexture>
+    <RightTexture>Tiles/Planks</RightTexture>
+    <FrontTexture>Tiles/Planks</FrontTexture><!--Front -->
+    <BackTexture>Tiles/Planks</BackTexture>
     <LightTransparent>true</LightTransparent>
     <FrontOffset>-0.4</FrontOffset>
     <Type>Normal</Type>
@@ -1349,12 +1349,12 @@
     <ItemID>7086</ItemID>
     <Material>Hard</Material>
     <Health>60</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture><!--Front -->
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
+    <TopTexture>Tiles/Planks</TopTexture>
+    <BottomTexture>Tiles/Planks</BottomTexture>
+    <LeftTexture>Tiles/Planks</LeftTexture>
+    <RightTexture>Tiles/Planks</RightTexture><!--Front -->
+    <FrontTexture>Tiles/Planks</FrontTexture>
+    <BackTexture>Tiles/Planks</BackTexture>
     <LightTransparent>true</LightTransparent>
     <RightOffset>-0.4</RightOffset>
     <Mass>1</Mass>
@@ -1366,16 +1366,57 @@
     <ItemID>7086</ItemID>
     <Material>Hard</Material>
     <Health>60</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture><!--Front -->
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
+    <TopTexture>Tiles/Planks</TopTexture>
+    <BottomTexture>Tiles/Planks</BottomTexture>
+    <LeftTexture>Tiles/Planks</LeftTexture><!--Front -->
+    <RightTexture>Tiles/Planks</RightTexture>
+    <FrontTexture>Tiles/Planks</FrontTexture>
+    <BackTexture>Tiles/Planks</BackTexture>
     <LightTransparent>true</LightTransparent>
     <LeftOffset>-0.4</LeftOffset>
     <Mass>1</Mass>
     <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+<!-- Wooden Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7090</ID>
+    <ItemID>7090</ItemID>
+    <Material>Hard</Material>
+    <Health>60</Health>
+    <TopTexture>Tiles/WoodenHatch</TopTexture>
+    <BottomTexture>Tiles/WoodenHatch</BottomTexture>
+    <LeftTexture>Tiles/Crate</LeftTexture>
+    <RightTexture>Tiles/Crate</RightTexture>
+    <FrontTexture>Tiles/Crate</FrontTexture>
+    <BackTexture>Tiles/Crate</BackTexture><!--Front -->
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty><!-- Open -->
+    <ID>7091</ID>
+    <ItemID>7090</ItemID>
+    <Material>Hard</Material>
+    <Hazard>Ladder</Hazard>
+    <Health>60</Health>
+    <TopTexture>Tiles/Crate</TopTexture>
+    <BottomTexture>Tiles/Crate</BottomTexture>
+    <LeftTexture>Tiles/Crate</LeftTexture>
+    <RightTexture>Tiles/Crate</RightTexture>
+    <FrontTexture>Tiles/WoodenHatch</FrontTexture>
+    <BackTexture>Tiles/WoodenHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>1</Mass>
+    <UseFullCast>false</UseFullCast>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
   </TileProperty>
   
 </ArrayOfTileProperty>
