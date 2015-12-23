@@ -44,7 +44,7 @@
     </Ingredients>
     <Product>
       <ID>7002</ID>
-      <Amount>4</Amount>
+      <Amount>5</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
@@ -428,7 +428,7 @@
     </Ingredients>
     <Product>
       <ID>7086</ID>
-      <Amount>4</Amount>
+      <Amount>3</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
