@@ -12,7 +12,7 @@ MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a gre
 - Struts: Titanium, Steel, Iron
 - Doors: Steel, Wood, Titanium, Iron (textures not working yet due to a bug)
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood
-- Hatch: Wood
+- Hatch: Titanium, Steel, Iron, Copper, Wood
 
 Despite them being implemented (craftable and placable in the game), their attributes still need tweaking (Mass, Price, Health).  
 
