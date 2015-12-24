@@ -54,7 +54,7 @@
     <BlockID>7004</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>20</Price>
-  </BaseItemData>  
+  </BaseItemData>
 
 <!-- Titanium Platform -->
   <BaseItemData>
@@ -310,7 +310,51 @@
     <Use>Block</Use>
     <BlockID>7090</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>55</Price>
+    <Price>70</Price>
+  </BaseItemData>
+  
+<!-- Copper Hatch -->
+  <BaseItemData>
+    <ID>7092</ID>
+    <Name>Copper Hatch</Name>
+    <Description>A hatch to get into your ship from top or bottom. </Description>
+    <Use>Block</Use>
+    <BlockID>7092</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>90</Price>
+  </BaseItemData>
+  
+<!-- Titanium Hatch -->
+  <BaseItemData>
+    <ID>7094</ID>
+    <Name>Titanium Hatch</Name>
+    <Description>A hatch to get into your ship from top or bottom. </Description>
+    <Use>Block</Use>
+    <BlockID>7094</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>140</Price>
+  </BaseItemData>
+  
+<!-- Steel Hatch -->
+  <BaseItemData>
+    <ID>7096</ID>
+    <Name>Steel Hatch</Name>
+    <Description>A hatch to get into your ship from top or bottom. </Description>
+    <Use>Block</Use>
+    <BlockID>7096</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>120</Price>
+  </BaseItemData>
+  
+<!-- Iron Hatch -->
+  <BaseItemData>
+    <ID>7098</ID>
+    <Name>Iron Hatch</Name>
+    <Description>A hatch to get into your ship from top or bottom. </Description>
+    <Use>Block</Use>
+    <BlockID>7098</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>110</Price>
   </BaseItemData>
   
 </ArrayOfBaseItemData>

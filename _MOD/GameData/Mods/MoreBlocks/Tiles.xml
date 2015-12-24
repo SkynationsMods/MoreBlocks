@@ -956,10 +956,10 @@
     <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
-    <TopTexture>Tiles/WoodenDoorTop</TopTexture>
-    <BottomTexture>Tiles/WoodenDoorTop</BottomTexture>
-    <LeftTexture>Tiles/WoodenDoorTop</LeftTexture>
-    <RightTexture>Tiles/WoodenDoorTop</RightTexture>
+    <TopTexture>Tiles/Crate</TopTexture>
+    <BottomTexture>Tiles/Crate</BottomTexture>
+    <LeftTexture>Tiles/WoodenDoorBottom</LeftTexture>
+    <RightTexture>Tiles/WoodenDoorBottom</RightTexture>
     <FrontTexture>Tiles/WoodenDoorTop</FrontTexture>
     <BackTexture>Tiles/WoodenDoorTop</BackTexture>
     <BackOffset>0.05</BackOffset>
@@ -975,10 +975,10 @@
     <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
-    <TopTexture>Tiles/WoodenDoorTop</TopTexture>
-    <BottomTexture>Tiles/WoodenDoorTop</BottomTexture>
-    <LeftTexture>Tiles/WoodenDoorTop</LeftTexture>
-    <RightTexture>Tiles/WoodenDoorTop</RightTexture>
+    <TopTexture>Tiles/Crate</TopTexture>
+    <BottomTexture>Tiles/Crate</BottomTexture>
+    <LeftTexture>Tiles/WoodenDoorBottom</LeftTexture>
+    <RightTexture>Tiles/WoodenDoorBottom</RightTexture>
     <FrontTexture>Tiles/WoodenDoorTop</FrontTexture>
     <BackTexture>Tiles/WoodenDoorTop</BackTexture>
     <LightTransparent>true</LightTransparent>
@@ -996,12 +996,12 @@
     <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
-    <TopTexture>Tiles/WoodenDoorTop</TopTexture>
-    <BottomTexture>Tiles/WoodenDoorTop</BottomTexture>
+    <TopTexture>Tiles/Crate</TopTexture>
+    <BottomTexture>Tiles/Crate</BottomTexture>
     <LeftTexture>Tiles/WoodenDoorTop</LeftTexture>
     <RightTexture>Tiles/WoodenDoorTop</RightTexture>
-    <FrontTexture>Tiles/WoodenDoorTop</FrontTexture>
-    <BackTexture>Tiles/WoodenDoorTop</BackTexture>
+    <FrontTexture>Tiles/WoodenDoorBottom</FrontTexture>
+    <BackTexture>Tiles/WoodenDoorBottom</BackTexture>
     <LeftOffset>0.05</LeftOffset>
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
@@ -1015,12 +1015,12 @@
     <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
-    <TopTexture>Tiles/WoodenDoorTop</TopTexture>
-    <BottomTexture>Tiles/WoodenDoorTop</BottomTexture>
+    <TopTexture>Tiles/WoodenDoorBottom</TopTexture>
+    <BottomTexture>Tiles/WoodenDoorBottom</BottomTexture>
     <LeftTexture>Tiles/WoodenDoorTop</LeftTexture>
     <RightTexture>Tiles/WoodenDoorTop</RightTexture>
-    <FrontTexture>Tiles/WoodenDoorTop</FrontTexture>
-    <BackTexture>Tiles/WoodenDoorTop</BackTexture>
+    <FrontTexture>Tiles/WoodenDoorBottom</FrontTexture>
+    <BackTexture>Tiles/WoodenDoorBottom</BackTexture>
     <LightTransparent>true</LightTransparent>
     <LeftOffset>0.05</LeftOffset>
     <RightOffset>0.05</RightOffset>
@@ -1390,19 +1390,19 @@
     <ID>7090</ID>
     <ItemID>7090</ItemID>
     <Material>Hard</Material>
-    <Health>100</Health>
+    <Health>50</Health>
     <TopTexture>Tiles/WoodenHatch</TopTexture>
     <BottomTexture>Tiles/WoodenHatch</BottomTexture>
     <LeftTexture>Tiles/Crate</LeftTexture>
     <RightTexture>Tiles/Crate</RightTexture>
     <FrontTexture>Tiles/Crate</FrontTexture>
-    <BackTexture>Tiles/Crate</BackTexture><!--Front -->
+    <BackTexture>Tiles/Crate</BackTexture>
     <BottomOffset>-0.4</BottomOffset>
     <LightTransparent>true</LightTransparent>
     <Passable>true</Passable>
     <Type>Normal</Type>
     <UseFullCast>false</UseFullCast>
-	<Mass>2</Mass>
+    <Mass>2</Mass>
     <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
   </TileProperty>
 
@@ -1411,7 +1411,7 @@
     <ItemID>7090</ItemID>
     <Material>Hard</Material>
     <Hazard>Ladder</Hazard>
-    <Health>100</Health>
+    <Health>50</Health>
     <TopTexture>Tiles/Crate</TopTexture>
     <BottomTexture>Tiles/Crate</BottomTexture>
     <LeftTexture>Tiles/Crate</LeftTexture>
@@ -1425,5 +1425,169 @@
     <UseFullCast>false</UseFullCast>
     <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
   </TileProperty>
-  
+
+<!-- Copper Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7092</ID>
+    <ItemID>7092</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/CopperHatch</TopTexture>
+    <BottomTexture>Tiles/CopperHatch</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/Copper</FrontTexture>
+    <BackTexture>Tiles/Copper</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+    <Mass>2</Mass>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty><!-- Open -->
+    <ID>7093</ID>
+    <ItemID>7092</ItemID>
+    <Material>Metal</Material>
+    <Hazard>Ladder</Hazard>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/CopperHatch</FrontTexture>
+    <BackTexture>Tiles/CopperHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>2</Mass>
+    <UseFullCast>false</UseFullCast>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+<!-- Titanium Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7094</ID>
+    <ItemID>7094</ItemID>
+    <Material>Metal</Material>
+    <Health>200</Health>
+    <TopTexture>Tiles/TitaniumHatch</TopTexture>
+    <BottomTexture>Tiles/TitaniumHatch</BottomTexture>
+    <LeftTexture>Tiles/Titanium</LeftTexture>
+    <RightTexture>Tiles/Titanium</RightTexture>
+    <FrontTexture>Tiles/Titanium</FrontTexture>
+    <BackTexture>Tiles/Titanium</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+    <Mass>4</Mass>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty><!-- Open -->
+    <ID>7095</ID>
+    <ItemID>7094</ItemID>
+    <Material>Metal</Material>
+    <Hazard>Ladder</Hazard>
+    <Health>200</Health>
+    <TopTexture>Tiles/Titanium</TopTexture>
+    <BottomTexture>Tiles/Titanium</BottomTexture>
+    <LeftTexture>Tiles/Titanium</LeftTexture>
+    <RightTexture>Tiles/Titanium</RightTexture>
+    <FrontTexture>Tiles/TitaniumHatch</FrontTexture>
+    <BackTexture>Tiles/TitaniumHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>4</Mass>
+    <UseFullCast>false</UseFullCast>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+<!-- Steel Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7096</ID>
+    <ItemID>7096</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/SteelHatch</TopTexture>
+    <BottomTexture>Tiles/SteelHatch</BottomTexture>
+    <LeftTexture>Tiles/Steel</LeftTexture>
+    <RightTexture>Tiles/Steel</RightTexture>
+    <FrontTexture>Tiles/Steel</FrontTexture>
+    <BackTexture>Tiles/Steel</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+    <Mass>2</Mass>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty><!-- Open -->
+    <ID>7097</ID>
+    <ItemID>7096</ItemID>
+    <Material>Metal</Material>
+    <Hazard>Ladder</Hazard>
+    <Health>150</Health>
+    <TopTexture>Tiles/Steel</TopTexture>
+    <BottomTexture>Tiles/Steel</BottomTexture>
+    <LeftTexture>Tiles/Steel</LeftTexture>
+    <RightTexture>Tiles/Steel</RightTexture>
+    <FrontTexture>Tiles/SteelHatch</FrontTexture>
+    <BackTexture>Tiles/SteelHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>2</Mass>
+    <UseFullCast>false</UseFullCast>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+<!-- Iron Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7098</ID>
+    <ItemID>7098</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/IronHatch</TopTexture>
+    <BottomTexture>Tiles/IronHatch</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
+    <RightTexture>Tiles/Metals/Iron</RightTexture>
+    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
+    <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+    <Mass>4</Mass>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty><!-- Open -->
+    <ID>7099</ID>
+    <ItemID>7098</ItemID>
+    <Material>Metal</Material>
+    <Hazard>Ladder</Hazard>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
+    <RightTexture>Tiles/Metals/Iron</RightTexture>
+    <FrontTexture>Tiles/IronHatch</FrontTexture>
+    <BackTexture>Tiles/IronHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>4</Mass>
+    <UseFullCast>false</UseFullCast>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
 </ArrayOfTileProperty>
