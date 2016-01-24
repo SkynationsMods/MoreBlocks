@@ -1,10 +1,13 @@
 # MoreBlocks
-MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a greater variety of decorative Blocks and generally Blocks and Items the Players have asked for. Comments and ideas go over here: [Sky Nations Forum Thread for this Mod](http://skynations.net/community/viewtopic.php?f=11&t=1009 "Sky Nations Forum Thread for this Mod").
+MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a greater variety of decorative Blocks and generally Blocks and Items the Players have asked for. Comments and ideas go over here: [Sky Nations Forum Thread for this Mod](http://skynations.net/community/viewtopic.php?f=11&t=1009 "Sky Nations Forum Thread for this Mod").  
+First release is planned for shortly after the release of patch SkyNations patch 0.99.
 
 ## Blocks and Items
 ---
 
 ### Implemented so far:
+
+Blocks:
 - Decking: Steel, Copper, Titanium, Iron, White Carpet
 - Platform: Titanium, Steel, Iron, Copper
 - Railings: Titanium, Iron
@@ -14,9 +17,12 @@ MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a gre
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood
 - Hatch: Titanium, Steel, Iron, Copper, Wood
 
-Despite them being implemented (craftable and placable in the game), their attributes still need tweaking (Mass, Price, Health).  
+Scripts:
 
-We are still at the start. Feel free to pick any block and help!
+- universal Script to open/close doors
+- universal Script to open/close hatches
+- Teleporter and Teleport Activator Script
+- lots of utility and helper functions making life with Chunks easier
 
 ### Wishlist:
 ### Set 1
@@ -31,20 +37,21 @@ texture needed:
 - Railings: ~~Titanium~~, ~~Iron~~
 - Doors: ~~Steel~~, ~~Wood~~, ~~Titanium~~, ~~Iron~~
 - Struts: ~~Titanium~~, ~~Steel~~, ~~Iron~~
+- **Teleporter (!)**
 - Console Block with some kind of speed-o-meter (animation)
 - Console Block with different blinking lights (several frames for animation) (see old CTRL Block texture for idea of light placement)
 - Generic Motor / Machine
 - Decorative Lights (possibly just the older versions of the lanterns)
-- Shutters: Titanium, Iron, Copper
+- Shutters: ~~Titanium~~, ~~Iron~~, ~~Copper~~
 - Bookshelf
 - Chimney / Stove (possibly with fire animation)
 - Brick Block (more like classical Bricks with white grout in between the red Bricks)
 - More Brick Colors
-- Hatch: ~~Wood~~, Steel, Titanium, Iron, Copper
+- Hatch: ~~Wood~~, ~~Steel~~, ~~Titanium~~, ~~Iron~~, ~~Copper~~
 
 ### Set 2
 Blocks:
-- Teleporter Blocks (land based to get from A to B, eg. in Capital)
+- ~~Teleporter~~ Blocks (land based to get from A to B, eg. in Capital)
 - Hangar Doors
 - Different Woods
 - Different Stones
@@ -58,7 +65,7 @@ Blocks:
 - Flower Pot
 - Bed
 - Colored Ice
-- Corner Wedges
+- ~~Corner Wedges~~ (vertical wedges content of patch 0.99)
 - Sideways(?) Wedges
 - Railing corners
 - Turbo thrusters (generating more than two thrust)
