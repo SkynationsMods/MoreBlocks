@@ -141,7 +141,7 @@ namespace MoreBlocksScripts
             }
 
             int incConnCount = reader.ReadInt32();
-            Console.WriteLine("blockver: "+version.ToString()+", outConnCount: "+outConnCount.ToString()+", targetTP: "+this.TargetTeleporter.ToString()+", incConnCount: "+incConnCount.ToString());
+            //Console.WriteLine("blockver: " + version.ToString() + ", outConnCount: " + outConnCount.ToString() + ", targetTP: " + this.TargetTeleporter.ToString() + ", incConnCount: " + incConnCount.ToString());
         }
 
         public void Serialize(BinaryWriter writer)
@@ -153,7 +153,7 @@ namespace MoreBlocksScripts
             writer.Write(this.TargetTeleporter.Z);
             writer.Write((int)0);
 
-            Console.WriteLine("blockver: " + this.BlockVersion.ToString() + ", outConnCount " + this.outConnCount.ToString() + ", targetTP: " + this.TargetTeleporter.ToString() + ", incConnCount: 0");
+            //Console.WriteLine("blockver: " + this.BlockVersion.ToString() + ", outConnCount " + this.outConnCount.ToString() + ", targetTP: " + this.TargetTeleporter.ToString() + ", incConnCount: 0");
 
         }
 
