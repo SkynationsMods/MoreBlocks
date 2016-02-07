@@ -7,13 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using GameServer.World.Chunks;
+
 namespace MoreBlocksScripts
 {   //IMPORTANT: THE TILES OF ANY DOOR THAT WANTS TO MAKE USE OF THIS SCRIPT HAVE TO START WITH AN ID BEING A MULTIPLE OF 10
     //ALSO THE ORDER OF THE 8 DIFFERENT DOOR STATES, HAS TO BE EXACTLY THE SAME AS IN THE DEFAULT TILES.XML
     //WITH THESE CONDITIONS MET, THIS SCRIPT CAN BE UNIVERSALLY USED FOR ALL DOORS
     class DoorToggle : ISpecialBlock
     {
-        private IChunk  Chunk;
+        private IChunk Chunk;
         private Point3D Position;
 
         public DoorToggle(IChunk chunk, Point3D position) //Constructor
@@ -29,11 +31,13 @@ namespace MoreBlocksScripts
             int x = this.Position.X;
             int y = this.Position.Y;
             int z = this.Position.Z;
-            IActor actor = targetActor as IActor;
+            IActor actor = targetActor;
 
             //permission check, is the Player allowed to open the door?
-            //if (GamePermissions.OnlyNationAccess(actor, chunk.NationOwner))
-            //    return;
+            Chunk castedChunk = chunk as Chunk;
+            string nationName = castedChunk.NationOwner;
+            if ((!string.IsNullOrEmpty(nationName) && (actor.Nation != nationName)))
+                return;
 
             //get the index for the Block array from the given x, y and z
             int index = chunk.GetBlockIndex(x, y, z);

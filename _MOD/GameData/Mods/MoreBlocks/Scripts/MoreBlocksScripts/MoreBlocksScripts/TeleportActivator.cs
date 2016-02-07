@@ -1,4 +1,4 @@
-using SharedGameData;
+﻿using SharedGameData;
 using SNScript;
 using System;
 using System.Collections.Generic;
@@ -27,11 +27,7 @@ namespace MoreBlocksScripts
         {
             //set up needed Variables
             IGameServer Server = actor.State as IGameServer;
-            IBiomeManager biomeManager = Server.Biomes;
-            Dictionary<uint, IBiomeSystem> SystemsCollection = biomeManager.GetSystems();
-            uint currentSystemID = actor.InstanceID;
-            IBiomeSystem currentSystem;
-            SystemsCollection.TryGetValue(currentSystemID, out currentSystem);
+            IBiomeSystem currentSystem = ((IGameServer)actor.State).Biomes.GetSystems()[actor.InstanceID];
 
             //Permission Check, is the Player allowed to use the Teleporter?
             if (currentSystem.Nation != string.Empty && currentSystem.Nation != actor.Nation)
@@ -43,33 +39,44 @@ namespace MoreBlocksScripts
             //Set up ChunkDictionary so we can access the Chunks in System (We need the Chunk to Teleport the player to later)
             Dictionary<Point3D, IChunk> ChunkDictionary = SNScriptUtils._Utils.CreateChunkDictionary(currentSystem);
 
-            //create offset List (the 4 Positions around our Activator)
+            //create offset List (the 4 Positions around our Activator where we expect at least one Teleporter)
             List<Point3D> offsetList = new List<Point3D>();
-            offsetList.Add(new Point3D(0, -1, -1)); offsetList.Add(new Point3D(0, -1, 1));
-            offsetList.Add(new Point3D(1, -1, 0)); offsetList.Add(new Point3D(-1, -1, 0));
+            offsetList.Add(new Point3D(0, -1, -1)); offsetList.Add(new Point3D(0, -1, 1));offsetList.Add(new Point3D(1, -1, 0)); offsetList.Add(new Point3D(-1, -1, 0));
 
-            //if (debug) { Console.WriteLine("Past OffsetList!"); };
             List<Object[,]> SpecialBlockList = null;
             Teleporter nearbyTeleporter = new Object() as Teleporter;
+
             //Get List of Teleporters in vicinity to the Activator based on offsetList (expected Teleporter locations)
             if (SNScriptUtils._Utils.FindCustomSpecialBlocksAround(this.Position, this.Chunk, offsetList, (uint)7100, ChunkDictionary, out SpecialBlockList))
             {
-                //if (debug) { Console.WriteLine("Found some Teleporters around, now assigning the first one found"); };
                 //just take the first one found for now
                 IChunk tmpChunk = SpecialBlockList[0][0, 1] as IChunk;
-                Point3D TargetTeleporterLocalPos = (Point3D)SpecialBlockList[0][0, 0];
-                ISpecialBlock targetSpecialBlock = tmpChunk.GetSpecialBlocks().FirstOrDefault(item => (item is Teleporter) && ((item as Teleporter).Position == TargetTeleporterLocalPos));
+                Point3D TeleporterLocalPos = (Point3D)SpecialBlockList[0][0, 0];
+                ISpecialBlock targetSpecialBlock = tmpChunk.GetSpecialBlocks().FirstOrDefault(item => (item is Teleporter) && ((item as Teleporter).Position == TeleporterLocalPos));
                 nearbyTeleporter = targetSpecialBlock as Teleporter;
+                
             }
             else
             {
-                Server.ChatManager.SendActorMessage("There is no Teleporter around the Activator!.", actor);
+                Server.ChatManager.SendActorMessage("There is no Teleporter around the Activator!", actor);
                 return;
             }
-            //if (debug) { Console.WriteLine("Past Finding the Nearby Teleporter! @ " + nearbyTeleporter.Position.ToString()); };
-            //Check if Player is standing on the Teleporter right now
-            //WIP
 
+            //Check if Player is standing on the Teleporter right now
+            Point3D teleporterPadFakeGlobalPos = new Point3D(
+                nearbyTeleporter.Position.X + (int)((IChunk)SpecialBlockList[0][0, 1]).Position.X, 
+                nearbyTeleporter.Position.Y + (int)((IChunk)SpecialBlockList[0][0, 1]).Position.Y + 1,
+                nearbyTeleporter.Position.Z + (int)((IChunk)SpecialBlockList[0][0, 1]).Position.Z
+                );
+
+            Point3D actorPos = _Utils.GetActorFakeGlobalPos(actor, new Point3D(0, -1, 0));
+
+            if (teleporterPadFakeGlobalPos != actorPos)
+            {
+                Server.ChatManager.SendActorMessage("You have to stand on the Teleporter platform to use the Teleporter!", actor);
+                return;
+            }
+            
             //Get TargetTeleporterPos
             Point3D TargetTeleporterFakeGlobalPos = nearbyTeleporter.GetTargetTeleporter();
 
@@ -98,9 +105,7 @@ namespace MoreBlocksScripts
                 {
                     if (debug) { Console.WriteLine("TargetTeleporter does not exist anymore, other block ID found: " + ((int)targetBlockID).ToString()); };
                     if (debug) { Console.WriteLine("I've been looking at Position: " + TargetTeleporterLocalPos.ToString()); };
-                    //Vector3 TargetTeleporterLocalPosV3 = new Vector3((float)TargetTeleporterLocalPos.X, (float)TargetTeleporterLocalPos.Y, (float)TargetTeleporterLocalPos.Z) 
-                    //Vector3 recGlobPos = Vector3.Zero;
-                    //Vector3.Transform(  TargetTeleporterLocalPosV3, targetChunk.World, recGlobPos );
+
                     Server.ChatManager.SendActorMessage("The Teleporter you wanted to teleport to, does not exist anymore!", actor);
                     nearbyTeleporter.DeleteTargetTeleporter();
                     return;
@@ -108,7 +113,7 @@ namespace MoreBlocksScripts
             }
             else
             {
-                //if (debug) { Console.WriteLine("Chunk does not exist! Pos: " + TargetTeleporterFakeGlobalPos.ToString()); };
+                if (debug) { Console.WriteLine("Chunk does not exist! Pos: " + TargetTeleporterFakeGlobalPos.ToString()); };
                 Server.ChatManager.SendActorMessage("The Teleporter you wanted to teleport to, does not exist anymore!", actor);
                 nearbyTeleporter.DeleteTargetTeleporter();
                 return;

@@ -357,4 +357,116 @@
     <Price>110</Price>
   </BaseItemData>
   
+<!-- Teleporter Tier I -->
+  <BaseItemData>
+    <ID>7100</ID>
+    <Name>Teleporter Tier I</Name>
+    <Description>Teleport yourself. </Description>
+    <Use>Block</Use>
+    <BlockID>7100</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceSpawn</Class>
+    <Sellable>false</Sellable>
+    <Price>0</Price>
+  </BaseItemData>
+
+<!-- Teleport Activator -->
+  <BaseItemData>
+    <ID>7103</ID>
+    <Name>Teleport Activator</Name>
+    <Description>Use this Activator together with the Teleporter. </Description>
+    <Use>Block</Use>
+    <BlockID>7103</BlockID>
+    <Price>160</Price>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>0</Price>
+  </BaseItemData>
+
+<!-- Titanium Shutter -->
+  <BaseItemData>
+    <ID>7110</ID>
+    <Name>Titanium Shutters</Name>
+    <Description>A great defensive window. Right click to toggle open/close.</Description>
+    <Use>Block</Use>
+    <BlockID>7110</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>300</Price>
+  </BaseItemData>
+  
+<!-- Copper Shutter -->
+  <BaseItemData>
+    <ID>7112</ID>
+    <Name>Copper Shutters</Name>
+    <Description>A great defensive window. Right click to toggle open/close.</Description>
+    <Use>Block</Use>
+    <BlockID>7112</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>300</Price>
+  </BaseItemData>
+  
+<!-- Iron Shutter -->
+  <BaseItemData>
+    <ID>7114</ID>
+    <Name>Iron Shutters</Name>
+    <Description>A great defensive window. Right click to toggle open/close.</Description>
+    <Use>Block</Use>
+    <BlockID>7114</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>300</Price>
+  </BaseItemData>
+  
+<!-- Copper Strut Wedge -->
+  <BaseItemData>
+    <ID>7120</ID>
+    <Name>Copper Strut Wedge</Name>
+    <Description>A lightweight sloped strut. </Description>
+    <Use>Block</Use>
+    <BlockID>7120</BlockID>
+    <Price>40</Price>
+    <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
+  </BaseItemData>
+  
+<!-- Iron Strut Wedge -->
+  <BaseItemData>
+    <ID>7130</ID>
+    <Name>Iron Strut Wedge</Name>
+    <Description>A lightweight sloped strut. </Description>
+    <Use>Block</Use>
+    <BlockID>7130</BlockID>
+    <Price>40</Price>
+    <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
+  </BaseItemData>
+  
+<!-- Steel Strut Wedge -->
+  <BaseItemData>
+    <ID>7140</ID>
+    <Name>Steel Strut Wedge</Name>
+    <Description>A lightweight sloped strut. </Description>
+    <Use>Block</Use>
+    <BlockID>7140</BlockID>
+    <Price>40</Price>
+    <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
+  </BaseItemData>
+
+<!-- Titanium Strut Wedge -->
+  <BaseItemData>
+    <ID>7150</ID>
+    <Name>Titanium Strut Wedge</Name>
+    <Description>A lightweight sloped strut. </Description>
+    <Use>Block</Use>
+    <BlockID>7150</BlockID>
+    <Price>40</Price>
+    <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
+  </BaseItemData>
+  
+<!-- Pos 1 Tool -->
+  <BaseItemData>
+    <ID>8000</ID>
+    <Name>SNEdit Pos 1</Name>
+    <Description>Using this item will trigger the script in Class tags!</Description>
+    <Use>None</Use>
+    <Class>SNEdit.PosATool</Class>
+    <Price>1</Price>    
+	<TextureFile>UI/Icons/Tools/Pick</TextureFile>
+  </BaseItemData>
+  
 </ArrayOfBaseItemData>

@@ -1,4 +1,4 @@
-using SharedGameData;
+﻿using SharedGameData;
 using SNScript;
 using System;
 using System.Collections.Generic;
@@ -6,6 +6,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+using GameServer.World.Chunks;
 
 namespace MoreBlocksScripts
 {   //IMPORTANT: This Script switches a Block between two different states
@@ -31,12 +33,14 @@ namespace MoreBlocksScripts
             int x = this.Position.X;
             int y = this.Position.Y;
             int z = this.Position.Z;
-            IActor actor = targetActor as IActor;
+            IActor actor = targetActor;
 
             //permission check, is the Player allowed to open the door?
-            //if (GamePermissions.OnlyNationAccess(actor, chunk.NationOwner))
-            //    return;
-
+            Chunk castedChunk = chunk as Chunk;
+            string nationName = castedChunk.NationOwner;
+            if ((!string.IsNullOrEmpty(nationName) && (actor.Nation != nationName)))
+                return;
+            
             //get the index for the Block array from the given x, y and z
             int index = chunk.GetBlockIndex(x, y, z);
             //get the specific Block data by its index
