@@ -13,9 +13,11 @@ Blocks:
 - Railings: Titanium, Iron
 - Steps: Titanium, Steel, Iron, Copper
 - Struts: Titanium, Steel, Iron
-- Doors: Steel, Wood, Titanium, Iron (textures not working yet due to a bug)
+- Doors: Steel, Wood, Titanium, Iron
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood
 - Hatch: Titanium, Steel, Iron, Copper, Wood
+- Shutters: Titanium, Iron, Copper
+- Wedges: Copper Strut, Iron Strut, Steel Strut, Titanium Strut
 
 Scripts:
 
@@ -27,10 +29,10 @@ Scripts:
 ### Wishlist:
 ### Set 1
 no texture needed:
-- Decking: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~possibly a white one to be colored (as carpet)~~
+- Decking: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~possibly a white one to be colored (as carpet?)~~
 - Platform: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
 - Steps: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
-- Wedges: Cargo Plate, Shutter
+- Wedges: Cargo Plate, Steel Shutter, Titanium Shutter, Iron Shutter, Copper Shutter
 - Wall tiles: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Wood~~
 
 texture needed:
@@ -51,7 +53,7 @@ texture needed:
 
 ### Set 2
 Blocks:
-- ~~Teleporter~~ Blocks (land based to get from A to B, eg. in Capital)
+- ~~Teleporter Blocks~~ (land based to get from A to B, eg. in Capital)
 - Hangar Doors
 - Different Woods
 - Different Stones
@@ -66,13 +68,13 @@ Blocks:
 - Bed
 - Colored Ice
 - ~~Corner Wedges~~ (vertical wedges content of patch 0.99)
-- Sideways(?) Wedges
+- Corner pieces (to fit between wedges?)
 - Railing corners
 - Turbo thrusters (generating more than two thrust)
 - Dynamite Blocks
 - Shield block for Ships (Deflector Shield / Shield generator)
-- Soundproof Blocks
-- mechanic to transport Items between chests (aka unloading the mining ship chests onto land)
+- Soundproof Blocks (likely not working)
+- mechanic to transport Items between chests (aka unloading the mining ship chests onto land) (Ben said he has plans for this)
 - med station block
 - ship repair field
 
