@@ -11,7 +11,7 @@ Blocks:
 - Decking: Steel, Copper, Titanium, Iron, White Carpet
 - Platform: Titanium, Steel, Iron, Copper
 - Railings: Titanium, Iron
-- Steps: Titanium, Steel, Iron, Copper
+- Steps (lower): Titanium, Steel, Iron, Copper
 - Struts: Titanium, Steel, Iron
 - Doors: Steel, Wood, Titanium, Iron
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood
@@ -31,30 +31,33 @@ Scripts:
 no texture needed:
 - Decking: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~possibly a white one to be colored (as carpet?)~~
 - Platform: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
-- Steps: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
-- Wedges: Cargo Plate, Steel Shutter, Titanium Shutter, Iron Shutter, Copper Shutter
-- Wall tiles: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Wood~~
+- Steps (lower): ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, Glass, Hard Glass
+- Steps (upper): Titanium, Steel, Iron, Copper, Glass, Hard Glass
+- Wedges: Cargo Plate, Titanium Shutter, Steel Shutter, Iron Shutter, Copper Shutter, Wood Shutter
+- Wall tiles: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Wood~~, Glass, Hard Glass
 
 texture needed:
 - Railings: ~~Titanium~~, ~~Iron~~
 - Doors: ~~Steel~~, ~~Wood~~, ~~Titanium~~, ~~Iron~~
 - Struts: ~~Titanium~~, ~~Steel~~, ~~Iron~~
+- Shutters: ~~Titanium~~, ~~Iron~~, ~~Copper~~
+- Hatch: ~~Wood~~, ~~Steel~~, ~~Titanium~~, ~~Iron~~, ~~Copper~~
 - **Teleporter (!)**
 - Console Block with some kind of speed-o-meter (animation)
 - Console Block with different blinking lights (several frames for animation) (see old CTRL Block texture for idea of light placement)
 - Generic Motor / Machine
 - Decorative Lights (possibly just the older versions of the lanterns)
-- Shutters: ~~Titanium~~, ~~Iron~~, ~~Copper~~
 - Bookshelf
 - Chimney / Stove (possibly with fire animation)
 - Brick Block (more like classical Bricks with white grout in between the red Bricks)
 - More Brick Colors
-- Hatch: ~~Wood~~, ~~Steel~~, ~~Titanium~~, ~~Iron~~, ~~Copper~~
+- Fire
 
 ### Set 2
 Blocks:
 - ~~Teleporter Blocks~~ (land based to get from A to B, eg. in Capital)
 - Hangar Doors
+- Hatches / Doors openable via Button
 - Different Woods
 - Different Stones
 - more ores
