@@ -1684,6 +1684,7 @@
     <RightTexture>Tiles/TitaniumShuttersClosed</RightTexture>
     <FrontTexture>Tiles/TitaniumShuttersClosed</FrontTexture>
     <BackTexture>Tiles/TitaniumShuttersClosed</BackTexture>
+    <AlphaClipped>true</AlphaClipped>
     <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
     <Mass>2</Mass>
   </TileProperty>
