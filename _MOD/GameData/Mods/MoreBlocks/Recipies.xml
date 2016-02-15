@@ -487,7 +487,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>7092</ID>
+      <ID>7094</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -507,7 +507,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>7092</ID>
+      <ID>7096</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -527,8 +527,68 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>7092</ID>
+      <ID>7098</ID>
       <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Copper Shutter -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>31</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+      <ItemProduct>
+        <ID>17</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7112</ID>
+      <Amount>1</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Iron Shutter -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>31</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7114</ID>
+      <Amount>1</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+	
+<!-- Titanium Shutter -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>31</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+      <ItemProduct>
+        <ID>44</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7116</ID>
+      <Amount>1</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>

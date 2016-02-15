@@ -389,7 +389,7 @@
     <Use>Block</Use>
     <BlockID>7110</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>300</Price>
+    <Price>360</Price>
   </BaseItemData>
   
 <!-- Copper Shutter -->
@@ -400,7 +400,7 @@
     <Use>Block</Use>
     <BlockID>7112</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>300</Price>
+    <Price>200</Price>
   </BaseItemData>
   
 <!-- Iron Shutter -->
@@ -411,7 +411,7 @@
     <Use>Block</Use>
     <BlockID>7114</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>300</Price>
+    <Price>320</Price>
   </BaseItemData>
   
 <!-- Copper Strut Wedge -->
@@ -457,6 +457,5 @@
     <Price>40</Price>
     <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
   </BaseItemData>
-
   
 </ArrayOfBaseItemData>

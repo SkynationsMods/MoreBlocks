@@ -1720,7 +1720,7 @@
 <!-- Iron Shutter -->
   <TileProperty>
     <ID>7114</ID>
-    <Health>55</Health>
+    <Health>80</Health>
     <ItemID>7114</ItemID>
     <Material>Metal</Material>
     <TopTexture>Tiles/IronShutters</TopTexture>
@@ -1735,7 +1735,7 @@
 
   <TileProperty>
     <ID>7115</ID>
-    <Health>125</Health>
+    <Health>150</Health>
     <ItemID>7114</ItemID>
     <TopTexture>Tiles/IronShuttersClosed</TopTexture>
     <BottomTexture>Tiles/IronShuttersClosed</BottomTexture>
@@ -1751,7 +1751,7 @@
     <ID>7120</ID>
     <ItemID>7120</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
     <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
@@ -1766,7 +1766,7 @@
     <ID>7121</ID>
     <ItemID>7120</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
     <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
@@ -1781,7 +1781,7 @@
     <ID>7122</ID>
     <ItemID>7120</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
     <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
@@ -1796,7 +1796,7 @@
     <ID>7123</ID>
     <ItemID>7120</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
     <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
@@ -1812,7 +1812,7 @@
     <ID>7124</ID>
     <ItemID>7120</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
     <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
@@ -1827,7 +1827,7 @@
     <ID>7125</ID>
     <ItemID>7120</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
     <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
@@ -1842,7 +1842,7 @@
     <ID>7126</ID>
     <ItemID>7120</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
     <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
@@ -1857,7 +1857,7 @@
     <ID>7127</ID>
     <ItemID>7120</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
     <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
@@ -1873,7 +1873,7 @@
     <ID>7130</ID>
     <ItemID>7130</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
     <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
@@ -1888,7 +1888,7 @@
     <ID>7131</ID>
     <ItemID>7130</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
     <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
@@ -1903,7 +1903,7 @@
     <ID>7132</ID>
     <ItemID>7130</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
     <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
@@ -1918,7 +1918,7 @@
     <ID>7133</ID>
     <ItemID>7130</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
     <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
@@ -1934,7 +1934,7 @@
     <ID>7134</ID>
     <ItemID>7130</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
     <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
@@ -1949,7 +1949,7 @@
     <ID>7135</ID>
     <ItemID>7130</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
     <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
@@ -1964,7 +1964,7 @@
     <ID>7136</ID>
     <ItemID>7130</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
     <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
@@ -1979,7 +1979,7 @@
     <ID>7137</ID>
     <ItemID>7130</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
     <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
@@ -1995,7 +1995,7 @@
     <ID>7140</ID>
     <ItemID>7140</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
     <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
@@ -2010,7 +2010,7 @@
     <ID>7141</ID>
     <ItemID>7140</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
     <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
@@ -2025,7 +2025,7 @@
     <ID>7142</ID>
     <ItemID>7140</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
     <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
@@ -2040,7 +2040,7 @@
     <ID>7143</ID>
     <ItemID>7140</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
     <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
@@ -2056,7 +2056,7 @@
     <ID>7144</ID>
     <ItemID>7140</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
     <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
@@ -2071,7 +2071,7 @@
     <ID>7145</ID>
     <ItemID>7140</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
     <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
@@ -2086,7 +2086,7 @@
     <ID>7146</ID>
     <ItemID>7140</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
     <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
@@ -2101,7 +2101,7 @@
     <ID>7147</ID>
     <ItemID>7140</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
     <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
@@ -2117,7 +2117,7 @@
     <ID>7150</ID>
     <ItemID>7150</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
     <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
@@ -2132,7 +2132,7 @@
     <ID>7151</ID>
     <ItemID>7150</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
     <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
@@ -2147,7 +2147,7 @@
     <ID>7152</ID>
     <ItemID>7150</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
     <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
@@ -2162,7 +2162,7 @@
     <ID>7153</ID>
     <ItemID>7150</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
     <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
@@ -2178,7 +2178,7 @@
     <ID>7154</ID>
     <ItemID>7150</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
     <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
@@ -2193,7 +2193,7 @@
     <ID>7155</ID>
     <ItemID>7150</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
     <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
@@ -2208,7 +2208,7 @@
     <ID>7156</ID>
     <ItemID>7150</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
     <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
@@ -2223,7 +2223,7 @@
     <ID>7157</ID>
     <ItemID>7150</ItemID>
     <Material>Metal</Material>
-    <Health>80</Health>
+    <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
     <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
