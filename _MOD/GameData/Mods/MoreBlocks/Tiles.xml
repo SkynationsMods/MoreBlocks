@@ -2239,7 +2239,7 @@
   <!-- Wood Step Reversed -->
   <TileProperty>
     <ID>7158</ID>
-    <ItemID>58</ItemID>
+    <ItemID>7158</ItemID>
     <TopTexture>Tiles/Planks</TopTexture>
     <BottomTexture>Tiles/Planks</BottomTexture>
     <LeftTexture>Tiles/Planks</LeftTexture>
@@ -2253,7 +2253,7 @@
   <!-- Stone Step Reverse -->
   <TileProperty>
     <ID>7159</ID>
-    <ItemID>37</ItemID>
+    <ItemID>7159</ItemID>
     <Material>Hard</Material>
     <Health>100</Health>
     <TopTexture>Tiles/Rock</TopTexture>

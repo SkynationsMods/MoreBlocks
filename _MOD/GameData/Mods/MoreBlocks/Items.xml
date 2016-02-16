@@ -465,7 +465,7 @@
     <Name>Plank Step Reversed</Name>
     <Description>Half block of Plank.</Description>
     <Use>Block</Use>
-    <BlockID>7160</BlockID>
+    <BlockID>7158</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>20</Price>
   </BaseItemData>
