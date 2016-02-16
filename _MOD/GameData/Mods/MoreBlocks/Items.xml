@@ -294,7 +294,7 @@
 <!-- Plank Wall Tile -->
   <BaseItemData>
     <ID>7086</ID>
-    <Name>Wooden Wall Tile</Name>
+    <Name>Plank Wall Tile</Name>
     <Description>A Wall Tile made of Wood. </Description>
     <Use>Block</Use>
     <BlockID>7086</BlockID>
@@ -456,6 +456,72 @@
     <BlockID>7150</BlockID>
     <Price>40</Price>
     <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
+  </BaseItemData>
+
+<!-- Reversed Steps -->
+  <!-- Wood Step Reversed -->
+  <BaseItemData>
+    <ID>7158</ID>
+    <Name>Plank Step Reversed</Name>
+    <Description>Half block of Plank.</Description>
+    <Use>Block</Use>
+    <BlockID>7160</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>20</Price>
+  </BaseItemData>
+  <!-- Stone Step Reversed -->
+  <BaseItemData>
+    <ID>7159</ID>
+    <Name>Stone Step Reversed</Name>
+    <Description>Half block of Stone.</Description>
+    <Use>Block</Use>
+    <BlockID>7159</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>30</Price>
+  </BaseItemData>
+
+  <!-- Titanium Step Reversed -->
+  <BaseItemData>
+    <ID>7160</ID>
+    <Name>Titanium Step Reversed</Name>
+    <Description>Half block of Titanium.</Description>
+    <Use>Block</Use>
+    <BlockID>7160</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>100</Price>
+  </BaseItemData>
+
+<!-- Steel Step Reversed -->
+  <BaseItemData>
+    <ID>7161</ID>
+    <Name>Steel Step Reversed</Name>
+    <Description>Half block of Steel.</Description>
+    <Use>Block</Use>
+    <BlockID>7161</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>80</Price>
+  </BaseItemData>
+
+<!-- Iron Step Reversed -->
+  <BaseItemData>
+    <ID>7162</ID>
+    <Name>Iron Step Reversed</Name>
+    <Description>Half block of Iron.</Description>
+    <Use>Block</Use>
+    <BlockID>7162</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>40</Price>
+  </BaseItemData>
+
+<!-- Copper Step Reversed -->
+  <BaseItemData>
+    <ID>7163</ID>
+    <Name>Copper Step Reversed</Name>
+    <Description>Half block of Copper.</Description>
+    <Use>Block</Use>
+    <BlockID>7163</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>20</Price>
   </BaseItemData>
   
 </ArrayOfBaseItemData>
