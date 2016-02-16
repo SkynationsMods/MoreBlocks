@@ -258,7 +258,8 @@
     <Solid>true</Solid>
     <Mass>1</Mass>
   </TileProperty>
-
+  
+<!-- Regular Steps from here on -->
 <!-- Titanium Step -->
   <TileProperty>
     <ID>7021</ID>
@@ -267,10 +268,10 @@
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
     <BottomTexture>Tiles/Titanium</BottomTexture>
-    <LeftTexture>Tiles/Titanium</LeftTexture>
-    <RightTexture>Tiles/Titanium</RightTexture>
-    <FrontTexture>Tiles/Titanium</FrontTexture>
-    <BackTexture>Tiles/Titanium</BackTexture>
+    <LeftTexture>Tiles/TitaniumStep</LeftTexture>
+    <RightTexture>Tiles/TitaniumStep</RightTexture>
+    <FrontTexture>Tiles/TitaniumStep</FrontTexture>
+    <BackTexture>Tiles/TitaniumStep</BackTexture>
     <TopOffset>0.0</TopOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
@@ -285,10 +286,10 @@
     <Health>150</Health>
     <TopTexture>Tiles/Steel</TopTexture>
     <BottomTexture>Tiles/Steel</BottomTexture>
-    <LeftTexture>Tiles/Steel</LeftTexture>
-    <RightTexture>Tiles/Steel</RightTexture>
-    <FrontTexture>Tiles/Steel</FrontTexture>
-    <BackTexture>Tiles/Steel</BackTexture>
+    <LeftTexture>Tiles/SteelStep</LeftTexture>
+    <RightTexture>Tiles/SteelStep</RightTexture>
+    <FrontTexture>Tiles/SteelStep</FrontTexture>
+    <BackTexture>Tiles/SteelStep</BackTexture>
     <TopOffset>0.0</TopOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
@@ -303,10 +304,10 @@
     <Health>150</Health>
     <TopTexture>Tiles/Metals/Iron</TopTexture>
     <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
-    <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <LeftTexture>Tiles/IronStep</LeftTexture>
+    <RightTexture>Tiles/IronStep</RightTexture>
+    <FrontTexture>Tiles/IronStep</FrontTexture>
+    <BackTexture>Tiles/IronStep</BackTexture>
     <TopOffset>0.0</TopOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
@@ -321,67 +322,52 @@
     <Health>80</Health>
     <TopTexture>Tiles/Copper</TopTexture>
     <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
+    <LeftTexture>Tiles/CopperStep</LeftTexture>
+    <RightTexture>Tiles/CopperStep</RightTexture>
+    <FrontTexture>Tiles/CopperStep</FrontTexture>
+    <BackTexture>Tiles/CopperStep</BackTexture>
+    <TopOffset>0.0</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Type>Step</Type>
+    <Mass>1</Mass>
+  </TileProperty>
+
+  <!-- Glass Step -->
+  <TileProperty>
+    <ID>7025</ID>
+    <ItemID>7025</ItemID>
+    <Material>Metal</Material>
+    <Health>30</Health>
+    <TopTexture>Tiles/Glass</TopTexture>
+    <BottomTexture>Tiles/Glass</BottomTexture>
+    <LeftTexture>Tiles/GlassStep</LeftTexture>
+    <RightTexture>Tiles/GlassStep</RightTexture>
+    <FrontTexture>Tiles/GlassStep</FrontTexture>
+    <BackTexture>Tiles/GlassStep</BackTexture>
     <TopOffset>0.0</TopOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
     <Mass>1</Mass>
   </TileProperty>
   
-  <!-- Titanium Strut -->
-  <TileProperty>
-    <ID>7025</ID>
-    <Material>Metal</Material>
-    <TopTexture>Tiles/TitaniumStrut</TopTexture>
-    <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrut</RightTexture>
-    <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
-    <BackTexture>Tiles/TitaniumStrut</BackTexture>
-    <Health>150</Health>
-    <AlphaClipped>true</AlphaClipped>
-    <InnerSurfaces>true</InnerSurfaces>
-    <ItemID>7025</ItemID>
-    <Mass>2</Mass>
-  </TileProperty>
-
-<!-- Steel Strut -->
+  <!-- Hard Glass Step -->
   <TileProperty>
     <ID>7026</ID>
-    <Material>Metal</Material>
-    <TopTexture>Tiles/SteelStrut</TopTexture>
-    <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrut</LeftTexture>
-    <RightTexture>Tiles/SteelStrut</RightTexture>
-    <FrontTexture>Tiles/SteelStrut</FrontTexture>
-    <BackTexture>Tiles/SteelStrut</BackTexture>
-    <Health>110</Health>
-    <AlphaClipped>true</AlphaClipped>
-    <InnerSurfaces>true</InnerSurfaces>
     <ItemID>7026</ItemID>
-    <Mass>1</Mass>
-  </TileProperty>
-
-<!-- Iron Strut -->
-  <TileProperty>
-    <ID>7027</ID>
     <Material>Metal</Material>
-    <TopTexture>Tiles/IronStrut</TopTexture>
-    <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrut</LeftTexture>
-    <RightTexture>Tiles/IronStrut</RightTexture>
-    <FrontTexture>Tiles/IronStrut</FrontTexture>
-    <BackTexture>Tiles/IronStrut</BackTexture>
-    <Health>110</Health>
-    <AlphaClipped>true</AlphaClipped>
-    <InnerSurfaces>true</InnerSurfaces>
-    <ItemID>7027</ItemID>
+    <Health>125</Health>
+    <TopTexture>Tiles/HardGlass</TopTexture>
+    <BottomTexture>Tiles/HardGlass</BottomTexture>
+    <LeftTexture>Tiles/HardglassStep</LeftTexture>
+    <RightTexture>Tiles/HardglassStep</RightTexture>
+    <FrontTexture>Tiles/HardglassStep</FrontTexture>
+    <BackTexture>Tiles/HardglassStep</BackTexture>
+    <TopOffset>0.0</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Type>Step</Type>
     <Mass>2</Mass>
   </TileProperty>
-
+  
 <!-- Iron Door Bottom -->
   <!-- Facing forward - closed -->
   <TileProperty>
@@ -2235,7 +2221,7 @@
     <Solid>true</Solid>
   </TileProperty>
 
-  <!-- Reversed steps from here --!>
+  <!-- Reversed steps from here -->
   <!-- Wood Step Reversed -->
   <TileProperty>
     <ID>7158</ID>
@@ -2250,7 +2236,7 @@
     <Health>50</Health>
     <Footstep>Footsteps/wood02</Footstep>
   </TileProperty>
-  <!-- Stone Step Reverse -->
+  <!-- Stone Step Reversed -->
   <TileProperty>
     <ID>7159</ID>
     <ItemID>7159</ItemID>
@@ -2275,10 +2261,10 @@
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
     <BottomTexture>Tiles/Titanium</BottomTexture>
-    <LeftTexture>Tiles/Titanium</LeftTexture>
-    <RightTexture>Tiles/Titanium</RightTexture>
-    <FrontTexture>Tiles/Titanium</FrontTexture>
-    <BackTexture>Tiles/Titanium</BackTexture>
+    <LeftTexture>Tiles/TitaniumStep</LeftTexture>
+    <RightTexture>Tiles/TitaniumStep</RightTexture>
+    <FrontTexture>Tiles/TitaniumStep</FrontTexture>
+    <BackTexture>Tiles/TitaniumStep</BackTexture>
     <BottomOffset>0.0</BottomOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
@@ -2288,15 +2274,15 @@
 <!-- Steel Step Reversed -->
   <TileProperty>
     <ID>7161</ID>
-    <ItemID>7160</ItemID>
+    <ItemID>7161</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/Steel</TopTexture>
     <BottomTexture>Tiles/Steel</BottomTexture>
-    <LeftTexture>Tiles/Steel</LeftTexture>
-    <RightTexture>Tiles/Steel</RightTexture>
-    <FrontTexture>Tiles/Steel</FrontTexture>
-    <BackTexture>Tiles/Steel</BackTexture>
+    <LeftTexture>Tiles/SteelStep</LeftTexture>
+    <RightTexture>Tiles/SteelStep</RightTexture>
+    <FrontTexture>Tiles/SteelStep</FrontTexture>
+    <BackTexture>Tiles/SteelStep</BackTexture>
     <BottomOffset>0.0</BottomOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
@@ -2311,10 +2297,10 @@
     <Health>150</Health>
     <TopTexture>Tiles/Metals/Iron</TopTexture>
     <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
-    <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <LeftTexture>Tiles/IronStep</LeftTexture>
+    <RightTexture>Tiles/IronStep</RightTexture>
+    <FrontTexture>Tiles/IronStep</FrontTexture>
+    <BackTexture>Tiles/IronStep</BackTexture>
     <BottomOffset>0.0</BottomOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
@@ -2329,14 +2315,101 @@
     <Health>80</Health>
     <TopTexture>Tiles/Copper</TopTexture>
     <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
+    <LeftTexture>Tiles/CopperStep</LeftTexture>
+    <RightTexture>Tiles/CopperStep</RightTexture>
+    <FrontTexture>Tiles/CopperStep</FrontTexture>
+    <BackTexture>Tiles/CopperStep</BackTexture>
     <BottomOffset>0.0</BottomOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
     <Mass>1</Mass>
+  </TileProperty>
+  
+  <!-- Glass Step Reversed -->
+  <TileProperty>
+    <ID>7164</ID>
+    <ItemID>7164</ItemID>
+    <Material>Metal</Material>
+    <Health>30</Health>
+    <TopTexture>Tiles/Glass</TopTexture>
+    <BottomTexture>Tiles/Glass</BottomTexture>
+    <LeftTexture>Tiles/GlassStep</LeftTexture>
+    <RightTexture>Tiles/GlassStep</RightTexture>
+    <FrontTexture>Tiles/GlassStep</FrontTexture>
+    <BackTexture>Tiles/GlassStep</BackTexture>
+    <BottomOffset>0.0</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Type>Step</Type>
+    <Mass>1</Mass>
+  </TileProperty>
+  
+  <!-- Hard Glass Step Reversed -->
+  <TileProperty>
+    <ID>7165</ID>
+    <ItemID>7165</ItemID>
+    <Material>Metal</Material>
+    <Health>125</Health>
+    <TopTexture>Tiles/HardGlass</TopTexture>
+    <BottomTexture>Tiles/HardGlass</BottomTexture>
+    <LeftTexture>Tiles/HardglassStep</LeftTexture>
+    <RightTexture>Tiles/HardglassStep</RightTexture>
+    <FrontTexture>Tiles/HardglassStep</FrontTexture>
+    <BackTexture>Tiles/HardglassStep</BackTexture>
+    <BottomOffset>0.0</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Type>Step</Type>
+    <Mass>2</Mass>
+  </TileProperty>
+  
+  <!-- Titanium Strut -->
+  <TileProperty>
+    <ID>7170</ID>
+	<ItemID>7170</ItemID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/TitaniumStrut</TopTexture>
+    <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
+    <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
+    <BackTexture>Tiles/TitaniumStrut</BackTexture>
+    <Health>150</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Mass>2</Mass>
+  </TileProperty>
+
+<!-- Steel Strut -->
+  <TileProperty>
+    <ID>7171</ID>
+	<ItemID>7171</ItemID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/SteelStrut</TopTexture>
+    <BottomTexture>Tiles/SteelStrut</BottomTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
+    <FrontTexture>Tiles/SteelStrut</FrontTexture>
+    <BackTexture>Tiles/SteelStrut</BackTexture>
+    <Health>110</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>    
+    <Mass>1</Mass>
+  </TileProperty>
+
+<!-- Iron Strut -->
+  <TileProperty>
+    <ID>7172</ID>
+	 <ItemID>7172</ItemID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/IronStrut</TopTexture>
+    <BottomTexture>Tiles/IronStrut</BottomTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
+    <FrontTexture>Tiles/IronStrut</FrontTexture>
+    <BackTexture>Tiles/IronStrut</BackTexture>
+    <Health>110</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>   
+    <Mass>2</Mass>
   </TileProperty>
   
 </ArrayOfTileProperty>

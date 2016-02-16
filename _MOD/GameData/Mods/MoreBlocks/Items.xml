@@ -166,39 +166,28 @@
     <Price>20</Price>
   </BaseItemData>
 
-<!-- Titanium Strut -->
+  <!-- Glass Step -->
   <BaseItemData>
     <ID>7025</ID>
-    <Name>Titanium Strut</Name>
-    <Description>Cheap struts made from Titanium. </Description>
+    <Name>Glass Step</Name>
+    <Description>Half block of Glass.</Description>
     <Use>Block</Use>
     <BlockID>7025</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>100</Price>
+    <Price>15</Price>
   </BaseItemData>
 
-<!-- Steel Strut -->
+<!-- Hard Glass Step Reversed -->
   <BaseItemData>
     <ID>7026</ID>
-    <Name>Steel Strut</Name>
-    <Description>Cheap struts made from Steel. </Description>
+    <Name>Hard Glass Step</Name>
+    <Description>Half block of Hard Glass.</Description>
     <Use>Block</Use>
     <BlockID>7026</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>80</Price>
   </BaseItemData>
-
-<!-- Iron Strut -->
-  <BaseItemData>
-    <ID>7027</ID>
-    <Name>Iron Strut</Name>
-    <Description>Cheap struts made from Iron. </Description>
-    <Use>Block</Use>
-    <BlockID>7027</BlockID>
-    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>40</Price>
-  </BaseItemData>
-
+  
 <!-- Iron Door -->
   <BaseItemData>
     <ID>7030</ID>
@@ -522,6 +511,61 @@
     <BlockID>7163</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>20</Price>
+  </BaseItemData>
+  
+  <!-- Glass Step Reversed -->
+  <BaseItemData>
+    <ID>7164</ID>
+    <Name>Glass Step Reversed</Name>
+    <Description>Half block of Glass.</Description>
+    <Use>Block</Use>
+    <BlockID>7164</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>15</Price>
+  </BaseItemData>
+
+<!-- Hard Glass Step Reversed -->
+  <BaseItemData>
+    <ID>7165</ID>
+    <Name>Hard Glass Step Reversed</Name>
+    <Description>Half block of Hard Glass.</Description>
+    <Use>Block</Use>
+    <BlockID>7165</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>80</Price>
+  </BaseItemData>
+  
+<!-- Titanium Strut -->
+  <BaseItemData>
+    <ID>7170</ID>
+    <Name>Titanium Strut</Name>
+    <Description>Cheap struts made from Titanium. </Description>
+    <Use>Block</Use>
+    <BlockID>7170</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>100</Price>
+  </BaseItemData>
+
+<!-- Steel Strut -->
+  <BaseItemData>
+    <ID>7171</ID>
+    <Name>Steel Strut</Name>
+    <Description>Cheap struts made from Steel. </Description>
+    <Use>Block</Use>
+    <BlockID>7171</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>80</Price>
+  </BaseItemData>
+
+<!-- Iron Strut -->
+  <BaseItemData>
+    <ID>7172</ID>
+    <Name>Iron Strut</Name>
+    <Description>Cheap struts made from Iron. </Description>
+    <Use>Block</Use>
+    <BlockID>7172</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>40</Price>
   </BaseItemData>
   
 </ArrayOfBaseItemData>

@@ -1,6 +1,9 @@
 # MoreBlocks
 MoreBlocks is a Mod Project for SkyNations Servers with the aim to provide a greater variety of decorative Blocks and generally Blocks and Items the Players have asked for. Comments and ideas go over here: [Sky Nations Forum Thread for this Mod](http://skynations.net/community/viewtopic.php?f=11&t=1009 "Sky Nations Forum Thread for this Mod").  
-First release is planned for shortly after the release of patch SkyNations patch 0.99.
+First release is planned for shortly after the release of patch SkyNations patch 0.99.  
+Contributors (in no particular order): Vanto (Scripting, XML), Kirby677 (Textures), Fryor (Textures), EstEst (Textures), Aerion (Scripting, Textures, XML, Maintenance)
+
+Thank you everyone!
 
 ## Blocks and Items
 ---
@@ -11,7 +14,8 @@ Blocks:
 - Decking: Steel, Copper, Titanium, Iron, White Carpet
 - Platform: Titanium, Steel, Iron, Copper
 - Railings: Titanium, Iron
-- Steps (lower): Titanium, Steel, Iron, Copper
+- Steps (lower): Titanium, Steel, Iron, Copper, Glass, Hard Glass
+- Steps (upper): Titanium, Steel, Iron, Copper, Glass, Hard Glass
 - Struts: Titanium, Steel, Iron
 - Doors: Steel, Wood, Titanium, Iron
 - Wall tiles: Titanium, Steel, Iron, Copper, Wood
@@ -28,35 +32,36 @@ Scripts:
 
 ### Wishlist:
 ### Set 1
-no texture needed:
+
 - Decking: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~possibly a white one to be colored (as carpet?)~~
 - Platform: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
-- Steps (lower): ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, Glass, Hard Glass
-- Steps (upper): Titanium, Steel, Iron, Copper, Glass, Hard Glass
+- Steps (lower): ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Glass~~, ~~Hard Glass~~, Stone Brick, Red Stone Brick, White Stone Brick, Black Granite Brick, Marble
+- Steps (upper): ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Glass~~, ~~Hard Glass~~, Stone Brick, Red Stone Brick, White Stone Brick, Black Granite Brick, Marble
 - Wedges: Cargo Plate, Titanium Shutter, Steel Shutter, Iron Shutter, Copper Shutter, Wood Shutter
 - Wall tiles: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Wood~~, Glass, Hard Glass
 
-texture needed:
-- Railings: ~~Titanium~~, ~~Iron~~
+textures needed:
+- Railings: ~~Titanium~~, ~~Iron~~, Stone
 - Doors: ~~Steel~~, ~~Wood~~, ~~Titanium~~, ~~Iron~~
 - Struts: ~~Titanium~~, ~~Steel~~, ~~Iron~~
-- Shutters: ~~Titanium~~, ~~Iron~~, ~~Copper~~
+- Shutters: ~~Titanium~~, ~~Iron~~, ~~Copper~~, Wood
 - Hatch: ~~Wood~~, ~~Steel~~, ~~Titanium~~, ~~Iron~~, ~~Copper~~
-- **Teleporter (!)**
+- **Teleporter and ForceField (!)**
+- Railing Gate / half a door
 - grey Sand (depleted Sand)
 - Fireplace
-- Mossy Bricks
-- Fence Gate / half a door
-- Stone Fence / Wall
+- Mossy Bricks / Stone
+- Railing Gate / half a door
 - Console Block with some kind of speed-o-meter (animation)
 - Console Block with different blinking lights (several frames for animation) (see old CTRL Block texture for idea of light placement)
 - Generic Motor / Machine
 - Decorative Lights (possibly just the older versions of the lanterns)
-- Bookshelf
+- ~~Bookshelf~~
 - Chimney / Stove (possibly with fire animation)
-- Brick Block (more like classical Bricks with white grout in between the red Bricks)
+- ~~Brick Block (more like classical Bricks with white grout in between the red Bricks)~~
 - More Brick Colors
 - Fire
+- Grass?
 
 ### Set 2
 Blocks:
@@ -65,13 +70,13 @@ Blocks:
 - Hatches / Doors openable via Button
 - Different Woods
 - Different Stones
-- more ores
+- more ores (something green?)
 - Metal Table
 - Red Sand
 - Chairs
 - Banks
 - Stairs with Steps
-- Stained Glass
+- Stained Glass (possible with limitations)
 - Flower Pot
 - Bed
 - Colored Ice

@@ -241,12 +241,12 @@
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Titanium Strut -->
+<!-- Glass Step -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>45</ID>
+        <ID>31</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
@@ -256,13 +256,13 @@
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
-<!-- Steel Strut -->
+  
+<!-- Hard Glass Step -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>44</ID>
+        <ID>6</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
@@ -272,23 +272,7 @@
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
-<!-- Iron Strut -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>30</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>7027</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
+  
 <!-- Iron Door -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -640,7 +624,7 @@
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Steel Step -->
+<!-- Steel Step Reversed -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
@@ -656,7 +640,7 @@
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Iron Step -->
+<!-- Iron Step Reversed -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
@@ -672,7 +656,7 @@
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Copper Step -->
+<!-- Copper Step Reversed -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
@@ -687,4 +671,86 @@
     </Product>
     <Time>0</Time>
   </ItemRecipe>
+  
+  <!-- Glass Step Reversed -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>31</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7164</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
+  <!-- Hard Glass Step Reversed -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>6</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7165</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
+<!-- Titanium Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>45</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7170</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Steel Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>44</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7171</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Iron Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7172</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+  
 </ArrayOfItemRecipe>
