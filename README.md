@@ -43,6 +43,11 @@ texture needed:
 - Shutters: ~~Titanium~~, ~~Iron~~, ~~Copper~~
 - Hatch: ~~Wood~~, ~~Steel~~, ~~Titanium~~, ~~Iron~~, ~~Copper~~
 - **Teleporter (!)**
+- grey Sand (depleted Sand)
+- Fireplace
+- Mossy Bricks
+- Fence Gate / half a door
+- Stone Fence / Wall
 - Console Block with some kind of speed-o-meter (animation)
 - Console Block with different blinking lights (several frames for animation) (see old CTRL Block texture for idea of light placement)
 - Generic Motor / Machine
