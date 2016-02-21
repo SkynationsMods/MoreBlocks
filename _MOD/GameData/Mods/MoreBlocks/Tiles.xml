@@ -1,70 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTileProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-<!-- Steel Decking -->
+<!-- Titanium Decking -->  
   <TileProperty>
     <ID>7000</ID>
     <ItemID>7000</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Steel</TopTexture>
-    <BottomTexture>Tiles/Steel</BottomTexture>
-    <LeftTexture>Tiles/Steel</LeftTexture>
-    <RightTexture>Tiles/Steel</RightTexture>
-    <FrontTexture>Tiles/Steel</FrontTexture>
-    <BackTexture>Tiles/Steel</BackTexture>
-    <TopOffset>-0.4</TopOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-	<Mass>1</Mass>
-  </TileProperty>
-
-<!-- Copper Decking -->  
-  <TileProperty>
-    <ID>7001</ID>
-    <ItemID>7001</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
-    <TopOffset>-0.4</TopOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-	<Mass>1</Mass>
-  </TileProperty>
-
-<!-- White Carpet -->
-  <TileProperty>
-    <ID>7002</ID>
-    <ItemID>7002</ItemID>
-    <Material>Soft</Material>
-    <Health>20</Health>
-    <TopTexture>Tiles/White</TopTexture>
-    <BottomTexture>Tiles/White</BottomTexture>
-    <LeftTexture>Tiles/White</LeftTexture>
-    <RightTexture>Tiles/White</RightTexture>
-    <FrontTexture>Tiles/White</FrontTexture>
-    <BackTexture>Tiles/White</BackTexture>
-    <TopOffset>-0.4</TopOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-	<Mass>1</Mass>
-  </TileProperty>
-
-<!-- Titanium Decking -->  
-  <TileProperty>
-    <ID>7003</ID>
-    <ItemID>7003</ItemID>
     <Material>Metal</Material>
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
@@ -80,11 +20,31 @@
     <UseFullCast>false</UseFullCast>
 	<Mass>2</Mass>
   </TileProperty>
-
+  
+<!-- Steel Decking -->
+  <TileProperty>
+    <ID>7001</ID>
+    <ItemID>7001</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Steel</TopTexture>
+    <BottomTexture>Tiles/Steel</BottomTexture>
+    <LeftTexture>Tiles/Steel</LeftTexture>
+    <RightTexture>Tiles/Steel</RightTexture>
+    <FrontTexture>Tiles/Steel</FrontTexture>
+    <BackTexture>Tiles/Steel</BackTexture>
+    <TopOffset>-0.4</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
+  </TileProperty>
+  
 <!-- Iron Decking -->
   <TileProperty>
-    <ID>7004</ID>
-    <ItemID>7004</ItemID>
+    <ID>7002</ID>
+    <ItemID>7002</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/Metals/Iron</TopTexture>
@@ -101,6 +61,46 @@
 	<Mass>2</Mass>
   </TileProperty>
   
+<!-- Copper Decking -->  
+  <TileProperty>
+    <ID>7003</ID>
+    <ItemID>7003</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/Copper</FrontTexture>
+    <BackTexture>Tiles/Copper</BackTexture>
+    <TopOffset>-0.4</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
+  </TileProperty>
+  
+<!-- White Carpet -->
+  <TileProperty>
+    <ID>7004</ID>
+    <ItemID>7004</ItemID>
+    <Material>Soft</Material>
+    <Health>20</Health>
+    <TopTexture>Tiles/White</TopTexture>
+    <BottomTexture>Tiles/White</BottomTexture>
+    <LeftTexture>Tiles/White</LeftTexture>
+    <RightTexture>Tiles/White</RightTexture>
+    <FrontTexture>Tiles/White</FrontTexture>
+    <BackTexture>Tiles/White</BackTexture>
+    <TopOffset>-0.4</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
+  </TileProperty>
+
 <!-- Titanium Platform -->
   <TileProperty>
     <ID>7005</ID>

@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfBaseItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
-<!-- Steel Decking -->
+  
+<!-- Titanium Decking -->
   <BaseItemData>
     <ID>7000</ID>
+    <Name>Titanium Decking</Name>
+    <Description>A thin sheet of Titanium.</Description>
+    <Use>Block</Use>
+    <BlockID>7000</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>50</Price>
+  </BaseItemData>
+  
+<!-- Steel Decking -->
+  <BaseItemData>
+    <ID>7001</ID>
     <Name>Steel Decking</Name>
     <Description>A thin sheet of Steel. </Description>
     <Use>Block</Use>
-    <BlockID>7000</BlockID>
+    <BlockID>7001</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>40</Price>
   </BaseItemData>
   
+<!-- Iron Decking -->
+  <BaseItemData>
+    <ID>7002</ID>
+    <Name>Iron Decking</Name>
+    <Description>A thin sheet of Iron. </Description>
+    <Use>Block</Use>
+    <BlockID>7002</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Price>20</Price>
+  </BaseItemData>
+  
 <!-- Copper Decking -->
   <BaseItemData>
-    <ID>7001</ID>
+    <ID>7003</ID>
     <Name>Copper Decking</Name>
     <Description>A thin sheet of Copper. </Description>
     <Use>Block</Use>
-    <BlockID>7001</BlockID>
+    <BlockID>7003</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>10</Price>
   </BaseItemData>
 
-<!-- White Carpet -->  
+  <!-- White Carpet -->  
   <BaseItemData>
-    <ID>7002</ID>
+    <ID>7004</ID>
     <Name>White Carpet</Name>
     <Description>A decorative carpet for your ship.</Description>
     <Use>Block</Use>
-    <BlockID>7002</BlockID>
+    <BlockID>7004</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>10</Price>
   </BaseItemData>  
   
-<!-- Titanium Decking -->
-  <BaseItemData>
-    <ID>7003</ID>
-    <Name>Titanium Decking</Name>
-    <Description>A thin sheet of Titanium.</Description>
-    <Use>Block</Use>
-    <BlockID>7003</BlockID>
-    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>50</Price>
-  </BaseItemData>
-
-<!-- Iron Decking -->
-  <BaseItemData>
-    <ID>7004</ID>
-    <Name>Iron Decking</Name>
-    <Description>A thin sheet of Iron. </Description>
-    <Use>Block</Use>
-    <BlockID>7004</BlockID>
-    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
-    <Price>20</Price>
-  </BaseItemData>
-
 <!-- Titanium Platform -->
   <BaseItemData>
     <ID>7005</ID>
@@ -177,7 +177,7 @@
     <Price>15</Price>
   </BaseItemData>
 
-<!-- Hard Glass Step Reversed -->
+<!-- Hard Glass Step -->
   <BaseItemData>
     <ID>7026</ID>
     <Name>Hard Glass Step</Name>
