@@ -510,7 +510,7 @@
     <BackOffset>0.05</BackOffset>
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7034</TopBlockType>
+    <TopBlockType>8604</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
 
@@ -531,7 +531,7 @@
     <FrontOffset>0.05</FrontOffset>
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7035</TopBlockType>
+    <TopBlockType>8605</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -550,7 +550,7 @@
     <LeftOffset>0.05</LeftOffset>
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7036</TopBlockType>
+    <TopBlockType>8606</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
@@ -571,7 +571,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7037</TopBlockType>
+    <TopBlockType>8607</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -592,7 +592,7 @@
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>true</UseFullCast>
-    <BottomBlockType>7030</BottomBlockType>
+    <BottomBlockType>8600</BottomBlockType>
   </TileProperty>
 
   <!-- Facing forward - open -->
@@ -613,7 +613,7 @@
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>false</UseFullCast>
-    <BottomBlockType>7031</BottomBlockType>
+    <BottomBlockType>8601</BottomBlockType>
   </TileProperty>
 
   <!-- Facing left - closed -->
@@ -632,7 +632,7 @@
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>true</UseFullCast>
-    <BottomBlockType>7032</BottomBlockType>
+    <BottomBlockType>8602</BottomBlockType>
   </TileProperty>
   
   <!-- Facing left - open -->
@@ -652,7 +652,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <BottomBlockType>7033</BottomBlockType>
+    <BottomBlockType>8603</BottomBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -672,7 +672,7 @@
     <BackOffset>0.05</BackOffset>
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7044</TopBlockType>
+    <TopBlockType>8614</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
 
@@ -693,7 +693,7 @@
     <FrontOffset>0.05</FrontOffset>
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7045</TopBlockType>
+    <TopBlockType>8615</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -712,7 +712,7 @@
     <LeftOffset>0.05</LeftOffset>
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7046</TopBlockType>
+    <TopBlockType>8616</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
@@ -733,7 +733,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7047</TopBlockType>
+    <TopBlockType>8617</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -754,7 +754,7 @@
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>true</UseFullCast>
-    <BottomBlockType>7040</BottomBlockType>
+    <BottomBlockType>8610</BottomBlockType>
   </TileProperty>
 
   <!-- Facing forward - open -->
@@ -775,7 +775,7 @@
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>false</UseFullCast>
-    <BottomBlockType>7041</BottomBlockType>
+    <BottomBlockType>8611</BottomBlockType>
   </TileProperty>
 
   <!-- Facing left - closed -->
@@ -794,7 +794,7 @@
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>true</UseFullCast>
-    <BottomBlockType>7042</BottomBlockType>
+    <BottomBlockType>8612</BottomBlockType>
   </TileProperty>
   
   <!-- Facing left - open -->
@@ -814,7 +814,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <BottomBlockType>7043</BottomBlockType>
+    <BottomBlockType>8613</BottomBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -834,7 +834,7 @@
     <BackOffset>0.05</BackOffset>
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7054</TopBlockType>
+    <TopBlockType>8621</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
 
@@ -855,7 +855,7 @@
     <FrontOffset>0.05</FrontOffset>
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7055</TopBlockType>
+    <TopBlockType>8622</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -874,7 +874,7 @@
     <LeftOffset>0.05</LeftOffset>
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7056</TopBlockType>
+    <TopBlockType>8623</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
@@ -895,7 +895,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7057</TopBlockType>
+    <TopBlockType>8624</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -916,7 +916,7 @@
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>true</UseFullCast>
-    <BottomBlockType>7050</BottomBlockType>
+    <BottomBlockType>8620</BottomBlockType>
   </TileProperty>
 
   <!-- Facing forward - open -->
@@ -937,7 +937,7 @@
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>false</UseFullCast>
-    <BottomBlockType>7051</BottomBlockType>
+    <BottomBlockType>8621</BottomBlockType>
   </TileProperty>
 
   <!-- Facing left - closed -->
@@ -956,7 +956,7 @@
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>true</UseFullCast>
-    <BottomBlockType>7052</BottomBlockType>
+    <BottomBlockType>8622</BottomBlockType>
   </TileProperty>
   
   <!-- Facing left - open -->
@@ -976,7 +976,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <BottomBlockType>7053</BottomBlockType>
+    <BottomBlockType>8623</BottomBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -996,7 +996,7 @@
     <BackOffset>0.05</BackOffset>
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7064</TopBlockType>
+    <TopBlockType>8634</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
 
@@ -1017,7 +1017,7 @@
     <FrontOffset>0.05</FrontOffset>
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7065</TopBlockType>
+    <TopBlockType>8635</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -1036,7 +1036,7 @@
     <LeftOffset>0.05</LeftOffset>
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7066</TopBlockType>
+    <TopBlockType>8636</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
@@ -1057,7 +1057,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>7067</TopBlockType>
+    <TopBlockType>8367</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -1078,7 +1078,7 @@
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>true</UseFullCast>
-    <BottomBlockType>7060</BottomBlockType>
+    <BottomBlockType>8630</BottomBlockType>
   </TileProperty>
 
   <!-- Facing forward - open -->
@@ -1099,7 +1099,7 @@
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>false</UseFullCast>
-    <BottomBlockType>7061</BottomBlockType>
+    <BottomBlockType>8631</BottomBlockType>
   </TileProperty>
 
   <!-- Facing left - closed -->
@@ -1118,7 +1118,7 @@
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
     <UseFullCast>true</UseFullCast>
-    <BottomBlockType>7062</BottomBlockType>
+    <BottomBlockType>8632</BottomBlockType>
   </TileProperty>
   
   <!-- Facing left - open -->
@@ -1138,7 +1138,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <BottomBlockType>7063</BottomBlockType>
+    <BottomBlockType>8633</BottomBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
