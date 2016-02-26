@@ -1,12 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTileProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<!-- SNEssentials Tile.XML -->
 
-<!-- !!!Misc!!! -->
+<!-- Titanium Decking -->  
+  <TileProperty>
+    <ID>7000</ID>
+    <ItemID>7000</ItemID>
+    <Material>Metal</Material>
+    <Health>200</Health>
+    <TopTexture>Tiles/Titanium</TopTexture>
+    <BottomTexture>Tiles/Titanium</BottomTexture>
+    <LeftTexture>Tiles/Titanium</LeftTexture>
+    <RightTexture>Tiles/Titanium</RightTexture>
+    <FrontTexture>Tiles/Titanium</FrontTexture>
+    <BackTexture>Tiles/Titanium</BackTexture>
+    <TopOffset>-0.4</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>2</Mass>
+  </TileProperty>
+  
+<!-- Steel Decking -->
+  <TileProperty>
+    <ID>7001</ID>
+    <ItemID>7001</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Steel</TopTexture>
+    <BottomTexture>Tiles/Steel</BottomTexture>
+    <LeftTexture>Tiles/Steel</LeftTexture>
+    <RightTexture>Tiles/Steel</RightTexture>
+    <FrontTexture>Tiles/Steel</FrontTexture>
+    <BackTexture>Tiles/Steel</BackTexture>
+    <TopOffset>-0.4</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
+  </TileProperty>
+  
+<!-- Iron Decking -->
+  <TileProperty>
+    <ID>7002</ID>
+    <ItemID>7002</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
+    <RightTexture>Tiles/Metals/Iron</RightTexture>
+    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
+    <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <TopOffset>-0.4</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>2</Mass>
+  </TileProperty>
+  
+<!-- Copper Decking -->  
+  <TileProperty>
+    <ID>7003</ID>
+    <ItemID>7003</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/Copper</FrontTexture>
+    <BackTexture>Tiles/Copper</BackTexture>
+    <TopOffset>-0.4</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
+  </TileProperty>
+  
 <!-- White Carpet -->
   <TileProperty>
-    <ID>8000</ID>
-    <ItemID>8000</ItemID>
+    <ID>7004</ID>
+    <ItemID>7004</ItemID>
     <Material>Soft</Material>
     <Health>20</Health>
     <TopTexture>Tiles/White</TopTexture>
@@ -20,221 +98,13 @@
     <Passable>true</Passable>
     <Type>Normal</Type>
     <UseFullCast>false</UseFullCast>
-    <Mass>1</Mass>
-  </TileProperty>
-<!-- Teleporter Base -->
-  <TileProperty>
-    <ID>8001</ID>
-    <ItemID>8001</ItemID>
-    <Material>Hard</Material>
-    <Health>200</Health>
-    <TopTexture>Tiles/Temporary</TopTexture>
-    <BottomTexture>Tiles/Temporary</BottomTexture>
-    <LeftTexture>Tiles/Temporary</LeftTexture>
-    <RightTexture>Tiles/Temporary</RightTexture>
-    <FrontTexture>Tiles/Temporary</FrontTexture>
-    <BackTexture>Tiles/Temporary</BackTexture>
-    <SpecialBlockClass>MoreBlocksScripts.Teleporter</SpecialBlockClass>
-    <TopBlockType>7101</TopBlockType>
-    <Mass>2</Mass>
-  </TileProperty>
-
-<!--Bottom Teleporter field -->
-  <TileProperty>
-    <ID>8002</ID>
-    <TopTexture>Tiles/SpawnField</TopTexture>
-    <BottomTexture>Tiles/SpawnField</BottomTexture>
-    <LeftTexture>Tiles/SpawnField</LeftTexture>
-    <RightTexture>Tiles/SpawnField</RightTexture>
-    <FrontTexture>Tiles/SpawnField</FrontTexture>
-    <BackTexture>Tiles/SpawnField</BackTexture>
-    <Type>Normal</Type>
-    <TopBlockType>7102</TopBlockType>
-    <CannotRaycast>true</CannotRaycast>
-    <Solid>false</Solid>
-    <AlphaClipped>true</AlphaClipped>
-    <Invincible>true</Invincible>
-    <Mass>0</Mass>
-  </TileProperty>
-
-<!--Top Teleporter Field -->
-  <TileProperty>
-    <ID>8003</ID>
-    <TopTexture>Tiles/SpawnField</TopTexture>
-    <BottomTexture>Tiles/SpawnField</BottomTexture>
-    <LeftTexture>Tiles/SpawnField</LeftTexture>
-    <RightTexture>Tiles/SpawnField</RightTexture>
-    <FrontTexture>Tiles/SpawnField</FrontTexture>
-    <BackTexture>Tiles/SpawnField</BackTexture>
-    <CannotRaycast>true</CannotRaycast>
-    <Type>Normal</Type>
-    <Solid>false</Solid>
-    <AlphaClipped>true</AlphaClipped>
-    <Invincible>true</Invincible>
-    <Mass>0</Mass>
-  </TileProperty>
-
-<!-- Teleport Activator  -->
-  <TileProperty>
-    <ID>8004</ID>
-    <ItemID>8004</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Temporary</TopTexture>
-    <BottomTexture>Tiles/Temporary</BottomTexture>
-    <LeftTexture>Tiles/Temporary</LeftTexture>
-    <RightTexture>Tiles/Temporary</RightTexture>
-    <FrontTexture>Tiles/Temporary</FrontTexture>
-    <BackTexture>Tiles/Temporary</BackTexture>
-    <SpecialBlockClass>MoreBlocksScripts.TeleportActivator</SpecialBlockClass>
-  </TileProperty>
-	
-<!-- !!!Decking!!! -->
-<!-- Copper Decking -->  
-  <TileProperty>
-    <ID>8100</ID>
-    <ItemID>8100</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
-    <TopOffset>-0.4</TopOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>1</Mass>
-  </TileProperty>
-
-<!-- Iron Decking -->
-  <TileProperty>
-    <ID>8101</ID>
-    <ItemID>8101</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
-    <BackTexture>Tiles/Metals/Iron</BackTexture>
-    <TopOffset>-0.4</TopOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>2</Mass>
-  </TileProperty>
-
-<!-- Steel Decking -->
-  <TileProperty>
-    <ID>8102</ID>
-    <ItemID>8102</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Steel</TopTexture>
-    <BottomTexture>Tiles/Steel</BottomTexture>
-    <LeftTexture>Tiles/Steel</LeftTexture>
-    <RightTexture>Tiles/Steel</RightTexture>
-    <FrontTexture>Tiles/Steel</FrontTexture>
-    <BackTexture>Tiles/Steel</BackTexture>
-    <TopOffset>-0.4</TopOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>1</Mass>
-  </TileProperty>
-
-<!-- Titanium Decking -->  
-  <TileProperty>
-    <ID>8103</ID>
-    <ItemID>8103</ItemID>
-    <Material>Metal</Material>
-    <Health>200</Health>
-    <TopTexture>Tiles/Titanium</TopTexture>
-    <BottomTexture>Tiles/Titanium</BottomTexture>
-    <LeftTexture>Tiles/Titanium</LeftTexture>
-    <RightTexture>Tiles/Titanium</RightTexture>
-    <FrontTexture>Tiles/Titanium</FrontTexture>
-    <BackTexture>Tiles/Titanium</BackTexture>
-    <TopOffset>-0.4</TopOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>2</Mass>
-  </TileProperty>
-
-<!-- !!!Platforms!!! -->
-<!-- Copper Platform -->
-  <TileProperty>
-    <ID>8200</ID>
-    <ItemID>8200</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
-    <BottomOffset>-0.4</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>1</Mass>
-  </TileProperty>
-
-<!-- Iron Platform -->
-  <TileProperty>
-    <ID>8201</ID>
-    <ItemID>8201</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
-    <BackTexture>Tiles/Metals/Iron</BackTexture>
-    <BottomOffset>-0.4</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>2</Mass>
-  </TileProperty> 
-
-<!-- Steel Platform -->
-  <TileProperty>
-    <ID>8202</ID>
-    <ItemID>8202</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Steel</TopTexture>
-    <BottomTexture>Tiles/Steel</BottomTexture>
-    <LeftTexture>Tiles/Steel</LeftTexture>
-    <RightTexture>Tiles/Steel</RightTexture>
-    <FrontTexture>Tiles/Steel</FrontTexture>
-    <BackTexture>Tiles/Steel</BackTexture>
-    <BottomOffset>-0.4</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>1</Mass>
+	<Mass>1</Mass>
   </TileProperty>
 
 <!-- Titanium Platform -->
   <TileProperty>
-    <ID>8203</ID>
-    <ItemID>8203</ItemID>
+    <ID>7005</ID>
+    <ItemID>7005</ItemID>
     <Material>Metal</Material>
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
@@ -248,111 +118,33 @@
     <Passable>true</Passable>
     <Type>Normal</Type>
     <UseFullCast>false</UseFullCast>
-    <Mass>2</Mass>
+	<Mass>2</Mass>
   </TileProperty>
-
-<!-- !!!Railings!!! -->
-<!-- Iron Railings -->
+  
+<!-- Steel Platform -->
   <TileProperty>
-    <ID>8300</ID>
-    <ItemID>8300</ItemID>
+    <ID>7006</ID>
+    <ItemID>7006</ItemID>
     <Material>Metal</Material>
-    <Health>60</Health>
+    <Health>150</Health>
+    <TopTexture>Tiles/Steel</TopTexture>
+    <BottomTexture>Tiles/Steel</BottomTexture>
+    <LeftTexture>Tiles/Steel</LeftTexture>
+    <RightTexture>Tiles/Steel</RightTexture>
+    <FrontTexture>Tiles/Steel</FrontTexture>
+    <BackTexture>Tiles/Steel</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
     <LightTransparent>true</LightTransparent>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/IronRailing</BottomTexture>
-    <LeftTexture>Tiles/IronRailing</LeftTexture>
-    <RightTexture>Tiles/IronRailing</RightTexture>
-    <FrontTexture>Tiles/IronRailing</FrontTexture>
-    <BackTexture>Tiles/IronRailing</BackTexture>
-    <LeftOffset>0.1</LeftOffset>
-    <RightOffset>0.1</RightOffset>
-    <InnerSurfaces>true</InnerSurfaces>
-    <Solid>true</Solid>
-    <Mass>1</Mass>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
   </TileProperty>
-
+  
+<!-- Iron Platform -->
   <TileProperty>
-    <ID>8301</ID>
-    <ItemID>8300</ItemID>
-    <Material>Metal</Material>    
-    <Health>60</Health>
-    <LightTransparent>true</LightTransparent>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/IronRailing</BottomTexture>
-    <LeftTexture>Tiles/IronRailing</LeftTexture>
-    <RightTexture>Tiles/IronRailing</RightTexture>
-    <FrontTexture>Tiles/IronRailing</FrontTexture>
-    <BackTexture>Tiles/IronRailing</BackTexture>
-    <FrontOffset>0.1</FrontOffset>
-    <BackOffset>0.1</BackOffset>
-    <InnerSurfaces>true</InnerSurfaces>
-    <Solid>true</Solid>
-    <Mass>1</Mass>
-  </TileProperty>
-
-<!-- Titanium Railings -->
-  <TileProperty>
-    <ID>8302</ID>
-    <ItemID>8302</ItemID>
-    <Material>Metal</Material>
-    <Health>90</Health>
-    <LightTransparent>true</LightTransparent>
-    <TopTexture>Tiles/Titanium</TopTexture>
-    <BottomTexture>Tiles/TitaniumRailing</BottomTexture>
-    <LeftTexture>Tiles/TitaniumRailing</LeftTexture>
-    <RightTexture>Tiles/TitaniumRailing</RightTexture>
-    <FrontTexture>Tiles/TitaniumRailing</FrontTexture>
-    <BackTexture>Tiles/TitaniumRailing</BackTexture>
-    <LeftOffset>0.1</LeftOffset>
-    <RightOffset>0.1</RightOffset>
-    <InnerSurfaces>true</InnerSurfaces>
-    <Solid>true</Solid>
-    <Mass>1</Mass>
-  </TileProperty>
-
-  <TileProperty>
-    <ID>8303</ID>
-    <ItemID>8302</ItemID>
-    <Material>Metal</Material>    
-    <Health>90</Health>
-    <LightTransparent>true</LightTransparent>
-    <TopTexture>Tiles/Titanium</TopTexture>
-    <BottomTexture>Tiles/TitaniumRailing</BottomTexture>
-    <LeftTexture>Tiles/TitaniumRailing</LeftTexture>
-    <RightTexture>Tiles/TitaniumRailing</RightTexture>
-    <FrontTexture>Tiles/TitaniumRailing</FrontTexture>
-    <BackTexture>Tiles/TitaniumRailing</BackTexture>
-    <FrontOffset>0.1</FrontOffset>
-    <BackOffset>0.1</BackOffset>
-    <InnerSurfaces>true</InnerSurfaces>
-    <Solid>true</Solid>
-    <Mass>1</Mass>
-  </TileProperty>
-
-<!-- !!!Steps!!! -->
-<!-- Copper Step -->
-  <TileProperty>
-    <ID>8400</ID>
-    <ItemID>8400</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
-    <TopOffset>0.0</TopOffset>
-    <LightTransparent>true</LightTransparent>
-    <Type>Step</Type>
-    <Mass>1</Mass>
-  </TileProperty>
-
-<!-- Iron Step -->
-  <TileProperty>
-    <ID>8401</ID>
-    <ItemID>8401</ItemID>
+    <ID>7007</ID>
+    <ItemID>7007</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/Metals/Iron</TopTexture>
@@ -361,6 +153,125 @@
     <RightTexture>Tiles/Metals/Iron</RightTexture>
     <FrontTexture>Tiles/Metals/Iron</FrontTexture>
     <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>2</Mass>
+  </TileProperty>  
+
+<!-- Copper Platform -->
+  <TileProperty>
+    <ID>7008</ID>
+    <ItemID>7008</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/Copper</FrontTexture>
+    <BackTexture>Tiles/Copper</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+	<Mass>1</Mass>
+  </TileProperty>
+
+  <!-- Iron Railings -->
+  <TileProperty>
+    <ID>7017</ID>
+    <ItemID>7017</ItemID>
+    <Material>Metal</Material>
+    <Health>60</Health>
+    <LightTransparent>true</LightTransparent>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/IronRailing</BottomTexture>
+    <LeftTexture>Tiles/IronRailing</LeftTexture>
+    <RightTexture>Tiles/IronRailing</RightTexture>
+    <FrontTexture>Tiles/IronRailing</FrontTexture>
+    <BackTexture>Tiles/IronRailing</BackTexture>
+    <LeftOffset>0.1</LeftOffset>
+    <RightOffset>0.1</RightOffset>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Solid>true</Solid>
+    <Mass>1</Mass>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7018</ID>
+    <ItemID>7017</ItemID>
+    <Material>Metal</Material>    
+    <Health>60</Health>
+    <LightTransparent>true</LightTransparent>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/IronRailing</BottomTexture>
+    <LeftTexture>Tiles/IronRailing</LeftTexture>
+    <RightTexture>Tiles/IronRailing</RightTexture>
+    <FrontTexture>Tiles/IronRailing</FrontTexture>
+    <BackTexture>Tiles/IronRailing</BackTexture>
+    <FrontOffset>0.1</FrontOffset>
+    <BackOffset>0.1</BackOffset>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Solid>true</Solid>
+    <Mass>1</Mass>
+  </TileProperty>
+
+  <!-- Titanium Railings -->
+  <TileProperty>
+    <ID>7019</ID>
+    <ItemID>7019</ItemID>
+    <Material>Metal</Material>
+    <Health>90</Health>
+    <LightTransparent>true</LightTransparent>
+    <TopTexture>Tiles/Titanium</TopTexture>
+    <BottomTexture>Tiles/TitaniumRailing</BottomTexture>
+    <LeftTexture>Tiles/TitaniumRailing</LeftTexture>
+    <RightTexture>Tiles/TitaniumRailing</RightTexture>
+    <FrontTexture>Tiles/TitaniumRailing</FrontTexture>
+    <BackTexture>Tiles/TitaniumRailing</BackTexture>
+    <LeftOffset>0.1</LeftOffset>
+    <RightOffset>0.1</RightOffset>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Solid>true</Solid>
+    <Mass>1</Mass>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7020</ID>
+    <ItemID>7019</ItemID>
+    <Material>Metal</Material>    
+    <Health>90</Health>
+    <LightTransparent>true</LightTransparent>
+    <TopTexture>Tiles/Titanium</TopTexture>
+    <BottomTexture>Tiles/TitaniumRailing</BottomTexture>
+    <LeftTexture>Tiles/TitaniumRailing</LeftTexture>
+    <RightTexture>Tiles/TitaniumRailing</RightTexture>
+    <FrontTexture>Tiles/TitaniumRailing</FrontTexture>
+    <BackTexture>Tiles/TitaniumRailing</BackTexture>
+    <FrontOffset>0.1</FrontOffset>
+    <BackOffset>0.1</BackOffset>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Solid>true</Solid>
+    <Mass>1</Mass>
+  </TileProperty>
+  
+<!-- Regular Steps from here on -->
+<!-- Titanium Step -->
+  <TileProperty>
+    <ID>7021</ID>
+    <ItemID>7021</ItemID>
+    <Material>Metal</Material>
+    <Health>200</Health>
+    <TopTexture>Tiles/Titanium</TopTexture>
+    <BottomTexture>Tiles/Titanium</BottomTexture>
+    <LeftTexture>Tiles/TitaniumStep</LeftTexture>
+    <RightTexture>Tiles/TitaniumStep</RightTexture>
+    <FrontTexture>Tiles/TitaniumStep</FrontTexture>
+    <BackTexture>Tiles/TitaniumStep</BackTexture>
     <TopOffset>0.0</TopOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
@@ -369,44 +280,62 @@
 
 <!-- Steel Step -->
   <TileProperty>
-    <ID>8402</ID>
-    <ItemID>8402</ItemID>
+    <ID>7022</ID>
+    <ItemID>7022</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/Steel</TopTexture>
     <BottomTexture>Tiles/Steel</BottomTexture>
-    <LeftTexture>Tiles/Steel</LeftTexture>
-    <RightTexture>Tiles/Steel</RightTexture>
-    <FrontTexture>Tiles/Steel</FrontTexture>
-    <BackTexture>Tiles/Steel</BackTexture>
+    <LeftTexture>Tiles/SteelStep</LeftTexture>
+    <RightTexture>Tiles/SteelStep</RightTexture>
+    <FrontTexture>Tiles/SteelStep</FrontTexture>
+    <BackTexture>Tiles/SteelStep</BackTexture>
     <TopOffset>0.0</TopOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
     <Mass>1</Mass>
   </TileProperty>
 
-<!-- Titanium Step -->
+<!-- Iron Step -->
   <TileProperty>
-    <ID>8403</ID>
-    <ItemID>8403</ItemID>
+    <ID>7023</ID>
+    <ItemID>7023</ItemID>
     <Material>Metal</Material>
-    <Health>200</Health>
-    <TopTexture>Tiles/Titanium</TopTexture>
-    <BottomTexture>Tiles/Titanium</BottomTexture>
-    <LeftTexture>Tiles/Titanium</LeftTexture>
-    <RightTexture>Tiles/Titanium</RightTexture>
-    <FrontTexture>Tiles/Titanium</FrontTexture>
-    <BackTexture>Tiles/Titanium</BackTexture>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/IronStep</LeftTexture>
+    <RightTexture>Tiles/IronStep</RightTexture>
+    <FrontTexture>Tiles/IronStep</FrontTexture>
+    <BackTexture>Tiles/IronStep</BackTexture>
     <TopOffset>0.0</TopOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
     <Mass>2</Mass>
   </TileProperty>
 
+<!-- Copper Step -->
+  <TileProperty>
+    <ID>7024</ID>
+    <ItemID>7024</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/CopperStep</LeftTexture>
+    <RightTexture>Tiles/CopperStep</RightTexture>
+    <FrontTexture>Tiles/CopperStep</FrontTexture>
+    <BackTexture>Tiles/CopperStep</BackTexture>
+    <TopOffset>0.0</TopOffset>
+    <LightTransparent>true</LightTransparent>
+    <Type>Step</Type>
+    <Mass>1</Mass>
+  </TileProperty>
+
   <!-- Glass Step -->
   <TileProperty>
-    <ID>8404</ID>
-    <ItemID>8404</ItemID>
+    <ID>7025</ID>
+    <ItemID>7025</ItemID>
     <Material>Metal</Material>
     <Health>30</Health>
     <TopTexture>Tiles/Glass</TopTexture>
@@ -420,11 +349,11 @@
     <Type>Step</Type>
     <Mass>1</Mass>
   </TileProperty>
-
+  
   <!-- Hard Glass Step -->
   <TileProperty>
-    <ID>8405</ID>
-    <ItemID>8405</ItemID>
+    <ID>7026</ID>
+    <ItemID>7026</ItemID>
     <Material>Metal</Material>
     <Health>125</Health>
     <TopTexture>Tiles/HardGlass</TopTexture>
@@ -438,67 +367,12 @@
     <Type>Step</Type>
     <Mass>2</Mass>
   </TileProperty>
-
-<!-- !!!Struts!!! -->
-<!-- Iron Strut -->
-  <TileProperty>
-    <ID>8500</ID>
-    <ItemID>8500</ItemID>
-    <Material>Metal</Material>
-    <TopTexture>Tiles/IronStrut</TopTexture>
-    <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrut</LeftTexture>
-    <RightTexture>Tiles/IronStrut</RightTexture>
-    <FrontTexture>Tiles/IronStrut</FrontTexture>
-    <BackTexture>Tiles/IronStrut</BackTexture>
-    <Health>110</Health>
-    <AlphaClipped>true</AlphaClipped>
-    <InnerSurfaces>true</InnerSurfaces>   
-    <Mass>2</Mass>
-  </TileProperty>
   
-  </ArrayOfTileProperty>
-
-<!-- Steel Strut -->
-  <TileProperty>
-    <ID>8501</ID>
-    <ItemID>8501</ItemID>
-    <Material>Metal</Material>
-    <TopTexture>Tiles/SteelStrut</TopTexture>
-    <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrut</LeftTexture>
-    <RightTexture>Tiles/SteelStrut</RightTexture>
-    <FrontTexture>Tiles/SteelStrut</FrontTexture>
-    <BackTexture>Tiles/SteelStrut</BackTexture>
-    <Health>110</Health>
-    <AlphaClipped>true</AlphaClipped>
-    <InnerSurfaces>true</InnerSurfaces>    
-    <Mass>1</Mass>
-  </TileProperty>
-
-<!-- Titanium Strut -->
-  <TileProperty>
-    <ID>8502</ID>
-    <ItemID>8502</ItemID>
-    <Material>Metal</Material>
-    <TopTexture>Tiles/TitaniumStrut</TopTexture>
-    <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrut</RightTexture>
-    <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
-    <BackTexture>Tiles/TitaniumStrut</BackTexture>
-    <Health>150</Health>
-    <AlphaClipped>true</AlphaClipped>
-    <InnerSurfaces>true</InnerSurfaces>
-    <Mass>2</Mass>
-  </TileProperty>
-
-<!-- !!!Doors!!! -->
 <!-- Iron Door Bottom -->
   <!-- Facing forward - closed -->
   <TileProperty>
-    <ID>8600</ID>
-    <ItemID>8600</ItemID>
+    <ID>7030</ID>
+    <ItemID>7030</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/IronDoorBottom</TopTexture>
@@ -516,8 +390,8 @@
 
   <!-- Facing forward - open -->
   <TileProperty>
-    <ID>8601</ID>
-    <ItemID>8600</ItemID>
+    <ID>7031</ID>
+    <ItemID>7030</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/IronDoorBottom</TopTexture>
@@ -537,8 +411,8 @@
 
   <!-- Facing left - closed -->
   <TileProperty>
-    <ID>8602</ID>
-    <ItemID>8600</ItemID>
+    <ID>7032</ID>
+    <ItemID>7030</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/IronDoorBottom</TopTexture>
@@ -554,10 +428,10 @@
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
-  <!-- Facing left - open -->
+  <!-- Facing right - open -->
   <TileProperty>
-    <ID>8603</ID>
-    <ItemID>8600</ItemID>
+    <ID>7033</ID>
+    <ItemID>7030</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/IronDoorBottom</TopTexture>
@@ -578,8 +452,8 @@
 <!-- Iron Door Top -->
   <!-- Facing forward - closed -->
   <TileProperty>
-    <ID>8604</ID>
-    <ItemID>8600</ItemID>
+    <ID>7034</ID>
+    <ItemID>7030</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/IronDoorTop</TopTexture>
@@ -597,8 +471,8 @@
 
   <!-- Facing forward - open -->
   <TileProperty>
-    <ID>8605</ID>
-    <ItemID>8600</ItemID>
+    <ID>7035</ID>
+    <ItemID>7030</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/IronDoorTop</TopTexture>
@@ -618,8 +492,8 @@
 
   <!-- Facing left - closed -->
   <TileProperty>
-    <ID>8606</ID>
-    <ItemID>8600</ItemID>
+    <ID>7036</ID>
+    <ItemID>7030</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/IronDoorTop</TopTexture>
@@ -635,10 +509,10 @@
     <BottomBlockType>7032</BottomBlockType>
   </TileProperty>
   
-  <!-- Facing left - open -->
+  <!-- Facing right - open -->
   <TileProperty>
-    <ID>8607</ID>
-    <ItemID>8600</ItemID>
+    <ID>7037</ID>
+    <ItemID>7030</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/IronDoorTop</TopTexture>
@@ -659,8 +533,8 @@
 <!-- Steel Door Bottom -->
   <!-- Facing forward - closed -->
   <TileProperty>
-    <ID>8610</ID>
-    <ItemID>8610</ItemID>
+    <ID>7040</ID>
+    <ItemID>7040</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/SteelDoorBottom</TopTexture>
@@ -678,8 +552,8 @@
 
   <!-- Facing forward - open -->
   <TileProperty>
-    <ID>8611</ID>
-    <ItemID>8610</ItemID>
+    <ID>7041</ID>
+    <ItemID>7040</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/SteelDoorBottom</TopTexture>
@@ -699,8 +573,8 @@
 
   <!-- Facing left - closed -->
   <TileProperty>
-    <ID>8612</ID>
-    <ItemID>8610</ItemID>
+    <ID>7042</ID>
+    <ItemID>7040</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/SteelDoorBottom</TopTexture>
@@ -716,10 +590,10 @@
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
-  <!-- Facing left - open -->
+  <!-- Facing right - open -->
   <TileProperty>
-    <ID>8613</ID>
-    <ItemID>8610</ItemID>
+    <ID>7043</ID>
+    <ItemID>7040</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/SteelDoorBottom</TopTexture>
@@ -740,8 +614,8 @@
 <!-- Steel Door Top -->
   <!-- Facing forward - closed -->
   <TileProperty>
-    <ID>8614</ID>
-    <ItemID>8610</ItemID>
+    <ID>7044</ID>
+    <ItemID>7040</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/SteelDoorTop</TopTexture>
@@ -759,8 +633,8 @@
 
   <!-- Facing forward - open -->
   <TileProperty>
-    <ID>8615</ID>
-    <ItemID>8610</ItemID>
+    <ID>7045</ID>
+    <ItemID>7040</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/SteelDoorTop</TopTexture>
@@ -780,8 +654,8 @@
 
   <!-- Facing left - closed -->
   <TileProperty>
-    <ID>8616</ID>
-    <ItemID>8610</ItemID>
+    <ID>7046</ID>
+    <ItemID>7040</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/SteelDoorTop</TopTexture>
@@ -797,10 +671,10 @@
     <BottomBlockType>7042</BottomBlockType>
   </TileProperty>
   
-  <!-- Facing left - open -->
+  <!-- Facing right - open -->
   <TileProperty>
-    <ID>8617</ID>
-    <ItemID>8610</ItemID>
+    <ID>7047</ID>
+    <ItemID>7040</ItemID>
     <Material>Metal</Material>
     <Health>110</Health>
     <TopTexture>Tiles/SteelDoorTop</TopTexture>
@@ -821,8 +695,8 @@
 <!-- Titanium Door Bottom -->
   <!-- Facing forward - closed -->
   <TileProperty>
-    <ID>8620</ID>
-    <ItemID>8620</ItemID>
+    <ID>7050</ID>
+    <ItemID>7050</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/TitaniumDoorBottom</TopTexture>
@@ -840,8 +714,8 @@
 
   <!-- Facing forward - open -->
   <TileProperty>
-    <ID>8621</ID>
-    <ItemID>8620</ItemID>
+    <ID>7051</ID>
+    <ItemID>7050</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/TitaniumDoorBottom</TopTexture>
@@ -861,8 +735,8 @@
 
   <!-- Facing left - closed -->
   <TileProperty>
-    <ID>8622</ID>
-    <ItemID>8620</ItemID>
+    <ID>7052</ID>
+    <ItemID>7050</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/TitaniumDoorBottom</TopTexture>
@@ -878,10 +752,10 @@
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
-  <!-- Facing left - open -->
+  <!-- Facing right - open -->
   <TileProperty>
-    <ID>8623</ID>
-    <ItemID>8620</ItemID>
+    <ID>7053</ID>
+    <ItemID>7050</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/TitaniumDoorBottom</TopTexture>
@@ -902,8 +776,8 @@
 <!-- Titanium Door Top -->
   <!-- Facing forward - closed -->
   <TileProperty>
-    <ID>8624</ID>
-    <ItemID>8620</ItemID>
+    <ID>7054</ID>
+    <ItemID>7050</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/TitaniumDoorTop</TopTexture>
@@ -921,8 +795,8 @@
 
   <!-- Facing forward - open -->
   <TileProperty>
-    <ID>8625</ID>
-    <ItemID>8620</ItemID>
+    <ID>7055</ID>
+    <ItemID>7050</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/TitaniumDoorTop</TopTexture>
@@ -942,8 +816,8 @@
 
   <!-- Facing left - closed -->
   <TileProperty>
-    <ID>8626</ID>
-    <ItemID>8620</ItemID>
+    <ID>7056</ID>
+    <ItemID>7050</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/TitaniumDoorTop</TopTexture>
@@ -959,10 +833,10 @@
     <BottomBlockType>7052</BottomBlockType>
   </TileProperty>
   
-  <!-- Facing left - open -->
+  <!-- Facing right - open -->
   <TileProperty>
-    <ID>8627</ID>
-    <ItemID>8620</ItemID>
+    <ID>7057</ID>
+    <ItemID>7050</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/TitaniumDoorTop</TopTexture>
@@ -983,8 +857,8 @@
 <!-- Wooden Door Bottom -->
   <!-- Facing forward - closed -->
   <TileProperty>
-    <ID>8630</ID>
-    <ItemID>8630</ItemID>
+    <ID>7060</ID>
+    <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
     <TopTexture>Tiles/WoodenDoorBottom</TopTexture>
@@ -1002,8 +876,8 @@
 
   <!-- Facing forward - open -->
   <TileProperty>
-    <ID>8631</ID>
-    <ItemID>8630</ItemID>
+    <ID>7061</ID>
+    <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
     <TopTexture>Tiles/WoodenDoorBottom</TopTexture>
@@ -1023,8 +897,8 @@
 
   <!-- Facing left - closed -->
   <TileProperty>
-    <ID>8632</ID>
-    <ItemID>8630</ItemID>
+    <ID>7062</ID>
+    <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
     <TopTexture>Tiles/WoodenDoorBottom</TopTexture>
@@ -1040,10 +914,10 @@
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
-  <!-- Facing left - open -->
+  <!-- Facing right - open -->
   <TileProperty>
-    <ID>8633</ID>
-    <ItemID>8630</ItemID>
+    <ID>7063</ID>
+    <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
     <TopTexture>Tiles/WoodenDoorBottom</TopTexture>
@@ -1064,8 +938,8 @@
 <!-- Wooden Door Top -->
   <!-- Facing forward - closed -->
   <TileProperty>
-    <ID>8634</ID>
-    <ItemID>8630</ItemID>
+    <ID>7064</ID>
+    <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
     <TopTexture>Tiles/Crate</TopTexture>
@@ -1083,8 +957,8 @@
 
   <!-- Facing forward - open -->
   <TileProperty>
-    <ID>8635</ID>
-    <ItemID>8630</ItemID>
+    <ID>7065</ID>
+    <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
     <TopTexture>Tiles/Crate</TopTexture>
@@ -1104,8 +978,8 @@
 
   <!-- Facing left - closed -->
   <TileProperty>
-    <ID>8636</ID>
-    <ItemID>8630</ItemID>
+    <ID>7066</ID>
+    <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
     <TopTexture>Tiles/Crate</TopTexture>
@@ -1121,10 +995,10 @@
     <BottomBlockType>7062</BottomBlockType>
   </TileProperty>
   
-  <!-- Facing left - open -->
+  <!-- Facing right - open -->
   <TileProperty>
-    <ID>8637</ID>
-    <ItemID>8630</ItemID>
+    <ID>7067</ID>
+    <ItemID>7060</ItemID>
     <Material>Metal</Material>
     <Health>40</Health>
     <TopTexture>Tiles/WoodenDoorBottom</TopTexture>
@@ -1142,153 +1016,10 @@
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
-<!-- !!!Wall Tiles!!! -->
-<!-- Copper Wall Tile -->
-  <TileProperty>
-    <ID>8700</ID>
-    <ItemID>8700</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture><!--Front -->
-    <BackOffset>-0.4</BackOffset>
-    <Type>Normal</Type>
-    <LightTransparent>true</LightTransparent>
-    <Mass>1</Mass>
-    <UseFullCast>false</UseFullCast>
-  </TileProperty>
-
-  <TileProperty>
-    <ID>8701</ID>
-    <ItemID>8700</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture><!--Front -->
-    <BackTexture>Tiles/Copper</BackTexture>
-    <LightTransparent>true</LightTransparent>
-    <FrontOffset>-0.4</FrontOffset>
-    <Type>Normal</Type>
-    <Mass>1</Mass>
-    <UseFullCast>false</UseFullCast>
-  </TileProperty>
-
-  <TileProperty>
-    <ID>8702</ID>
-    <ItemID>8700</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture><!--Front -->
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
-    <LightTransparent>true</LightTransparent>
-    <RightOffset>-0.4</RightOffset>
-    <Mass>1</Mass>
-    <UseFullCast>false</UseFullCast>
-  </TileProperty>
-
-  <TileProperty>
-    <ID>8703</ID>
-    <ItemID>8700</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture><!--Front -->
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
-    <LightTransparent>true</LightTransparent>
-    <LeftOffset>-0.4</LeftOffset>
-    <Mass>1</Mass>
-    <UseFullCast>false</UseFullCast>
-  </TileProperty>
-
-<!-- Iron Wall Tile -->
-  <TileProperty>
-    <ID>8704</ID>
-    <ItemID>8704</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
-    <BackTexture>Tiles/Metals/Iron</BackTexture><!--Front -->
-    <BackOffset>-0.4</BackOffset>
-    <Type>Normal</Type>
-    <LightTransparent>true</LightTransparent>
-    <Mass>2</Mass>
-    <UseFullCast>false</UseFullCast>
-  </TileProperty>
-
-  <TileProperty>
-    <ID>8705</ID>
-    <ItemID>8704</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture><!--Front -->
-    <BackTexture>Tiles/Metals/Iron</BackTexture>
-    <LightTransparent>true</LightTransparent>
-    <FrontOffset>-0.4</FrontOffset>
-    <Type>Normal</Type>
-    <Mass>2</Mass>
-    <UseFullCast>false</UseFullCast>
-  </TileProperty>
-
-  <TileProperty>
-    <ID>8706</ID>
-    <ItemID>8704</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture><!--Front -->
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
-    <BackTexture>Tiles/Metals/Iron</BackTexture>
-    <LightTransparent>true</LightTransparent>
-    <RightOffset>-0.4</RightOffset>
-    <Mass>2</Mass>
-    <UseFullCast>false</UseFullCast>
-  </TileProperty>
-
-  <TileProperty>
-    <ID>8707</ID>
-    <ItemID>8704</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture><!--Front -->
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
-    <BackTexture>Tiles/Metals/Iron</BackTexture>
-    <LightTransparent>true</LightTransparent>
-    <LeftOffset>-0.4</LeftOffset>
-    <Mass>2</Mass>
-    <UseFullCast>false</UseFullCast>
-  </TileProperty>
-
 <!-- Steel Wall Tile -->
   <TileProperty>
-    <ID>8708</ID>
-    <ItemID>8708</ItemID>
+    <ID>7070</ID>
+    <ItemID>7070</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/Steel</TopTexture>
@@ -1305,8 +1036,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8709</ID>
-    <ItemID>8708</ItemID>
+    <ID>7071</ID>
+    <ItemID>7070</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/Steel</TopTexture>
@@ -1323,8 +1054,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8710</ID>
-    <ItemID>8708</ItemID>
+    <ID>7072</ID>
+    <ItemID>7070</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/Steel</TopTexture>
@@ -1340,8 +1071,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8711</ID>
-    <ItemID>8708</ItemID>
+    <ID>7073</ID>
+    <ItemID>7070</ItemID>
     <Material>Metal</Material>
     <Health>150</Health>
     <TopTexture>Tiles/Steel</TopTexture>
@@ -1358,8 +1089,8 @@
 
   <!-- Titanium Wall Tile -->
   <TileProperty>
-    <ID>8712</ID>
-    <ItemID>8712</ItemID>
+    <ID>7074</ID>
+    <ItemID>7074</ItemID>
     <Material>Metal</Material>
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
@@ -1376,8 +1107,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8713</ID>
-    <ItemID>8712</ItemID>
+    <ID>7075</ID>
+    <ItemID>7074</ItemID>
     <Material>Metal</Material>
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
@@ -1394,8 +1125,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8714</ID>
-    <ItemID>8712</ItemID>
+    <ID>7076</ID>
+    <ItemID>7074</ItemID>
     <Material>Metal</Material>
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
@@ -1411,8 +1142,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8715</ID>
-    <ItemID>8712</ItemID>
+    <ID>7077</ID>
+    <ItemID>7074</ItemID>
     <Material>Metal</Material>
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
@@ -1427,10 +1158,152 @@
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
+<!-- Iron Wall Tile -->
+  <TileProperty>
+    <ID>7078</ID>
+    <ItemID>7078</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
+    <RightTexture>Tiles/Metals/Iron</RightTexture>
+    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
+    <BackTexture>Tiles/Metals/Iron</BackTexture><!--Front -->
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>2</Mass>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7079</ID>
+    <ItemID>7078</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
+    <RightTexture>Tiles/Metals/Iron</RightTexture>
+    <FrontTexture>Tiles/Metals/Iron</FrontTexture><!--Front -->
+    <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <FrontOffset>-0.4</FrontOffset>
+    <Type>Normal</Type>
+    <Mass>2</Mass>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7080</ID>
+    <ItemID>7078</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
+    <RightTexture>Tiles/Metals/Iron</RightTexture><!--Front -->
+    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
+    <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <RightOffset>-0.4</RightOffset>
+    <Mass>2</Mass>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7081</ID>
+    <ItemID>7078</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture><!--Front -->
+    <RightTexture>Tiles/Metals/Iron</RightTexture>
+    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
+    <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <LeftOffset>-0.4</LeftOffset>
+    <Mass>2</Mass>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+<!-- Copper Wall Tile -->
+  <TileProperty>
+    <ID>7082</ID>
+    <ItemID>7082</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/Copper</FrontTexture>
+    <BackTexture>Tiles/Copper</BackTexture><!--Front -->
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>1</Mass>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7083</ID>
+    <ItemID>7082</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/Copper</FrontTexture><!--Front -->
+    <BackTexture>Tiles/Copper</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <FrontOffset>-0.4</FrontOffset>
+    <Type>Normal</Type>
+    <Mass>1</Mass>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7084</ID>
+    <ItemID>7082</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture><!--Front -->
+    <FrontTexture>Tiles/Copper</FrontTexture>
+    <BackTexture>Tiles/Copper</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <RightOffset>-0.4</RightOffset>
+    <Mass>1</Mass>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7085</ID>
+    <ItemID>7082</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture><!--Front -->
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/Copper</FrontTexture>
+    <BackTexture>Tiles/Copper</BackTexture>
+    <LightTransparent>true</LightTransparent>
+    <LeftOffset>-0.4</LeftOffset>
+    <Mass>1</Mass>
+    <UseFullCast>false</UseFullCast>
+  </TileProperty>
+  
 <!-- Plank Wall Tile -->
   <TileProperty>
-    <ID>8716</ID>
-    <ItemID>8716</ItemID>
+    <ID>7086</ID>
+    <ItemID>7086</ItemID>
     <Material>Hard</Material>
     <Health>50</Health>
     <TopTexture>Tiles/Planks</TopTexture>
@@ -1447,8 +1320,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8717</ID>
-    <ItemID>8716</ItemID>
+    <ID>7087</ID>
+    <ItemID>7086</ItemID>
     <Material>Hard</Material>
     <Health>50</Health>
     <TopTexture>Tiles/Planks</TopTexture>
@@ -1465,8 +1338,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8718</ID>
-    <ItemID>8716</ItemID>
+    <ID>7088</ID>
+    <ItemID>7086</ItemID>
     <Material>Hard</Material>
     <Health>50</Health>
     <TopTexture>Tiles/Planks</TopTexture>
@@ -1482,8 +1355,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8719</ID>
-    <ItemID>8716</ItemID>
+    <ID>7089</ID>
+    <ItemID>7086</ItemID>
     <Material>Hard</Material>
     <Health>50</Health>
     <TopTexture>Tiles/Planks</TopTexture>
@@ -1498,175 +1371,10 @@
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
-<!-- !!!Hatches!!! -->
-<!-- Copper Hatch -->
-  <TileProperty><!-- Closed -->
-    <ID>8800</ID>
-    <ItemID>8800</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/CopperHatch</TopTexture>
-    <BottomTexture>Tiles/CopperHatch</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/Copper</FrontTexture>
-    <BackTexture>Tiles/Copper</BackTexture>
-    <BottomOffset>-0.4</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>2</Mass>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
-  <TileProperty><!-- Open -->
-    <ID>8801</ID>
-    <ItemID>8800</ItemID>
-    <Material>Metal</Material>
-    <Hazard>Ladder</Hazard>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/Copper</LeftTexture>
-    <RightTexture>Tiles/Copper</RightTexture>
-    <FrontTexture>Tiles/CopperHatch</FrontTexture>
-    <BackTexture>Tiles/CopperHatch</BackTexture>
-    <BackOffset>-0.4</BackOffset>
-    <Type>Normal</Type>
-    <LightTransparent>true</LightTransparent>
-    <Mass>2</Mass>
-    <UseFullCast>false</UseFullCast>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
-<!-- Iron Hatch -->
-  <TileProperty><!-- Closed -->
-    <ID>8802</ID>
-    <ItemID>8802</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/IronHatch</TopTexture>
-    <BottomTexture>Tiles/IronHatch</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
-    <BackTexture>Tiles/Metals/Iron</BackTexture>
-    <BottomOffset>-0.4</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>4</Mass>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
-  <TileProperty><!-- Open -->
-    <ID>8803</ID>
-    <ItemID>8802</ItemID>
-    <Material>Metal</Material>
-    <Hazard>Ladder</Hazard>
-    <Health>150</Health>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
-    <RightTexture>Tiles/Metals/Iron</RightTexture>
-    <FrontTexture>Tiles/IronHatch</FrontTexture>
-    <BackTexture>Tiles/IronHatch</BackTexture>
-    <BackOffset>-0.4</BackOffset>
-    <Type>Normal</Type>
-    <LightTransparent>true</LightTransparent>
-    <Mass>4</Mass>
-    <UseFullCast>false</UseFullCast>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
-<!-- Steel Hatch -->
-  <TileProperty><!-- Closed -->
-    <ID>8804</ID>
-    <ItemID>8804</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/SteelHatch</TopTexture>
-    <BottomTexture>Tiles/SteelHatch</BottomTexture>
-    <LeftTexture>Tiles/Steel</LeftTexture>
-    <RightTexture>Tiles/Steel</RightTexture>
-    <FrontTexture>Tiles/Steel</FrontTexture>
-    <BackTexture>Tiles/Steel</BackTexture>
-    <BottomOffset>-0.4</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>2</Mass>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
-  <TileProperty><!-- Open -->
-    <ID>8805</ID>
-    <ItemID>8804</ItemID>
-    <Material>Metal</Material>
-    <Hazard>Ladder</Hazard>
-    <Health>150</Health>
-    <TopTexture>Tiles/Steel</TopTexture>
-    <BottomTexture>Tiles/Steel</BottomTexture>
-    <LeftTexture>Tiles/Steel</LeftTexture>
-    <RightTexture>Tiles/Steel</RightTexture>
-    <FrontTexture>Tiles/SteelHatch</FrontTexture>
-    <BackTexture>Tiles/SteelHatch</BackTexture>
-    <BackOffset>-0.4</BackOffset>
-    <Type>Normal</Type>
-    <LightTransparent>true</LightTransparent>
-    <Mass>2</Mass>
-    <UseFullCast>false</UseFullCast>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
-<!-- Titanium Hatch -->
-  <TileProperty><!-- Closed -->
-    <ID>8806</ID>
-    <ItemID>8806</ItemID>
-    <Material>Metal</Material>
-    <Health>200</Health>
-    <TopTexture>Tiles/TitaniumHatch</TopTexture>
-    <BottomTexture>Tiles/TitaniumHatch</BottomTexture>
-    <LeftTexture>Tiles/Titanium</LeftTexture>
-    <RightTexture>Tiles/Titanium</RightTexture>
-    <FrontTexture>Tiles/Titanium</FrontTexture>
-    <BackTexture>Tiles/Titanium</BackTexture>
-    <BottomOffset>-0.4</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Passable>true</Passable>
-    <Type>Normal</Type>
-    <UseFullCast>false</UseFullCast>
-    <Mass>4</Mass>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
-  <TileProperty><!-- Open -->
-    <ID>8807</ID>
-    <ItemID>8806</ItemID>
-    <Material>Metal</Material>
-    <Hazard>Ladder</Hazard>
-    <Health>200</Health>
-    <TopTexture>Tiles/Titanium</TopTexture>
-    <BottomTexture>Tiles/Titanium</BottomTexture>
-    <LeftTexture>Tiles/Titanium</LeftTexture>
-    <RightTexture>Tiles/Titanium</RightTexture>
-    <FrontTexture>Tiles/TitaniumHatch</FrontTexture>
-    <BackTexture>Tiles/TitaniumHatch</BackTexture>
-    <BackOffset>-0.4</BackOffset>
-    <Type>Normal</Type>
-    <LightTransparent>true</LightTransparent>
-    <Mass>4</Mass>
-    <UseFullCast>false</UseFullCast>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
 <!-- Wooden Hatch -->
   <TileProperty><!-- Closed -->
-    <ID>8808</ID>
-    <ItemID>8808</ItemID>
+    <ID>7090</ID>
+    <ItemID>7090</ItemID>
     <Material>Hard</Material>
     <Health>50</Health>
     <TopTexture>Tiles/WoodenHatch</TopTexture>
@@ -1685,8 +1393,8 @@
   </TileProperty>
 
   <TileProperty><!-- Open -->
-    <ID>8809</ID>
-    <ItemID>8808</ItemID>
+    <ID>7091</ID>
+    <ItemID>7090</ItemID>
     <Material>Hard</Material>
     <Hazard>Ladder</Hazard>
     <Health>50</Health>
@@ -1704,71 +1412,242 @@
     <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
   </TileProperty>
 
-<!-- !!!Shutters!!! -->
-<!-- Copper Shutter -->
-  <TileProperty>
-    <ID>8900</ID>
-    <Health>40</Health>
-    <ItemID>8900</ItemID>
+<!-- Copper Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7092</ID>
+    <ItemID>7092</ItemID>
     <Material>Metal</Material>
-    <TopTexture>Tiles/CopperShutters</TopTexture>
-    <BottomTexture>Tiles/CopperShutters</BottomTexture>
-    <LeftTexture>Tiles/CopperShutters</LeftTexture>
-    <RightTexture>Tiles/CopperShutters</RightTexture>
-    <FrontTexture>Tiles/CopperShutters</FrontTexture>
-    <BackTexture>Tiles/CopperShutters</BackTexture>
-    <AlphaClipped>true</AlphaClipped>
+    <Health>80</Health>
+    <TopTexture>Tiles/CopperHatch</TopTexture>
+    <BottomTexture>Tiles/CopperHatch</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/Copper</FrontTexture>
+    <BackTexture>Tiles/Copper</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+    <Mass>2</Mass>
     <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
   </TileProperty>
 
-  <TileProperty>
-    <ID>8901</ID>
-    <Health>80</Health>
-    <ItemID>8900</ItemID>
-    <TopTexture>Tiles/CopperShuttersClosed</TopTexture>
-    <BottomTexture>Tiles/CopperShuttersClosed</BottomTexture>
-    <LeftTexture>Tiles/CopperShuttersClosed</LeftTexture>
-    <RightTexture>Tiles/CopperShuttersClosed</RightTexture>
-    <FrontTexture>Tiles/CopperShuttersClosed</FrontTexture>
-    <BackTexture>Tiles/CopperShuttersClosed</BackTexture>
-    <AlphaClipped>true</AlphaClipped>
-    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
-  </TileProperty>
-
-<!-- Iron Shutter -->
-  <TileProperty>
-    <ID>8902</ID>
-    <Health>80</Health>
-    <ItemID>8902</ItemID>
+  <TileProperty><!-- Open -->
+    <ID>7093</ID>
+    <ItemID>7092</ItemID>
     <Material>Metal</Material>
-    <TopTexture>Tiles/IronShutters</TopTexture>
-    <BottomTexture>Tiles/IronShutters</BottomTexture>
-    <LeftTexture>Tiles/IronShutters</LeftTexture>
-    <RightTexture>Tiles/IronShutters</RightTexture>
-    <FrontTexture>Tiles/IronShutters</FrontTexture>
-    <BackTexture>Tiles/IronShutters</BackTexture>
-    <AlphaClipped>true</AlphaClipped>
+    <Hazard>Ladder</Hazard>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/Copper</LeftTexture>
+    <RightTexture>Tiles/Copper</RightTexture>
+    <FrontTexture>Tiles/CopperHatch</FrontTexture>
+    <BackTexture>Tiles/CopperHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>2</Mass>
+    <UseFullCast>false</UseFullCast>
     <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
   </TileProperty>
 
-  <TileProperty>
-    <ID>8903</ID>
+<!-- Titanium Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7094</ID>
+    <ItemID>7094</ItemID>
+    <Material>Metal</Material>
+    <Health>200</Health>
+    <TopTexture>Tiles/TitaniumHatch</TopTexture>
+    <BottomTexture>Tiles/TitaniumHatch</BottomTexture>
+    <LeftTexture>Tiles/Titanium</LeftTexture>
+    <RightTexture>Tiles/Titanium</RightTexture>
+    <FrontTexture>Tiles/Titanium</FrontTexture>
+    <BackTexture>Tiles/Titanium</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+    <Mass>4</Mass>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty><!-- Open -->
+    <ID>7095</ID>
+    <ItemID>7094</ItemID>
+    <Material>Metal</Material>
+    <Hazard>Ladder</Hazard>
+    <Health>200</Health>
+    <TopTexture>Tiles/Titanium</TopTexture>
+    <BottomTexture>Tiles/Titanium</BottomTexture>
+    <LeftTexture>Tiles/Titanium</LeftTexture>
+    <RightTexture>Tiles/Titanium</RightTexture>
+    <FrontTexture>Tiles/TitaniumHatch</FrontTexture>
+    <BackTexture>Tiles/TitaniumHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>4</Mass>
+    <UseFullCast>false</UseFullCast>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+<!-- Steel Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7096</ID>
+    <ItemID>7096</ItemID>
+    <Material>Metal</Material>
     <Health>150</Health>
-    <ItemID>8902</ItemID>
-    <TopTexture>Tiles/IronShuttersClosed</TopTexture>
-    <BottomTexture>Tiles/IronShuttersClosed</BottomTexture>
-    <LeftTexture>Tiles/IronShuttersClosed</LeftTexture>
-    <RightTexture>Tiles/IronShuttersClosed</RightTexture>
-    <FrontTexture>Tiles/IronShuttersClosed</FrontTexture>
-    <BackTexture>Tiles/IronShuttersClosed</BackTexture>
+    <TopTexture>Tiles/SteelHatch</TopTexture>
+    <BottomTexture>Tiles/SteelHatch</BottomTexture>
+    <LeftTexture>Tiles/Steel</LeftTexture>
+    <RightTexture>Tiles/Steel</RightTexture>
+    <FrontTexture>Tiles/Steel</FrontTexture>
+    <BackTexture>Tiles/Steel</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+    <Mass>2</Mass>
     <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty><!-- Open -->
+    <ID>7097</ID>
+    <ItemID>7096</ItemID>
+    <Material>Metal</Material>
+    <Hazard>Ladder</Hazard>
+    <Health>150</Health>
+    <TopTexture>Tiles/Steel</TopTexture>
+    <BottomTexture>Tiles/Steel</BottomTexture>
+    <LeftTexture>Tiles/Steel</LeftTexture>
+    <RightTexture>Tiles/Steel</RightTexture>
+    <FrontTexture>Tiles/SteelHatch</FrontTexture>
+    <BackTexture>Tiles/SteelHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>2</Mass>
+    <UseFullCast>false</UseFullCast>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+<!-- Iron Hatch -->
+  <TileProperty><!-- Closed -->
+    <ID>7098</ID>
+    <ItemID>7098</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/IronHatch</TopTexture>
+    <BottomTexture>Tiles/IronHatch</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
+    <RightTexture>Tiles/Metals/Iron</RightTexture>
+    <FrontTexture>Tiles/Metals/Iron</FrontTexture>
+    <BackTexture>Tiles/Metals/Iron</BackTexture>
+    <BottomOffset>-0.4</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Passable>true</Passable>
+    <Type>Normal</Type>
+    <UseFullCast>false</UseFullCast>
+    <Mass>4</Mass>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty><!-- Open -->
+    <ID>7099</ID>
+    <ItemID>7098</ItemID>
+    <Material>Metal</Material>
+    <Hazard>Ladder</Hazard>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/Metals/Iron</LeftTexture>
+    <RightTexture>Tiles/Metals/Iron</RightTexture>
+    <FrontTexture>Tiles/IronHatch</FrontTexture>
+    <BackTexture>Tiles/IronHatch</BackTexture>
+    <BackOffset>-0.4</BackOffset>
+    <Type>Normal</Type>
+    <LightTransparent>true</LightTransparent>
+    <Mass>4</Mass>
+    <UseFullCast>false</UseFullCast>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+<!-- Teleporter Base -->
+  <TileProperty>
+    <ID>7100</ID>
+    <ItemID>7100</ItemID>
+    <Material>Hard</Material>
+    <Health>200</Health>
+    <TopTexture>Tiles/Temporary</TopTexture>
+    <BottomTexture>Tiles/Temporary</BottomTexture>
+    <LeftTexture>Tiles/Temporary</LeftTexture>
+    <RightTexture>Tiles/Temporary</RightTexture>
+    <FrontTexture>Tiles/Temporary</FrontTexture>
+    <BackTexture>Tiles/Temporary</BackTexture>
+    <SpecialBlockClass>MoreBlocksScripts.Teleporter</SpecialBlockClass>
+    <TopBlockType>7101</TopBlockType>
+    <Mass>2</Mass>
+  </TileProperty>
+
+<!--Bottom Teleporter field -->
+  <TileProperty>
+    <ID>7101</ID>
+    <TopTexture>Tiles/SpawnField</TopTexture>
+    <BottomTexture>Tiles/SpawnField</BottomTexture>
+    <LeftTexture>Tiles/SpawnField</LeftTexture>
+    <RightTexture>Tiles/SpawnField</RightTexture>
+    <FrontTexture>Tiles/SpawnField</FrontTexture>
+    <BackTexture>Tiles/SpawnField</BackTexture>
+    <Type>Normal</Type>
+    <TopBlockType>7102</TopBlockType>
+    <CannotRaycast>true</CannotRaycast>
+    <Solid>false</Solid>
+    <AlphaClipped>true</AlphaClipped>
+    <Invincible>true</Invincible>
+    <Mass>0</Mass>
+  </TileProperty>
+
+<!--Top Teleporter Field -->
+  <TileProperty>
+    <ID>7102</ID>
+    <TopTexture>Tiles/SpawnField</TopTexture>
+    <BottomTexture>Tiles/SpawnField</BottomTexture>
+    <LeftTexture>Tiles/SpawnField</LeftTexture>
+    <RightTexture>Tiles/SpawnField</RightTexture>
+    <FrontTexture>Tiles/SpawnField</FrontTexture>
+    <BackTexture>Tiles/SpawnField</BackTexture>
+    <CannotRaycast>true</CannotRaycast>
+    <Type>Normal</Type>
+    <Solid>false</Solid>
+    <AlphaClipped>true</AlphaClipped>
+    <Invincible>true</Invincible>
+    <Mass>0</Mass>
+  </TileProperty>
+
+<!-- Teleport Activator  -->
+  <TileProperty>
+    <ID>7103</ID>
+    <ItemID>7103</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Temporary</TopTexture>
+    <BottomTexture>Tiles/Temporary</BottomTexture>
+    <LeftTexture>Tiles/Temporary</LeftTexture>
+    <RightTexture>Tiles/Temporary</RightTexture>
+    <FrontTexture>Tiles/Temporary</FrontTexture>
+    <BackTexture>Tiles/Temporary</BackTexture>
+    <SpecialBlockClass>MoreBlocksScripts.TeleportActivator</SpecialBlockClass>
   </TileProperty>
 
 <!-- Titanium Shutter -->
   <TileProperty>
-    <ID>8904</ID>
+    <ID>7110</ID>
     <Health>120</Health>
-    <ItemID>8904</ItemID>
+    <ItemID>7110</ItemID>
     <Material>Metal</Material>
     <TopTexture>Tiles/TitaniumShutters</TopTexture>
     <BottomTexture>Tiles/TitaniumShutters</BottomTexture>
@@ -1782,9 +1661,9 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>8905</ID>
+    <ID>7111</ID>
     <Health>200</Health>
-    <ItemID>8904</ItemID>
+    <ItemID>7110</ItemID>
     <TopTexture>Tiles/TitaniumShuttersClosed</TopTexture>
     <BottomTexture>Tiles/TitaniumShuttersClosed</BottomTexture>
     <LeftTexture>Tiles/TitaniumShuttersClosed</LeftTexture>
@@ -1794,11 +1673,70 @@
     <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
     <Mass>2</Mass>
   </TileProperty>
-<!-- !!!Strut Wedges!!! -->
+  
+<!-- Copper Shutter -->
+  <TileProperty>
+    <ID>7112</ID>
+    <Health>40</Health>
+    <ItemID>7112</ItemID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/CopperShutters</TopTexture>
+    <BottomTexture>Tiles/CopperShutters</BottomTexture>
+    <LeftTexture>Tiles/CopperShutters</LeftTexture>
+    <RightTexture>Tiles/CopperShutters</RightTexture>
+    <FrontTexture>Tiles/CopperShutters</FrontTexture>
+    <BackTexture>Tiles/CopperShutters</BackTexture>
+    <AlphaClipped>true</AlphaClipped>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7113</ID>
+    <Health>80</Health>
+    <ItemID>7112</ItemID>
+    <TopTexture>Tiles/CopperShuttersClosed</TopTexture>
+    <BottomTexture>Tiles/CopperShuttersClosed</BottomTexture>
+    <LeftTexture>Tiles/CopperShuttersClosed</LeftTexture>
+    <RightTexture>Tiles/CopperShuttersClosed</RightTexture>
+    <FrontTexture>Tiles/CopperShuttersClosed</FrontTexture>
+    <BackTexture>Tiles/CopperShuttersClosed</BackTexture>
+    <AlphaClipped>true</AlphaClipped>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+  
+<!-- Iron Shutter -->
+  <TileProperty>
+    <ID>7114</ID>
+    <Health>80</Health>
+    <ItemID>7114</ItemID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/IronShutters</TopTexture>
+    <BottomTexture>Tiles/IronShutters</BottomTexture>
+    <LeftTexture>Tiles/IronShutters</LeftTexture>
+    <RightTexture>Tiles/IronShutters</RightTexture>
+    <FrontTexture>Tiles/IronShutters</FrontTexture>
+    <BackTexture>Tiles/IronShutters</BackTexture>
+    <AlphaClipped>true</AlphaClipped>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+
+  <TileProperty>
+    <ID>7115</ID>
+    <Health>150</Health>
+    <ItemID>7114</ItemID>
+    <TopTexture>Tiles/IronShuttersClosed</TopTexture>
+    <BottomTexture>Tiles/IronShuttersClosed</BottomTexture>
+    <LeftTexture>Tiles/IronShuttersClosed</LeftTexture>
+    <RightTexture>Tiles/IronShuttersClosed</RightTexture>
+    <FrontTexture>Tiles/IronShuttersClosed</FrontTexture>
+    <BackTexture>Tiles/IronShuttersClosed</BackTexture>
+    <SpecialBlockClass>MoreBlocksScripts.SingleBlockToggle</SpecialBlockClass>
+  </TileProperty>
+  
 <!-- Copper Strut Wedge -->
   <TileProperty>
-    <ID>9000</ID>
-    <ItemID>9000</ItemID>
+    <ID>7120</ID>
+    <ItemID>7120</ItemID>
     <Material>Metal</Material>
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
@@ -1812,8 +1750,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9001</ID>
-    <ItemID>9000</ItemID>
+    <ID>7121</ID>
+    <ItemID>7120</ItemID>
     <Material>Metal</Material>
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
@@ -1827,8 +1765,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9002</ID>
-    <ItemID>9000</ItemID>
+    <ID>7122</ID>
+    <ItemID>7120</ItemID>
     <Material>Metal</Material>
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
@@ -1842,8 +1780,8 @@
     </TileProperty>
 
    <TileProperty>
-    <ID>9003</ID>
-    <ItemID>9000</ItemID>
+    <ID>7123</ID>
+    <ItemID>7120</ItemID>
     <Material>Metal</Material>
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
@@ -1858,8 +1796,8 @@
 
   <!-- upward facing wedges -->
   <TileProperty>
-    <ID>9004</ID>
-    <ItemID>9000</ItemID>
+    <ID>7124</ID>
+    <ItemID>7120</ItemID>
     <Material>Metal</Material>
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
@@ -1873,8 +1811,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>9005</ID>
-    <ItemID>9000</ItemID>
+    <ID>7125</ID>
+    <ItemID>7120</ItemID>
     <Material>Metal</Material>
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
@@ -1888,8 +1826,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9006</ID>
-    <ItemID>9000</ItemID>
+    <ID>7126</ID>
+    <ItemID>7120</ItemID>
     <Material>Metal</Material>
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
@@ -1903,8 +1841,8 @@
    </TileProperty>
     
    <TileProperty>
-    <ID>9007</ID>
-    <ItemID>9000</ItemID>
+    <ID>7127</ID>
+    <ItemID>7120</ItemID>
     <Material>Metal</Material>
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
@@ -1919,8 +1857,8 @@
   
 <!-- Iron Strut Wedge -->
   <TileProperty>
-    <ID>9008</ID>
-    <ItemID>9008</ItemID>
+    <ID>7130</ID>
+    <ItemID>7130</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
@@ -1934,8 +1872,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9009</ID>
-    <ItemID>9008</ItemID>
+    <ID>7131</ID>
+    <ItemID>7130</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
@@ -1949,8 +1887,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9010</ID>
-    <ItemID>9008</ItemID>
+    <ID>7132</ID>
+    <ItemID>7130</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
@@ -1964,8 +1902,8 @@
     </TileProperty>
     
    <TileProperty>
-    <ID>9011</ID>
-    <ItemID>9008</ItemID>
+    <ID>7133</ID>
+    <ItemID>7130</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
@@ -1980,8 +1918,8 @@
   
   <!-- upward facing wedges -->
   <TileProperty>
-    <ID>9012</ID>
-    <ItemID>9008</ItemID>
+    <ID>7134</ID>
+    <ItemID>7130</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
@@ -1995,8 +1933,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>9013</ID>
-    <ItemID>9008</ItemID>
+    <ID>7135</ID>
+    <ItemID>7130</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
@@ -2010,8 +1948,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9014</ID>
-    <ItemID>9008</ItemID>
+    <ID>7136</ID>
+    <ItemID>7130</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
@@ -2025,8 +1963,8 @@
    </TileProperty>
     
    <TileProperty>
-    <ID>9015</ID>
-    <ItemID>9008</ItemID>
+    <ID>7137</ID>
+    <ItemID>7130</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
@@ -2041,8 +1979,8 @@
 
 <!-- Steel Strut Wedge -->
   <TileProperty>
-    <ID>9016</ID>
-    <ItemID>9016</ItemID>
+    <ID>7140</ID>
+    <ItemID>7140</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
@@ -2056,8 +1994,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9017</ID>
-    <ItemID>9016</ItemID>
+    <ID>7141</ID>
+    <ItemID>7140</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
@@ -2071,8 +2009,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9018</ID>
-    <ItemID>9016</ItemID>
+    <ID>7142</ID>
+    <ItemID>7140</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
@@ -2086,8 +2024,8 @@
     </TileProperty>
     
    <TileProperty>
-    <ID>9019</ID>
-    <ItemID>9016</ItemID>
+    <ID>7143</ID>
+    <ItemID>7140</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
@@ -2102,8 +2040,8 @@
   
   <!-- upward facing wedges -->
   <TileProperty>
-    <ID>9020</ID>
-    <ItemID>9016</ItemID>
+    <ID>7144</ID>
+    <ItemID>7140</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
@@ -2117,8 +2055,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>9021</ID>
-    <ItemID>9016</ItemID>
+    <ID>7145</ID>
+    <ItemID>7140</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
@@ -2132,8 +2070,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9022</ID>
-    <ItemID>9016</ItemID>
+    <ID>7146</ID>
+    <ItemID>7140</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
@@ -2147,8 +2085,8 @@
    </TileProperty>
     
    <TileProperty>
-    <ID>9023</ID>
-    <ItemID>9016</ItemID>
+    <ID>7147</ID>
+    <ItemID>7140</ItemID>
     <Material>Metal</Material>
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
@@ -2163,8 +2101,8 @@
   
 <!-- Titanium Strut Wedge -->
   <TileProperty>
-    <ID>9024</ID>
-    <ItemID>9024</ItemID>
+    <ID>7150</ID>
+    <ItemID>7150</ItemID>
     <Material>Metal</Material>
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
@@ -2178,8 +2116,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9025</ID>
-    <ItemID>9024</ItemID>
+    <ID>7151</ID>
+    <ItemID>7150</ItemID>
     <Material>Metal</Material>
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
@@ -2193,8 +2131,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9026</ID>
-    <ItemID>9024</ItemID>
+    <ID>7152</ID>
+    <ItemID>7150</ItemID>
     <Material>Metal</Material>
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
@@ -2208,8 +2146,8 @@
     </TileProperty>
     
    <TileProperty>
-    <ID>9027</ID>
-    <ItemID>9024</ItemID>
+    <ID>7153</ID>
+    <ItemID>7150</ItemID>
     <Material>Metal</Material>
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
@@ -2224,8 +2162,8 @@
   
   <!-- upward facing wedges -->
   <TileProperty>
-    <ID>9028</ID>
-    <ItemID>9024</ItemID>
+    <ID>7154</ID>
+    <ItemID>7150</ItemID>
     <Material>Metal</Material>
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
@@ -2239,8 +2177,8 @@
   </TileProperty>
 
   <TileProperty>
-    <ID>9029</ID>
-    <ItemID>9024</ItemID>
+    <ID>7155</ID>
+    <ItemID>7150</ItemID>
     <Material>Metal</Material>
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
@@ -2254,8 +2192,8 @@
   </TileProperty>
   
   <TileProperty>
-    <ID>9030</ID>
-    <ItemID>9024</ItemID>
+    <ID>7156</ID>
+    <ItemID>7150</ItemID>
     <Material>Metal</Material>
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
@@ -2269,8 +2207,8 @@
    </TileProperty>
     
    <TileProperty>
-    <ID>9031</ID>
-    <ItemID>9024</ItemID>
+    <ID>7157</ID>
+    <ItemID>7150</ItemID>
     <Material>Metal</Material>
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
@@ -2283,65 +2221,42 @@
     <Solid>true</Solid>
   </TileProperty>
 
-<!-- !!!Reversed Steps!!! -->
-<!-- Copper Step Reversed -->
+  <!-- Reversed steps from here -->
+  <!-- Wood Step Reversed -->
   <TileProperty>
-    <ID>9100</ID>
-    <ItemID>910</ItemID>
-    <Material>Metal</Material>
-    <Health>80</Health>
-    <TopTexture>Tiles/Copper</TopTexture>
-    <BottomTexture>Tiles/Copper</BottomTexture>
-    <LeftTexture>Tiles/CopperStep</LeftTexture>
-    <RightTexture>Tiles/CopperStep</RightTexture>
-    <FrontTexture>Tiles/CopperStep</FrontTexture>
-    <BackTexture>Tiles/CopperStep</BackTexture>
+    <ID>7158</ID>
+    <ItemID>7158</ItemID>
+    <TopTexture>Tiles/Planks</TopTexture>
+    <BottomTexture>Tiles/Planks</BottomTexture>
+    <LeftTexture>Tiles/Planks</LeftTexture>
+    <RightTexture>Tiles/Planks</RightTexture>
+    <FrontTexture>Tiles/Planks</FrontTexture>
+    <BackTexture>Tiles/Planks</BackTexture>
+    <BottomOffset>0</BottomOffset>
+    <Health>50</Health>
+    <Footstep>Footsteps/wood02</Footstep>
+  </TileProperty>
+  <!-- Stone Step Reversed -->
+  <TileProperty>
+    <ID>7159</ID>
+    <ItemID>7159</ItemID>
+    <Material>Hard</Material>
+    <Health>100</Health>
+    <TopTexture>Tiles/Rock</TopTexture>
+    <BottomTexture>Tiles/Rock</BottomTexture>
+    <LeftTexture>Tiles/Rock</LeftTexture>
+    <RightTexture>Tiles/Rock</RightTexture>
+    <FrontTexture>Tiles/Rock</FrontTexture>
+    <BackTexture>Tiles/Rock</BackTexture>
     <BottomOffset>0.0</BottomOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
-    <Mass>1</Mass>
+    <Mass>4</Mass>
   </TileProperty>
-
-<!-- Iron Step Reversed -->
-  <TileProperty>
-    <ID>9101</ID>
-    <ItemID>9101</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Metals/Iron</TopTexture>
-    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/IronStep</LeftTexture>
-    <RightTexture>Tiles/IronStep</RightTexture>
-    <FrontTexture>Tiles/IronStep</FrontTexture>
-    <BackTexture>Tiles/IronStep</BackTexture>
-    <BottomOffset>0.0</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Type>Step</Type>
-    <Mass>2</Mass>
-  </TileProperty>
-
-<!-- Steel Step Reversed -->
-  <TileProperty>
-    <ID>9102</ID>
-    <ItemID>9102</ItemID>
-    <Material>Metal</Material>
-    <Health>150</Health>
-    <TopTexture>Tiles/Steel</TopTexture>
-    <BottomTexture>Tiles/Steel</BottomTexture>
-    <LeftTexture>Tiles/SteelStep</LeftTexture>
-    <RightTexture>Tiles/SteelStep</RightTexture>
-    <FrontTexture>Tiles/SteelStep</FrontTexture>
-    <BackTexture>Tiles/SteelStep</BackTexture>
-    <BottomOffset>0.0</BottomOffset>
-    <LightTransparent>true</LightTransparent>
-    <Type>Step</Type>
-    <Mass>1</Mass>
-  </TileProperty>
-
 <!-- Titanium Step Reversed -->
   <TileProperty>
-    <ID>9103</ID>
-    <ItemID>9103</ItemID>
+    <ID>7160</ID>
+    <ItemID>7160</ItemID>
     <Material>Metal</Material>
     <Health>200</Health>
     <TopTexture>Tiles/Titanium</TopTexture>
@@ -2356,43 +2271,64 @@
     <Mass>2</Mass>
   </TileProperty>
 
-<!-- Wood Step Reversed -->
+<!-- Steel Step Reversed -->
   <TileProperty>
-    <ID>9104</ID>
-    <ItemID>9104</ItemID>
-    <TopTexture>Tiles/Planks</TopTexture>
-    <BottomTexture>Tiles/Planks</BottomTexture>
-    <LeftTexture>Tiles/Planks</LeftTexture>
-    <RightTexture>Tiles/Planks</RightTexture>
-    <FrontTexture>Tiles/Planks</FrontTexture>
-    <BackTexture>Tiles/Planks</BackTexture>
-    <BottomOffset>0</BottomOffset>
-    <Health>50</Health>
-    <Footstep>Footsteps/wood02</Footstep>
-  </TileProperty>
-
-<!-- Stone Step Reversed -->
-  <TileProperty>
-    <ID>9105</ID>
-    <ItemID>9105</ItemID>
-    <Material>Hard</Material>
-    <Health>100</Health>
-    <TopTexture>Tiles/Rock</TopTexture>
-    <BottomTexture>Tiles/Rock</BottomTexture>
-    <LeftTexture>Tiles/Rock</LeftTexture>
-    <RightTexture>Tiles/Rock</RightTexture>
-    <FrontTexture>Tiles/Rock</FrontTexture>
-    <BackTexture>Tiles/Rock</BackTexture>
+    <ID>7161</ID>
+    <ItemID>7161</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Steel</TopTexture>
+    <BottomTexture>Tiles/Steel</BottomTexture>
+    <LeftTexture>Tiles/SteelStep</LeftTexture>
+    <RightTexture>Tiles/SteelStep</RightTexture>
+    <FrontTexture>Tiles/SteelStep</FrontTexture>
+    <BackTexture>Tiles/SteelStep</BackTexture>
     <BottomOffset>0.0</BottomOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
-    <Mass>4</Mass>
+    <Mass>1</Mass>
   </TileProperty>
 
-<!-- Glass Step Reversed -->
+<!-- Iron Step Reversed -->
   <TileProperty>
-    <ID>9106</ID>
-    <ItemID>9106</ItemID>
+    <ID>7162</ID>
+    <ItemID>7162</ItemID>
+    <Material>Metal</Material>
+    <Health>150</Health>
+    <TopTexture>Tiles/Metals/Iron</TopTexture>
+    <BottomTexture>Tiles/Metals/Iron</BottomTexture>
+    <LeftTexture>Tiles/IronStep</LeftTexture>
+    <RightTexture>Tiles/IronStep</RightTexture>
+    <FrontTexture>Tiles/IronStep</FrontTexture>
+    <BackTexture>Tiles/IronStep</BackTexture>
+    <BottomOffset>0.0</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Type>Step</Type>
+    <Mass>2</Mass>
+  </TileProperty>
+
+<!-- Copper Step Reversed -->
+  <TileProperty>
+    <ID>7163</ID>
+    <ItemID>7163</ItemID>
+    <Material>Metal</Material>
+    <Health>80</Health>
+    <TopTexture>Tiles/Copper</TopTexture>
+    <BottomTexture>Tiles/Copper</BottomTexture>
+    <LeftTexture>Tiles/CopperStep</LeftTexture>
+    <RightTexture>Tiles/CopperStep</RightTexture>
+    <FrontTexture>Tiles/CopperStep</FrontTexture>
+    <BackTexture>Tiles/CopperStep</BackTexture>
+    <BottomOffset>0.0</BottomOffset>
+    <LightTransparent>true</LightTransparent>
+    <Type>Step</Type>
+    <Mass>1</Mass>
+  </TileProperty>
+  
+  <!-- Glass Step Reversed -->
+  <TileProperty>
+    <ID>7164</ID>
+    <ItemID>7164</ItemID>
     <Material>Metal</Material>
     <Health>30</Health>
     <TopTexture>Tiles/Glass</TopTexture>
@@ -2407,10 +2343,10 @@
     <Mass>1</Mass>
   </TileProperty>
   
-<!-- Hard Glass Step Reversed -->
+  <!-- Hard Glass Step Reversed -->
   <TileProperty>
-    <ID>9107</ID>
-    <ItemID>9107</ItemID>
+    <ID>7165</ID>
+    <ItemID>7165</ItemID>
     <Material>Metal</Material>
     <Health>125</Health>
     <TopTexture>Tiles/HardGlass</TopTexture>
@@ -2422,6 +2358,57 @@
     <BottomOffset>0.0</BottomOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
+    <Mass>2</Mass>
+  </TileProperty>
+  
+  <!-- Titanium Strut -->
+  <TileProperty>
+    <ID>7170</ID>
+    <ItemID>7170</ItemID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/TitaniumStrut</TopTexture>
+    <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
+    <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
+    <BackTexture>Tiles/TitaniumStrut</BackTexture>
+    <Health>150</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>
+    <Mass>2</Mass>
+  </TileProperty>
+
+<!-- Steel Strut -->
+  <TileProperty>
+    <ID>7171</ID>
+	<ItemID>7171</ItemID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/SteelStrut</TopTexture>
+    <BottomTexture>Tiles/SteelStrut</BottomTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
+    <FrontTexture>Tiles/SteelStrut</FrontTexture>
+    <BackTexture>Tiles/SteelStrut</BackTexture>
+    <Health>110</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>    
+    <Mass>1</Mass>
+  </TileProperty>
+
+<!-- Iron Strut -->
+  <TileProperty>
+    <ID>7172</ID>
+    <ItemID>7172</ItemID>
+    <Material>Metal</Material>
+    <TopTexture>Tiles/IronStrut</TopTexture>
+    <BottomTexture>Tiles/IronStrut</BottomTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
+    <FrontTexture>Tiles/IronStrut</FrontTexture>
+    <BackTexture>Tiles/IronStrut</BackTexture>
+    <Health>110</Health>
+    <AlphaClipped>true</AlphaClipped>
+    <InnerSurfaces>true</InnerSurfaces>   
     <Mass>2</Mass>
   </TileProperty>
   

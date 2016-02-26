@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfItemRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<!-- !!!Misc!!! --->
-<!-- White Carpet (its melting! AKA retarded recipie) -->
+
+<!-- Titanium Decking -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>2</ID>
+        <ID>45</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8000</ID>
-      <Amount>5</Amount>
+      <ID>7000</ID>
+      <Amount>4</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
-<!-- !!!Decking!!! -->
-<!-- Copper Decking -->
+  
+<!-- Steel Decking -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>17</ID>
+        <ID>44</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8100</ID>
+      <ID>7001</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -44,46 +43,13 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8101</ID>
+      <ID>7002</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
-<!-- Steel Decking -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>44</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8102</ID>
-      <Amount>4</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Titanium Decking -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>45</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8103</ID>
-      <Amount>4</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- !!!Platforms!!! -->
-<!-- Copper Platform -->
+  
+<!-- Copper Decking -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
@@ -93,23 +59,39 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8200</ID>
+      <ID>7003</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Iron Platform -->
+  <!-- White Carpet (its melting!) -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>30</ID>
+        <ID>2</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8201</ID>
+      <ID>7004</ID>
+      <Amount>5</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
+<!-- Titanium Platform -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>45</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7005</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -125,29 +107,44 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8202</ID>
+      <ID>7006</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
-  </ItemRecipe>
+  </ItemRecipe>  
 
-<!-- Titanium Platform -->
+<!-- Iron Platform -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>45</ID>
+        <ID>30</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8203</ID>
+      <ID>7007</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- !!!Railings!!! -->
+<!-- Copper Platform -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>17</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7008</ID>
+      <Amount>4</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
 <!-- Iron Railing -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -158,12 +155,12 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8300</ID>
+      <ID>7017</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
+  
 <!-- Titanium Railing -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -174,56 +171,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8302</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- !!!Steps!!! -->
-<!-- Copper Step -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>17</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8400</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Iron Step -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>30</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8401</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Steel Step -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>44</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8402</ID>
+      <ID>7019</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -239,7 +187,55 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8403</ID>
+      <ID>7021</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Steel Step -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>44</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7022</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Iron Step -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7023</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Copper Step -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>17</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7024</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -255,7 +251,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8404</ID>
+      <ID>7025</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -271,62 +267,12 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8405</ID>
+      <ID>7026</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
-<!-- !!!Struts!!! -->
-<!-- Iron Strut -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>30</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8500</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Steel Strut -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>44</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8501</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Titanium Strut -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>45</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8502/ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- !!!Doors!!! -->
+  
 <!-- Iron Door -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -337,7 +283,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8600</ID>
+      <ID>7030</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -353,7 +299,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8610</ID>
+      <ID>7040</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -369,7 +315,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8620</ID>
+      <ID>7050</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -385,41 +331,8 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8630</ID>
+      <ID>7060</ID>
       <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- !!!Wall Tiles!!! -->
-<!-- Copper Wall Tile -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>17</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8700</ID>
-      <Amount>4</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Iron Wall Tile -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>30</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8704</ID>
-      <Amount>4</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
@@ -434,7 +347,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8708</ID>
+      <ID>7070</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -450,12 +363,44 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8712</ID>
+      <ID>7074</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
 
+<!-- Iron Wall Tile -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7078</ID>
+      <Amount>4</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
+<!-- Copper Wall Tile -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>17</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7082</ID>
+      <Amount>4</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
 <!-- Plank Wall Tile -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -466,14 +411,32 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8716</ID>
+      <ID>7086</ID>
       <Amount>3</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
+  
+<!-- Wooden Hatch -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>10</ID>
+        <Amount>2</Amount>
+      </ItemProduct>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7090</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
 
-
-<!-- !!!Hatches!!! -->
 <!-- Copper Hatch -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -488,47 +451,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8800</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Iron Hatch -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>30</ID>
-        <Amount>2</Amount>
-      </ItemProduct>
-      <ItemProduct>
-        <ID>10</ID>
-        <Amount>2</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8802</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Steel Hatch -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>44</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-      <ItemProduct>
-        <ID>30</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>8804</ID>
+      <ID>7092</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -548,19 +471,19 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8806</ID>
+      <ID>7094</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Wooden Hatch -->
+<!-- Steel Hatch -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>10</ID>
-        <Amount>2</Amount>
+        <ID>44</ID>
+        <Amount>1</Amount>
       </ItemProduct>
       <ItemProduct>
         <ID>30</ID>
@@ -568,13 +491,32 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8808</ID>
+      <ID>7096</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- !!!Shutters!!! -->
+<!-- Iron Hatch -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>2</Amount>
+      </ItemProduct>
+      <ItemProduct>
+        <ID>10</ID>
+        <Amount>2</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7098</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
 <!-- Copper Shutter -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -589,7 +531,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8900</ID>
+      <ID>7112</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -609,7 +551,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8902</ID>
+      <ID>7114</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -629,105 +571,54 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8904</ID>
+      <ID>7116</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
-<!-- !!!Strut Wedges!!! -->
-<!-- Copper Strut Wedge -->
+  
+<!-- Reversed Steps -->
+<!-- Wood Step Reversed -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>68</ID>
+        <ID>10</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9000</ID>
-      <Amount>1</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Iron Strut Wedge -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>8500</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>9008</ID>
-      <Amount>1</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Steel Strut Wedge -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>8501</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>9016</ID>
-      <Amount>1</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- Titanium Strut Wedge -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>8502</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>9024</ID>
-      <Amount>1</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
-<!-- !!!Reversed Steps!!! -->
-<!-- Copper Step Reversed -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>17</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>9100</ID>
+      <ID>7158</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
-<!-- Iron Step Reversed -->
+<!-- Stone Step Reversed -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>30</ID>
+        <ID>10</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9101</ID>
+      <ID>7159</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+<!-- Titanium Step Reversed -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>45</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7160</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -743,60 +634,44 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9102</ID>
+      <ID>7161</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Titanium Step Reversed -->
+<!-- Iron Step Reversed -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>45</ID>
+        <ID>30</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9103</ID>
+      <ID>7162</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
 
-<!-- Wood Step Reversed -->
+<!-- Copper Step Reversed -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>10</ID>
+        <ID>17</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9104</ID>
+      <ID>7163</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
-<!-- Stone Step Reversed -->
-  <ItemRecipe>
-    <RequiredTool>WorkBench</RequiredTool>
-    <Ingredients>
-      <ItemProduct>
-        <ID>10</ID>
-        <Amount>1</Amount>
-      </ItemProduct>
-    </Ingredients>
-    <Product>
-      <ID>9105</ID>
-      <Amount>2</Amount>
-    </Product>
-    <Time>0</Time>
-  </ItemRecipe>
-
+  
   <!-- Glass Step Reversed -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -807,7 +682,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9106</ID>
+      <ID>7164</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -823,10 +698,59 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9107</ID>
+      <ID>7165</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
+<!-- Titanium Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>45</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7170</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
 
+<!-- Steel Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>44</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7171</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+<!-- Iron Strut -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>7172</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+
+  
 </ArrayOfItemRecipe>
