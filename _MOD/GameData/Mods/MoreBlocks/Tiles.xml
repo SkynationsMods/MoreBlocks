@@ -834,7 +834,7 @@
     <BackOffset>0.05</BackOffset>
     <FrontOffset>0.05</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>8621</TopBlockType>
+    <TopBlockType>8624</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
 
@@ -855,7 +855,7 @@
     <FrontOffset>0.05</FrontOffset>
     <RightOffset>-0.4</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>8622</TopBlockType>
+    <TopBlockType>8625</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
@@ -874,7 +874,7 @@
     <LeftOffset>0.05</LeftOffset>
     <RightOffset>0.05</RightOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>8623</TopBlockType>
+    <TopBlockType>8626</TopBlockType>
     <UseFullCast>true</UseFullCast>
   </TileProperty>
   
@@ -895,7 +895,7 @@
     <RightOffset>0.05</RightOffset>
     <FrontOffset>-0.4</FrontOffset>
     <SpecialBlockClass>MoreBlocksScripts.DoorToggle</SpecialBlockClass>
-    <TopBlockType>8624</TopBlockType>
+    <TopBlockType>8627</TopBlockType>
     <UseFullCast>false</UseFullCast>
   </TileProperty>
 
