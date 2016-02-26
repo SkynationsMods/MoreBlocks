@@ -457,8 +457,6 @@
     <Mass>2</Mass>
   </TileProperty>
   
-  </ArrayOfTileProperty>
-
 <!-- Steel Strut -->
   <TileProperty>
     <ID>8501</ID>
