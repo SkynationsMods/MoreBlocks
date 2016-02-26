@@ -35,7 +35,7 @@
     <FrontTexture>Tiles/Temporary</FrontTexture>
     <BackTexture>Tiles/Temporary</BackTexture>
     <SpecialBlockClass>MoreBlocksScripts.Teleporter</SpecialBlockClass>
-    <TopBlockType>7101</TopBlockType>
+    <TopBlockType>8002</TopBlockType>
     <Mass>2</Mass>
   </TileProperty>
 
@@ -49,7 +49,7 @@
     <FrontTexture>Tiles/SpawnField</FrontTexture>
     <BackTexture>Tiles/SpawnField</BackTexture>
     <Type>Normal</Type>
-    <TopBlockType>7102</TopBlockType>
+    <TopBlockType>8003</TopBlockType>
     <CannotRaycast>true</CannotRaycast>
     <Solid>false</Solid>
     <AlphaClipped>true</AlphaClipped>
