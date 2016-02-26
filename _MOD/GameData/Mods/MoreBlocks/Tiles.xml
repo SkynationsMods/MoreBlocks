@@ -275,7 +275,7 @@
   <TileProperty>
     <ID>8301</ID>
     <ItemID>8300</ItemID>
-    <Material>Metal</Material>    
+    <Material>Metal</Material>
     <Health>60</Health>
     <LightTransparent>true</LightTransparent>
     <TopTexture>Tiles/Metals/Iron</TopTexture>
@@ -2287,7 +2287,7 @@
 <!-- Copper Step Reversed -->
   <TileProperty>
     <ID>9100</ID>
-    <ItemID>910</ItemID>
+    <ItemID>9100</ItemID>
     <Material>Metal</Material>
     <Health>80</Health>
     <TopTexture>Tiles/Copper</TopTexture>
