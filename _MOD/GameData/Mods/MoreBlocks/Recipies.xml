@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfItemRecipe xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<!-- !!!Misc!!! --->
-<!-- White Carpet (its melting! AKA retarded recipie) -->
+<!-- !!!Misc!!! -->
+<!-- White Carpet -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
@@ -11,7 +11,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8000</ID>
+      <ID>7000</ID>
       <Amount>5</Amount>
     </Product>
     <Time>0</Time>
@@ -28,7 +28,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8100</ID>
+      <ID>8200</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -44,7 +44,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8101</ID>
+      <ID>8201</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -60,7 +60,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8102</ID>
+      <ID>8202</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -76,7 +76,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8103</ID>
+      <ID>8203</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -93,7 +93,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8200</ID>
+      <ID>8300</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -109,7 +109,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8201</ID>
+      <ID>8301</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -125,7 +125,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8202</ID>
+      <ID>8302</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -141,7 +141,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8203</ID>
+      <ID>8303</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -158,7 +158,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8300</ID>
+      <ID>8400</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -174,7 +174,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8302</ID>
+      <ID>8402</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -191,7 +191,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8400</ID>
+      <ID>8600</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -207,7 +207,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8401</ID>
+      <ID>8601</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -223,7 +223,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8402</ID>
+      <ID>8602</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -239,7 +239,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8403</ID>
+      <ID>8603</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -255,7 +255,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8404</ID>
+      <ID>8604</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -271,7 +271,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8405</ID>
+      <ID>8605</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -288,7 +288,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8500</ID>
+      <ID>8700</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -304,7 +304,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8501</ID>
+      <ID>8701</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -320,7 +320,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8502/ID>
+      <ID>8702</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -337,7 +337,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8600</ID>
+      <ID>8800</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -353,7 +353,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8610</ID>
+      <ID>8810</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -369,7 +369,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8620</ID>
+      <ID>8820</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -385,7 +385,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8630</ID>
+      <ID>8830</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -402,7 +402,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8700</ID>
+      <ID>9800</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -418,7 +418,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8704</ID>
+      <ID>9804</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -434,7 +434,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8708</ID>
+      <ID>9808</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -450,7 +450,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8712</ID>
+      <ID>9812</ID>
       <Amount>4</Amount>
     </Product>
     <Time>0</Time>
@@ -466,7 +466,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8716</ID>
+      <ID>9816</ID>
       <Amount>3</Amount>
     </Product>
     <Time>0</Time>
@@ -488,7 +488,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8800</ID>
+      <ID>10200</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -508,7 +508,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8802</ID>
+      <ID>10202</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -528,7 +528,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8804</ID>
+      <ID>10204</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -548,7 +548,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8806</ID>
+      <ID>10206</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -568,7 +568,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8808</ID>
+      <ID>10208</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -589,7 +589,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8900</ID>
+      <ID>11200</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -609,7 +609,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8902</ID>
+      <ID>11202</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -629,7 +629,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>8904</ID>
+      <ID>11204</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -646,7 +646,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9000</ID>
+      <ID>11400</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -657,12 +657,12 @@
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>8500</ID>
+        <ID>8700</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9008</ID>
+      <ID>11408</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -673,12 +673,12 @@
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>8501</ID>
+        <ID>8701</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9016</ID>
+      <ID>11416</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -689,12 +689,12 @@
     <RequiredTool>WorkBench</RequiredTool>
     <Ingredients>
       <ItemProduct>
-        <ID>8502</ID>
+        <ID>8702</ID>
         <Amount>1</Amount>
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9024</ID>
+      <ID>11424</ID>
       <Amount>1</Amount>
     </Product>
     <Time>0</Time>
@@ -711,7 +711,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9100</ID>
+      <ID>12400</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -727,7 +727,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9101</ID>
+      <ID>12401</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -743,7 +743,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9102</ID>
+      <ID>12402</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -759,7 +759,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9103</ID>
+      <ID>12403</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -775,7 +775,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9104</ID>
+      <ID>12404</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -791,7 +791,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9105</ID>
+      <ID>12405</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -807,7 +807,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9106</ID>
+      <ID>12406</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -823,7 +823,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>9107</ID>
+      <ID>12407</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>

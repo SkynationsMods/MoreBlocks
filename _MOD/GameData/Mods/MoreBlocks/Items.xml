@@ -3,33 +3,33 @@
 <!-- !!!Misc!!! -->
 <!-- White Carpet -->  
   <BaseItemData>
-    <ID>8000</ID>
+    <ID>7000</ID>
     <Name>White Carpet</Name>
     <Description>A decorative carpet.</Description>
     <Use>Block</Use>
-    <BlockID>8000</BlockID>
+    <BlockID>7000</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>10</Price>
   </BaseItemData>  
 
 <!-- Teleporter Tier I -->
   <BaseItemData>
-    <ID>8001</ID>
+    <ID>7001</ID>
     <Name>Teleporter Tier I</Name>
     <Description>Teleport yourself.</Description>
     <Use>Block</Use>
-    <BlockID>8001</BlockID>
+    <BlockID>7001</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceSpawn</Class>
     <Sellable>false</Sellable>
   </BaseItemData>
 
 <!-- Teleport Activator -->
   <BaseItemData>
-    <ID>8004</ID>
+    <ID>7004</ID>
     <Name>Teleport Activator</Name>
     <Description>Used to activate the teleporter.</Description>
     <Use>Block</Use>
-    <BlockID>8004</BlockID>
+    <BlockID>7004</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Sellable>false</Sellable>
   </BaseItemData>
@@ -37,44 +37,44 @@
 <!-- !!!Decking!!! -->
 <!-- Copper Decking -->
   <BaseItemData>
-    <ID>8100</ID>
+    <ID>8200</ID>
     <Name>Copper Decking</Name>
     <Description>A thin sheet of Copper.</Description>
     <Use>Block</Use>
-    <BlockID>8100</BlockID>
+    <BlockID>8200</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>10</Price>
   </BaseItemData>
 
 <!-- Iron Decking -->
   <BaseItemData>
-    <ID>8101</ID>
+    <ID>8201</ID>
     <Name>Iron Decking</Name>
     <Description>A thin sheet of Iron.</Description>
     <Use>Block</Use>
-    <BlockID>8101</BlockID>
+    <BlockID>8201</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>20</Price>
   </BaseItemData>
 
 <!-- Steel Decking -->
   <BaseItemData>
-    <ID>8102</ID>
+    <ID>8202</ID>
     <Name>Steel Decking</Name>
     <Description>A thin sheet of Steel.</Description>
     <Use>Block</Use>
-    <BlockID>8102</BlockID>
+    <BlockID>8202</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>40</Price>
   </BaseItemData>
 
 <!-- Titanium Decking -->
   <BaseItemData>
-    <ID>8103</ID>
+    <ID>8203</ID>
     <Name>Titanium Decking</Name>
     <Description>A thin sheet of Titanium.</Description>
     <Use>Block</Use>
-    <BlockID>8103</BlockID>
+    <BlockID>8203</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>50</Price>
   </BaseItemData>
@@ -82,44 +82,44 @@
 <!-- !!!Platforms!!! -->
 <!-- Copper Platform -->
   <BaseItemData>
-    <ID>8200</ID>
+    <ID>8300</ID>
     <Name>Copper Platform</Name>
     <Description>A more frugal way of building bridges.</Description>
     <Use>Block</Use>
-    <BlockID>8200</BlockID>
+    <BlockID>8300</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>10</Price>
   </BaseItemData>
   
 <!-- Iron Platform -->
   <BaseItemData>
-    <ID>8201</ID>
+    <ID>8301</ID>
     <Name>Iron Platform</Name>
     <Description>A more frugal way of building bridges.</Description>
     <Use>Block</Use>
-    <BlockID>8201</BlockID>
+    <BlockID>8301</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>20</Price>
   </BaseItemData>
 
 <!-- Steel Platform -->
   <BaseItemData>
-    <ID>8202</ID>
+    <ID>8302</ID>
     <Name>Steel Platform</Name>
     <Description>A more frugal way of building bridges.</Description>
     <Use>Block</Use>
-    <BlockID>8202</BlockID>
+    <BlockID>8302</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>40</Price>
   </BaseItemData>
 
 <!-- Titanium Platform -->
   <BaseItemData>
-    <ID>8203</ID>
+    <ID>8303</ID>
     <Name>Titanium Platform</Name>
     <Description>A more frugal way of building bridges.</Description>
     <Use>Block</Use>
-    <BlockID>8203</BlockID>
+    <BlockID>8303</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>50</Price>
   </BaseItemData>
@@ -127,22 +127,22 @@
 <!-- !!!Railings!!! -->
 <!-- Iron Railing -->
   <BaseItemData>
-    <ID>8300</ID>
+    <ID>8400</ID>
     <Name>Iron Railing</Name>
     <Description>A railing made from Iron.</Description>
     <Use>Block</Use>
-    <BlockID>8300</BlockID>
+    <BlockID>8400</BlockID>
     <Price>40</Price>   
     <Class>GameServer.World.Items.Scripts.Place2DirectionalBlock</Class>
   </BaseItemData>
 
 <!-- Titanium Railing -->
   <BaseItemData>
-    <ID>8302</ID>
+    <ID>8402</ID>
     <Name>Titanium Railing</Name>
     <Description>A railing made from Titanium.</Description>
     <Use>Block</Use>
-    <BlockID>8302</BlockID>
+    <BlockID>8402</BlockID>
     <Price>100</Price>   
     <Class>GameServer.World.Items.Scripts.Place2DirectionalBlock</Class>
   </BaseItemData>
@@ -150,66 +150,66 @@
 <!-- !!!Steps!!! -->
 <!-- Copper Step -->
   <BaseItemData>
-    <ID>8400</ID>
+    <ID>8600</ID>
     <Name>Copper Step</Name>
     <Description>Half block of Copper.</Description>
     <Use>Block</Use>
-    <BlockID>8400</BlockID>
+    <BlockID>8600</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>20</Price>
   </BaseItemData>
 
 <!-- Iron Step -->
   <BaseItemData>
-    <ID>8401</ID>
+    <ID>8601</ID>
     <Name>Iron Step</Name>
     <Description>Half block of Iron.</Description>
     <Use>Block</Use>
-    <BlockID>8401</BlockID>
+    <BlockID>8601</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>40</Price>
   </BaseItemData>
 
 <!-- Steel Step -->
   <BaseItemData>
-    <ID>8402</ID>
+    <ID>8602</ID>
     <Name>Steel Step</Name>
     <Description>Half block of Steel.</Description>
     <Use>Block</Use>
-    <BlockID>8402</BlockID>
+    <BlockID>8602</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>80</Price>
   </BaseItemData>
 
 <!-- Titanium Step -->
   <BaseItemData>
-    <ID>8403</ID>
+    <ID>8603</ID>
     <Name>Titanium Step</Name>
     <Description>Half block of Titanium.</Description>
     <Use>Block</Use>
-    <BlockID>8403</BlockID>
+    <BlockID>8603</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>100</Price>
   </BaseItemData>
 
   <!-- Glass Step -->
   <BaseItemData>
-    <ID>8404</ID>
+    <ID>8604</ID>
     <Name>Glass Step</Name>
     <Description>Half block of Glass.</Description>
     <Use>Block</Use>
-    <BlockID>8404</BlockID>
+    <BlockID>8604</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>15</Price>
   </BaseItemData>
 
 <!-- Hard Glass Step -->
   <BaseItemData>
-    <ID>8405</ID>
+    <ID>8605</ID>
     <Name>Hard Glass Step</Name>
     <Description>Half block of Hard Glass.</Description>
     <Use>Block</Use>
-    <BlockID>8405</BlockID>
+    <BlockID>8605</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>80</Price>
   </BaseItemData>
@@ -217,33 +217,33 @@
 <!-- !!!Struts!!! -->
 <!-- Iron Strut -->
   <BaseItemData>
-    <ID>8500</ID>
+    <ID>8700</ID>
     <Name>Iron Strut</Name>
     <Description>Cheap struts made from Iron.</Description>
     <Use>Block</Use>
-    <BlockID>8500</BlockID>
+    <BlockID>8700</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>40</Price>
   </BaseItemData>
 
 <!-- Steel Strut -->
   <BaseItemData>
-    <ID>8501</ID>
+    <ID>8701</ID>
     <Name>Steel Strut</Name>
     <Description>Cheap struts made from Steel.</Description>
     <Use>Block</Use>
-    <BlockID>8501</BlockID>
+    <BlockID>8701</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>80</Price>
   </BaseItemData>
 
 <!-- Titanium Strut -->
   <BaseItemData>
-    <ID>8502</ID>
+    <ID>8702</ID>
     <Name>Titanium Strut</Name>
     <Description>Cheap struts made from Titanium.</Description>
     <Use>Block</Use>
-    <BlockID>8502</BlockID>
+    <BlockID>8702</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>100</Price>
   </BaseItemData>
@@ -251,11 +251,11 @@
 <!-- !!!Doors!!! -->
 <!-- Iron Door -->
   <BaseItemData>
-    <ID>8600</ID>
+    <ID>8800</ID>
     <Name>Iron Door</Name>
     <Description>Keeps the draft out.</Description>
     <Use>Block</Use>
-    <BlockID>8600</BlockID>
+    <BlockID>8800</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDoor</Class>
     <TextureFile>UI/Icons/CopperDoor</TextureFile>
     <Price>40</Price>
@@ -263,11 +263,11 @@
 
 <!-- Steel Door -->
   <BaseItemData>
-    <ID>8610</ID>
+    <ID>8810</ID>
     <Name>Steel Door</Name>
     <Description>Keeps the draft out.</Description>
     <Use>Block</Use>
-    <BlockID>8610</BlockID>
+    <BlockID>8810</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDoor</Class>
     <TextureFile>UI/Icons/CopperDoor</TextureFile>
     <Price>80</Price>
@@ -275,11 +275,11 @@
 
 <!-- Titanium Door -->
   <BaseItemData>
-    <ID>8620</ID>
+    <ID>8820</ID>
     <Name>Titanium Door</Name>
     <Description>Keeps the draft out.</Description>
     <Use>Block</Use>
-    <BlockID>8620</BlockID>
+    <BlockID>8820</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDoor</Class>
     <TextureFile>UI/Icons/CopperDoor</TextureFile>
     <Price>100</Price>
@@ -287,11 +287,11 @@
 
 <!-- Wooden Door -->
   <BaseItemData>
-    <ID>8630</ID>
+    <ID>8830</ID>
     <Name>Wooden Door</Name>
     <Description>Keeps the draft out.</Description>
     <Use>Block</Use>
-    <BlockID>8630</BlockID>
+    <BlockID>8830</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDoor</Class>
     <TextureFile>UI/Icons/CopperDoor</TextureFile>
     <Price>15</Price>
@@ -300,55 +300,55 @@
 <!-- !!!Wall Tiles!!! -->
 <!-- Copper Wall Tile -->
   <BaseItemData>
-    <ID>8700</ID>
+    <ID>9800</ID>
     <Name>Copper Wall Tile</Name>
     <Description>A Wall Tile made of Copper. </Description>
     <Use>Block</Use>
-    <BlockID>8700</BlockID>
+    <BlockID>9800</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>10</Price>
   </BaseItemData>
 
 <!-- Iron Wall Tile -->
   <BaseItemData>
-    <ID>8704</ID>
+    <ID>9804</ID>
     <Name>Iron Wall Tile</Name>
     <Description>A Wall Tile made of Iron. </Description>
     <Use>Block</Use>
-    <BlockID>8704</BlockID>
+    <BlockID>9804</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>20</Price>
   </BaseItemData>
 
 <!-- Steel Wall Tile -->
   <BaseItemData>
-    <ID>8708</ID>
+    <ID>9808</ID>
     <Name>Steel Wall Tile</Name>
     <Description>A Wall Tile made of Steel. </Description>
     <Use>Block</Use>
-    <BlockID>8708</BlockID>
+    <BlockID>9808</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>40</Price>
   </BaseItemData>
 
 <!-- Titanium Wall Tile -->
   <BaseItemData>
-    <ID>8712</ID>
+    <ID>9812</ID>
     <Name>Titanium Wall Tile</Name>
     <Description>A Wall Tile made of Titanium. </Description>
     <Use>Block</Use>
-    <BlockID>8712</BlockID>
+    <BlockID>9812</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>50</Price>
   </BaseItemData>
 
 <!-- Plank Wall Tile -->
   <BaseItemData>
-    <ID>8716</ID>
+    <ID>9816</ID>
     <Name>Plank Wall Tile</Name>
     <Description>A Wall Tile made of Wood. </Description>
     <Use>Block</Use>
-    <BlockID>8716</BlockID>
+    <BlockID>9816</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>10</Price>
   </BaseItemData>
@@ -356,55 +356,55 @@
 <!-- !!!Hatches!!! -->
 <!-- Copper Hatch -->
   <BaseItemData>
-    <ID>8800</ID>
+    <ID>10200</ID>
     <Name>Copper Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom. </Description>
     <Use>Block</Use>
-    <BlockID>8800</BlockID>
+    <BlockID>10200</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>90</Price>
   </BaseItemData>
 
 <!-- Iron Hatch -->
   <BaseItemData>
-    <ID>8802</ID>
+    <ID>10202</ID>
     <Name>Iron Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom.</Description>
     <Use>Block</Use>
-    <BlockID>8802</BlockID>
+    <BlockID>10202</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>110</Price>
   </BaseItemData>
 
 <!-- Steel Hatch -->
   <BaseItemData>
-    <ID>8804</ID>
+    <ID>10204</ID>
     <Name>Steel Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom.</Description>
     <Use>Block</Use>
-    <BlockID>8804</BlockID>
+    <BlockID>10204</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>120</Price>
   </BaseItemData>
 
 <!-- Titanium Hatch -->
   <BaseItemData>
-    <ID>8806</ID>
+    <ID>10206</ID>
     <Name>Titanium Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom.</Description>
     <Use>Block</Use>
-    <BlockID>8806</BlockID>
+    <BlockID>10206</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>140</Price>
   </BaseItemData>
 
 <!-- Wooden Hatch -->
   <BaseItemData>
-    <ID>8808</ID>
+    <ID>10208</ID>
     <Name>Wooden Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom.</Description>
     <Use>Block</Use>
-    <BlockID>8808</BlockID>
+    <BlockID>10208</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>70</Price>
   </BaseItemData>
@@ -412,33 +412,33 @@
 <!-- !!!Shutters!!! -->
 <!-- Copper Shutter -->
   <BaseItemData>
-    <ID>8900</ID>
+    <ID>11200</ID>
     <Name>Copper Shutters</Name>
     <Description>A great defensive window. Right click to toggle open/close.</Description>
     <Use>Block</Use>
-    <BlockID>8900</BlockID>
+    <BlockID>11200</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>200</Price>
   </BaseItemData>
 
 <!-- Iron Shutter -->
   <BaseItemData>
-    <ID>8902</ID>
+    <ID>11202</ID>
     <Name>Iron Shutters</Name>
     <Description>A great defensive window. Right click to toggle open/close.</Description>
     <Use>Block</Use>
-    <BlockID>8902</BlockID>
+    <BlockID>11202</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>320</Price>
   </BaseItemData>
 
 <!-- Titanium Shutter -->
   <BaseItemData>
-    <ID>8904</ID>
+    <ID>11204</ID>
     <Name>Titanium Shutters</Name>
     <Description>A great defensive window. Right click to toggle open/close.</Description>
     <Use>Block</Use>
-    <BlockID>8904</BlockID>
+    <BlockID>11204</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>360</Price>
   </BaseItemData>
@@ -446,44 +446,44 @@
 <!-- !!!Strut Wedges!!! -->
 <!-- Copper Strut Wedge -->
   <BaseItemData>
-    <ID>9000</ID>
+    <ID>11400</ID>
     <Name>Copper Strut Wedge</Name>
     <Description>A lightweight sloped strut. </Description>
     <Use>Block</Use>
-    <BlockID>9000</BlockID>
+    <BlockID>11400</BlockID>
     <Price>40</Price>
     <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
   </BaseItemData>
 
 <!-- Iron Strut Wedge -->
   <BaseItemData>
-    <ID>9008</ID>
+    <ID>11408</ID>
     <Name>Iron Strut Wedge</Name>
     <Description>A lightweight sloped strut. </Description>
     <Use>Block</Use>
-    <BlockID>9008</BlockID>
+    <BlockID>11408</BlockID>
     <Price>40</Price>
     <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
   </BaseItemData>
 
 <!-- Steel Strut Wedge -->
   <BaseItemData>
-    <ID>9016</ID>
+    <ID>11416</ID>
     <Name>Steel Strut Wedge</Name>
     <Description>A lightweight sloped strut. </Description>
     <Use>Block</Use>
-    <BlockID>9016</BlockID>
+    <BlockID>11416</BlockID>
     <Price>40</Price>
     <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
   </BaseItemData>
 
 <!-- Titanium Strut Wedge -->
   <BaseItemData>
-    <ID>9024</ID>
+    <ID>11424</ID>
     <Name>Titanium Strut Wedge</Name>
     <Description>A lightweight sloped strut. </Description>
     <Use>Block</Use>
-    <BlockID>9024</BlockID>
+    <BlockID>11424</BlockID>
     <Price>40</Price>
     <Class>GameServer.World.Items.Scripts.PlaceWedgeBlock</Class>
   </BaseItemData>
@@ -491,88 +491,88 @@
 <!-- !!!Reversed Steps!!! -->
 <!-- Copper Step Reversed -->
   <BaseItemData>
-    <ID>9100</ID>
+    <ID>12400</ID>
     <Name>Copper Step Reversed</Name>
     <Description>Half block of Copper.</Description>
     <Use>Block</Use>
-    <BlockID>9100</BlockID>
+    <BlockID>12400</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>20</Price>
   </BaseItemData>
 
 <!-- Iron Step Reversed -->
   <BaseItemData>
-    <ID>9101</ID>
+    <ID>12401</ID>
     <Name>Iron Step Reversed</Name>
     <Description>Half block of Iron.</Description>
     <Use>Block</Use>
-    <BlockID>9101</BlockID>
+    <BlockID>12401</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>40</Price>
   </BaseItemData>
 
 <!-- Steel Step Reversed -->
   <BaseItemData>
-    <ID>9102</ID>
+    <ID>12402</ID>
     <Name>Steel Step Reversed</Name>
     <Description>Half block of Steel.</Description>
     <Use>Block</Use>
-    <BlockID>9102</BlockID>
+    <BlockID>12402</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>80</Price>
   </BaseItemData>
 
 <!-- Titanium Step Reversed -->
   <BaseItemData>
-    <ID>9103</ID>
+    <ID>12403</ID>
     <Name>Titanium Step Reversed</Name>
     <Description>Half block of Titanium.</Description>
     <Use>Block</Use>
-    <BlockID>9103</BlockID>
+    <BlockID>12403</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>100</Price>
   </BaseItemData>
 
 <!-- Wood Step Reversed -->
   <BaseItemData>
-    <ID>9104</ID>
+    <ID>12404</ID>
     <Name>Plank Step Reversed</Name>
     <Description>Half block of Plank.</Description>
     <Use>Block</Use>
-    <BlockID>9104</BlockID>
+    <BlockID>12404</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>20</Price>
   </BaseItemData>
 
 <!-- Stone Step Reversed -->
   <BaseItemData>
-    <ID>9105</ID>
+    <ID>12405</ID>
     <Name>Stone Step Reversed</Name>
     <Description>Half block of Stone.</Description>
     <Use>Block</Use>
-    <BlockID>9105</BlockID>
+    <BlockID>12405</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>30</Price>
   </BaseItemData>
 
   <!-- Glass Step Reversed -->
   <BaseItemData>
-    <ID>9106</ID>
+    <ID>12406</ID>
     <Name>Glass Step Reversed</Name>
     <Description>Half block of Glass.</Description>
     <Use>Block</Use>
-    <BlockID>9106</BlockID>
+    <BlockID>12406</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>15</Price>
   </BaseItemData>
 
 <!-- Hard Glass Step Reversed -->
   <BaseItemData>
-    <ID>9107</ID>
+    <ID>12407</ID>
     <Name>Hard Glass Step Reversed</Name>
     <Description>Half block of Hard Glass.</Description>
     <Use>Block</Use>
-    <BlockID>9107</BlockID>
+    <BlockID>12407</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Price>80</Price>
   </BaseItemData>
