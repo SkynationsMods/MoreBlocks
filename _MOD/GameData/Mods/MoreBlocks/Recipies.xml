@@ -472,7 +472,6 @@
     <Time>0</Time>
   </ItemRecipe>
 
-
 <!-- !!!Hatches!!! -->
 <!-- Copper Hatch -->
   <ItemRecipe>
@@ -493,7 +492,7 @@
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
+  
 <!-- Iron Hatch -->
   <ItemRecipe>
     <RequiredTool>WorkBench</RequiredTool>
@@ -508,7 +507,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>10202</ID>
+      <ID>10210</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -528,7 +527,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>10204</ID>
+      <ID>10220</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -548,7 +547,7 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>10206</ID>
+      <ID>10230</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
@@ -568,12 +567,36 @@
       </ItemProduct>
     </Ingredients>
     <Product>
-      <ID>10208</ID>
+      <ID>10240</ID>
       <Amount>2</Amount>
     </Product>
     <Time>0</Time>
   </ItemRecipe>
-
+  
+  <!-- Iron Hatch -->
+  <ItemRecipe>
+    <RequiredTool>WorkBench</RequiredTool>
+    <Ingredients>
+      <ItemProduct>
+        <ID>30</ID>
+        <Amount>2</Amount>
+      </ItemProduct>
+      <ItemProduct>
+        <ID>10</ID>
+        <Amount>2</Amount>
+      </ItemProduct>
+	  <ItemProduct>
+        <ID>6</ID>
+        <Amount>1</Amount>
+      </ItemProduct>
+    </Ingredients>
+    <Product>
+      <ID>10250</ID>
+      <Amount>2</Amount>
+    </Product>
+    <Time>0</Time>
+  </ItemRecipe>
+  
 <!-- !!!Shutters!!! -->
 <!-- Copper Shutter -->
   <ItemRecipe>

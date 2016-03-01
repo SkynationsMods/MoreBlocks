@@ -21,6 +21,8 @@
     <BlockID>7001</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceSpawn</Class>
     <Sellable>false</Sellable>
+	<IsShownInKB>false</IsShownInKB>
+	<Sellable>false</Sellable>
   </BaseItemData>
 
 <!-- Teleport Activator -->
@@ -32,6 +34,8 @@
     <BlockID>7004</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Sellable>false</Sellable>
+	<IsShownInKB>false</IsShownInKB>
+	<Sellable>false</Sellable>
   </BaseItemData>
 
 <!-- !!!Decking!!! -->
@@ -361,54 +365,65 @@
     <Description>A hatch to get into your ship from top or bottom. </Description>
     <Use>Block</Use>
     <BlockID>10200</BlockID>
-    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>90</Price>
   </BaseItemData>
-
-<!-- Iron Hatch -->
+  
+  <!-- Iron Hatch -->
   <BaseItemData>
-    <ID>10202</ID>
+    <ID>10210</ID>
     <Name>Iron Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom.</Description>
     <Use>Block</Use>
-    <BlockID>10202</BlockID>
-    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <BlockID>10210</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>110</Price>
   </BaseItemData>
 
 <!-- Steel Hatch -->
   <BaseItemData>
-    <ID>10204</ID>
+    <ID>10220</ID>
     <Name>Steel Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom.</Description>
     <Use>Block</Use>
-    <BlockID>10204</BlockID>
-    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <BlockID>10220</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>120</Price>
   </BaseItemData>
 
 <!-- Titanium Hatch -->
   <BaseItemData>
-    <ID>10206</ID>
+    <ID>10230</ID>
     <Name>Titanium Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom.</Description>
     <Use>Block</Use>
-    <BlockID>10206</BlockID>
-    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <BlockID>10230</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>140</Price>
   </BaseItemData>
 
 <!-- Wooden Hatch -->
   <BaseItemData>
-    <ID>10208</ID>
+    <ID>10240</ID>
     <Name>Wooden Hatch</Name>
     <Description>A hatch to get into your ship from top or bottom.</Description>
     <Use>Block</Use>
-    <BlockID>10208</BlockID>
-    <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
+    <BlockID>10240</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>70</Price>
   </BaseItemData>
-
+  
+<!-- Iron Hatch, Windowed -->
+  <BaseItemData>
+    <ID>10250</ID>
+    <Name>Iron Hatch Windowed</Name>
+    <Description>A hatch to get into your ship from top or bottom.</Description>
+    <Use>Block</Use>
+    <BlockID>10250</BlockID>
+    <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
+    <Price>125</Price>
+  </BaseItemData>
+  
 <!-- !!!Shutters!!! -->
 <!-- Copper Shutter -->
   <BaseItemData>
