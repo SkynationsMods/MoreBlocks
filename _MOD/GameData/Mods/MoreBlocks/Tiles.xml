@@ -38,6 +38,8 @@
     <SpecialBlockClass>MoreBlocksScripts.Teleporter</SpecialBlockClass>
     <TopBlockType>7002</TopBlockType>
     <Mass>2</Mass>
+	<IsReproducible>false</IsReproducible>
+    <IsPaintable>false</IsPaintable>
   </TileProperty>
 
 <!--Bottom Teleporter field -->
@@ -56,6 +58,8 @@
     <AlphaClipped>true</AlphaClipped>
     <Invincible>true</Invincible>
     <Mass>0</Mass>
+	<IsReproducible>false</IsReproducible>
+    <IsPaintable>false</IsPaintable>
   </TileProperty>
 
 <!--Top Teleporter Field -->
@@ -73,6 +77,8 @@
     <AlphaClipped>true</AlphaClipped>
     <Invincible>true</Invincible>
     <Mass>0</Mass>
+	<IsReproducible>false</IsReproducible>
+    <IsPaintable>false</IsPaintable>
   </TileProperty>
 
 <!-- Teleport Activator  -->
@@ -88,6 +94,8 @@
     <FrontTexture>Tiles/Temporary</FrontTexture>
     <BackTexture>Tiles/Temporary</BackTexture>
     <SpecialBlockClass>MoreBlocksScripts.TeleportActivator</SpecialBlockClass>
+	<IsReproducible>false</IsReproducible>
+    <IsPaintable>false</IsPaintable>
   </TileProperty>
 	
 <!-- !!!Decking!!! -->

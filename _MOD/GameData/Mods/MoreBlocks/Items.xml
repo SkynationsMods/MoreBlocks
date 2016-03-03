@@ -22,7 +22,6 @@
     <Class>GameServer.World.Items.Scripts.PlaceSpawn</Class>
     <Sellable>false</Sellable>
 	<IsShownInKB>false</IsShownInKB>
-	<Sellable>false</Sellable>
   </BaseItemData>
 
 <!-- Teleport Activator -->
@@ -35,7 +34,6 @@
     <Class>GameServer.World.Items.Scripts.PlaceBlock</Class>
     <Sellable>false</Sellable>
 	<IsShownInKB>false</IsShownInKB>
-	<Sellable>false</Sellable>
   </BaseItemData>
 
 <!-- !!!Decking!!! -->
@@ -422,6 +420,7 @@
     <BlockID>10250</BlockID>
     <Class>GameServer.World.Items.Scripts.PlaceDirectionalBlock</Class>
     <Price>125</Price>
+	<Sellable>false</Sellable>
   </BaseItemData>
   
 <!-- !!!Shutters!!! -->
