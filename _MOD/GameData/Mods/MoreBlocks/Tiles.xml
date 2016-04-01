@@ -366,10 +366,10 @@
     <Health>150</Health>
     <TopTexture>Tiles/Metals/Iron</TopTexture>
     <BottomTexture>Tiles/Metals/Iron</BottomTexture>
-    <LeftTexture>Tiles/Metals/IronStep</LeftTexture>
-    <RightTexture>Tiles/Metals/IronStep</RightTexture>
-    <FrontTexture>Tiles/Metals/IronStep</FrontTexture>
-    <BackTexture>Tiles/Metals/IronStep</BackTexture>
+    <LeftTexture>Tiles/IronStep</LeftTexture>
+    <RightTexture>Tiles/IronStep</RightTexture>
+    <FrontTexture>Tiles/IronStep</FrontTexture>
+    <BackTexture>Tiles/IronStep</BackTexture>
     <TopOffset>0.0</TopOffset>
     <LightTransparent>true</LightTransparent>
     <Type>Step</Type>
