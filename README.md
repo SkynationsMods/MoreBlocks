@@ -94,6 +94,7 @@ Blocks:
 Items:
 - Tool to mine Steel, Copper, Iron, etc. more efficiently
 - Handheld laser, Laser Gun
+- Plantable Explosives
 - Grenades
 
 ## How to Install the Mod?
