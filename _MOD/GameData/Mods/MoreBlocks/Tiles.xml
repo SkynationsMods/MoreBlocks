@@ -2590,8 +2590,8 @@
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
-    <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/CopperStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/CopperStrut</LeftTexture>
+    <RightTexture>Tiles/CopperStrut</RightTexture>
     <FrontTexture>Tiles/CopperStrut</FrontTexture>
     <BackTexture>Tiles/CopperStrut</BackTexture>
     <Shape>4</Shape>
@@ -2605,8 +2605,8 @@
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
-    <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/CopperStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/CopperStrut</LeftTexture>
+    <RightTexture>Tiles/CopperStrut</RightTexture>
     <FrontTexture>Tiles/CopperStrut</FrontTexture>
     <BackTexture>Tiles/CopperStrut</BackTexture>
     <Shape>1</Shape>
@@ -2620,8 +2620,8 @@
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
-    <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/CopperStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/CopperStrut</LeftTexture>
+    <RightTexture>Tiles/CopperStrut</RightTexture>
     <FrontTexture>Tiles/CopperStrut</FrontTexture>
     <BackTexture>Tiles/CopperStrut</BackTexture>
     <Shape>3</Shape>
@@ -2635,8 +2635,8 @@
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
-    <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/CopperStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/CopperStrut</LeftTexture>
+    <RightTexture>Tiles/CopperStrut</RightTexture>
     <FrontTexture>Tiles/CopperStrut</FrontTexture>
     <BackTexture>Tiles/CopperStrut</BackTexture>
     <Shape>2</Shape>
@@ -2651,8 +2651,8 @@
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
-    <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/CopperStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/CopperStrut</LeftTexture>
+    <RightTexture>Tiles/CopperStrut</RightTexture>
     <FrontTexture>Tiles/CopperStrut</FrontTexture>
     <BackTexture>Tiles/CopperStrut</BackTexture>
     <Shape>8</Shape>
@@ -2666,8 +2666,8 @@
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
-    <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/CopperStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/CopperStrut</LeftTexture>
+    <RightTexture>Tiles/CopperStrut</RightTexture>
     <FrontTexture>Tiles/CopperStrut</FrontTexture>
     <BackTexture>Tiles/CopperStrut</BackTexture>
     <Shape>5</Shape>
@@ -2681,8 +2681,8 @@
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
-    <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/CopperStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/CopperStrut</LeftTexture>
+    <RightTexture>Tiles/CopperStrut</RightTexture>
     <FrontTexture>Tiles/CopperStrut</FrontTexture>
     <BackTexture>Tiles/CopperStrut</BackTexture>
     <Shape>7</Shape>
@@ -2696,8 +2696,8 @@
     <Health>60</Health>
     <TopTexture>Tiles/CopperStrut</TopTexture>
     <BottomTexture>Tiles/CopperStrut</BottomTexture>
-    <LeftTexture>Tiles/CopperStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/CopperStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/CopperStrut</LeftTexture>
+    <RightTexture>Tiles/CopperStrut</RightTexture>
     <FrontTexture>Tiles/CopperStrut</FrontTexture>
     <BackTexture>Tiles/CopperStrut</BackTexture>
     <Shape>6</Shape>
@@ -2712,8 +2712,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/IronStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
     <FrontTexture>Tiles/IronStrut</FrontTexture>
     <BackTexture>Tiles/IronStrut</BackTexture>
     <Shape>4</Shape>
@@ -2727,8 +2727,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/IronStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
     <FrontTexture>Tiles/IronStrut</FrontTexture>
     <BackTexture>Tiles/IronStrut</BackTexture>
     <Shape>1</Shape>
@@ -2742,8 +2742,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/IronStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
     <FrontTexture>Tiles/IronStrut</FrontTexture>
     <BackTexture>Tiles/IronStrut</BackTexture>
     <Shape>3</Shape>
@@ -2757,8 +2757,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/IronStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
     <FrontTexture>Tiles/IronStrut</FrontTexture>
     <BackTexture>Tiles/IronStrut</BackTexture>
     <Shape>2</Shape>
@@ -2773,8 +2773,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/IronStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
     <FrontTexture>Tiles/IronStrut</FrontTexture>
     <BackTexture>Tiles/IronStrut</BackTexture>
     <Shape>8</Shape>
@@ -2788,8 +2788,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/IronStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
     <FrontTexture>Tiles/IronStrut</FrontTexture>
     <BackTexture>Tiles/IronStrut</BackTexture>
     <Shape>5</Shape>
@@ -2803,8 +2803,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/IronStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
     <FrontTexture>Tiles/IronStrut</FrontTexture>
     <BackTexture>Tiles/IronStrut</BackTexture>
     <Shape>7</Shape>
@@ -2818,8 +2818,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/IronStrut</TopTexture>
     <BottomTexture>Tiles/IronStrut</BottomTexture>
-    <LeftTexture>Tiles/IronStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/IronStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/IronStrut</LeftTexture>
+    <RightTexture>Tiles/IronStrut</RightTexture>
     <FrontTexture>Tiles/IronStrut</FrontTexture>
     <BackTexture>Tiles/IronStrut</BackTexture>
     <Shape>6</Shape>
@@ -2834,8 +2834,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/SteelStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
     <FrontTexture>Tiles/SteelStrut</FrontTexture>
     <BackTexture>Tiles/SteelStrut</BackTexture>
     <Shape>4</Shape>
@@ -2849,8 +2849,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/SteelStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
     <FrontTexture>Tiles/SteelStrut</FrontTexture>
     <BackTexture>Tiles/SteelStrut</BackTexture>
     <Shape>1</Shape>
@@ -2864,8 +2864,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/SteelStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
     <FrontTexture>Tiles/SteelStrut</FrontTexture>
     <BackTexture>Tiles/SteelStrut</BackTexture>
     <Shape>3</Shape>
@@ -2879,8 +2879,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/SteelStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
     <FrontTexture>Tiles/SteelStrut</FrontTexture>
     <BackTexture>Tiles/SteelStrut</BackTexture>
     <Shape>2</Shape>
@@ -2895,8 +2895,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/SteelStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
     <FrontTexture>Tiles/SteelStrut</FrontTexture>
     <BackTexture>Tiles/SteelStrut</BackTexture>
     <Shape>8</Shape>
@@ -2910,8 +2910,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/SteelStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
     <FrontTexture>Tiles/SteelStrut</FrontTexture>
     <BackTexture>Tiles/SteelStrut</BackTexture>
     <Shape>5</Shape>
@@ -2925,8 +2925,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/SteelStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
     <FrontTexture>Tiles/SteelStrut</FrontTexture>
     <BackTexture>Tiles/SteelStrut</BackTexture>
     <Shape>7</Shape>
@@ -2940,8 +2940,8 @@
     <Health>100</Health>
     <TopTexture>Tiles/SteelStrut</TopTexture>
     <BottomTexture>Tiles/SteelStrut</BottomTexture>
-    <LeftTexture>Tiles/SteelStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/SteelStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/SteelStrut</LeftTexture>
+    <RightTexture>Tiles/SteelStrut</RightTexture>
     <FrontTexture>Tiles/SteelStrut</FrontTexture>
     <BackTexture>Tiles/SteelStrut</BackTexture>
     <Shape>6</Shape>
@@ -2956,8 +2956,8 @@
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
     <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
     <BackTexture>Tiles/TitaniumStrut</BackTexture>
     <Shape>4</Shape>
@@ -2971,8 +2971,8 @@
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
     <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
     <BackTexture>Tiles/TitaniumStrut</BackTexture>
     <Shape>1</Shape>
@@ -2986,8 +2986,8 @@
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
     <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
     <BackTexture>Tiles/TitaniumStrut</BackTexture>
     <Shape>3</Shape>
@@ -3001,8 +3001,8 @@
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
     <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
     <BackTexture>Tiles/TitaniumStrut</BackTexture>
     <Shape>2</Shape>
@@ -3017,8 +3017,8 @@
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
     <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
     <BackTexture>Tiles/TitaniumStrut</BackTexture>
     <Shape>8</Shape>
@@ -3032,8 +3032,8 @@
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
     <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
     <BackTexture>Tiles/TitaniumStrut</BackTexture>
     <Shape>5</Shape>
@@ -3047,8 +3047,8 @@
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
     <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
     <BackTexture>Tiles/TitaniumStrut</BackTexture>
     <Shape>7</Shape>
@@ -3062,8 +3062,8 @@
     <Health>130</Health>
     <TopTexture>Tiles/TitaniumStrut</TopTexture>
     <BottomTexture>Tiles/TitaniumStrut</BottomTexture>
-    <LeftTexture>Tiles/TitaniumStrutWedgeSide</LeftTexture>
-    <RightTexture>Tiles/TitaniumStrutWedgeSide</RightTexture>
+    <LeftTexture>Tiles/TitaniumStrut</LeftTexture>
+    <RightTexture>Tiles/TitaniumStrut</RightTexture>
     <FrontTexture>Tiles/TitaniumStrut</FrontTexture>
     <BackTexture>Tiles/TitaniumStrut</BackTexture>
     <Shape>6</Shape>
