@@ -37,7 +37,7 @@ Scripts:
 - Platform: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~
 - Steps (lower): ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Glass~~, ~~Hard Glass~~, Stone Brick, Red Stone Brick, White Stone Brick, Black Granite Brick, Marble
 - Steps (upper): ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Glass~~, ~~Hard Glass~~, Stone Brick, Red Stone Brick, White Stone Brick, Black Granite Brick, Marble
-- Wedges: Cargo Plate, Titanium Shutter, Steel Shutter, Iron Shutter, Copper Shutter, Wood Shutter
+- Wedges: Cargo Plate, Titanium Shutter, Steel Shutter, Iron Shutter, Copper Shutter, Wood Shutter, H Red/White Wedge
 - Wall tiles: ~~Titanium~~, ~~Steel~~, ~~Iron~~, ~~Copper~~, ~~Wood~~, Glass, Hard Glass
 
 textures needed:
@@ -94,6 +94,7 @@ Blocks:
 Items:
 - Tool to mine Steel, Copper, Iron, etc. more efficiently
 - Handheld laser, Laser Gun
+- Plantable Explosives
 - Grenades
 
 ## How to Install the Mod?
