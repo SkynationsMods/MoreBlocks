@@ -126,3 +126,8 @@ Pick any block you want to see in the game and provide files for it in a pull re
 For further information about modding in Sky Nations, go to [Sky Nations Wiki](http://wiki.skynations.net/doku.php?id=modding "Sky Nations Wiki - Modding").  
 Do not forget to check out the Tiles.xml in the GameData folder, there you can find the full list of Blocks already in the game and their properties, so you get an idea about the attributes you can use for your custom Blocks.
 Additionally you can download the Sky Nations Default Block Textures here: [Sky Nations Forum](http://skynations.net/community/viewtopic.php?f=11&t=879 "Sky Nations Forum - Sky Nations Default Textures - For making new texture packs")
+
+## About Sky Nations
+"Sky Nations is a multiplayer sandbox game set in a world of floating islands and air ships. Players can construct air ships as they adventure across procedural maps. Different types of islands contain materials and loot which can be crafted into useful items waiting to be discovered. Players can battle in PVP with ships and on the ground over territory and for fun!"
+
+To learn more about [Sky Nations](https://skynations.net/ "Sky Nations main page"), follow the link to the main page.
