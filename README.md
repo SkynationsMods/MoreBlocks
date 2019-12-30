@@ -99,7 +99,7 @@ Items:
 
 ## How to Install the Mod?
 
-Until there is a release you can download the repository, and paste the contents of the `_MOD\` folder into your Skynations-Server root directory. After enabling the Mod in your `Server Settings.xml` (example provided) and adjusting a the file `\GameData\Scripts\Scripts.csproj` according to the example file you can start your server up and use the new Blocks. Until further notice, this Mod is NOT production ready!
+Until there is a release you can download the repository, and paste the contents of the `_MOD\` folder into your Skynations-Server root directory. After enabling the Mod in your `Server Settings.xml` (example provided) and adjusting the file `\GameData\Scripts\Scripts.csproj` according to the example file you can start your server up and use the new Blocks. Until further notice, this Mod is NOT production ready!
 
 ## Organizational
 
